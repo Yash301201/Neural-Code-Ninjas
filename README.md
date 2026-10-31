@@ -261,3 +261,12 @@ Docker build and Compose definitions are supplied in [`backend/`](backend/). See
 ## Contributing
 
 Keep presentation changes in `frontend-react/`, API behavior in `backend/app/`, and schema/query changes in `backend/db/`. Include matching database updates when a feature introduces persistent data. Document configuration changes, run the checks relevant to the change, and keep credentials and runtime data out of commits.
+
+## Authors
+
+**Neural Code Ninjas**
+
+- [@Yash301201](https://github.com/Yash301201)
+- [@Ramana8800](https://github.com/Ramana8800)
+- [@Harshini256](https://github.com/Harshini256)
+- [@Raviteja2425](https://github.com/Raviteja2425)

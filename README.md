@@ -1,97 +1,263 @@
-# Groq LLM + MySQL RAG assistant
+<div align="center">
 
-AI Knowledge Assistant is available in all four role sidebars. MySQL stores 905 public retrieval chunks and owner-scoped conversation history. Configure LLM_API_KEY in backend/.env and restart for Groq generation; evidence retrieval works without it. See backend/docs/rag-integration.md for setup, database migration and verification.
+# LearnPath AI
 
-# New: Kaggle OULAD analytics
+**Academic assessment, learning analytics, and evidence-grounded AI for engineering colleges.**
 
-OULAD is now imported into separate MySQL analytics tables. Sign in and open **Dataset Analytics** in the sidebar for heatmaps, line/area graphs, bar charts, outcome summaries and learner drill-downs. See `backend/docs/oulad-integration.md` for source attribution, import counts and validation. Emails and passwords are unchanged; fictional student/faculty display names are localized.
+A role-based workspace connecting **students, faculty, HODs, and administrators** through React, FastAPI, and MySQL.
 
----
+[![React](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react&logoColor=white)](frontend-react/package.json)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Python%203.12%2B-009688?style=flat-square&logo=fastapi&logoColor=white)](backend/requirements.txt)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0.16%2B-4479A1?style=flat-square&logo=mysql&logoColor=white)](backend/db/001_schema.sql)
+[![RAG](https://img.shields.io/badge/RAG-BM25%20%2B%20Groq-6D28D9?style=flat-square)](backend/app/rag.py)
 
-# LearnPath AI - ZIP frontend integration
+**[Quick start](#quick-start)** · **[Architecture](#architecture)** · **[Repository](#repository)** · **[Dataset & RAG](#dataset--rag)** · **[Documentation](#documentation)**
 
-The uploaded learnpath-ai.zip React design is integrated in `frontend-react/`. Its login illustration, blue/violet styling, responsive role layouts, sidebar, buttons, confirmation dialog and toasts are retained. Active pages use FastAPI and MySQL instead of the ZIP's in-memory preview state. The original ZIP and previous frontend in `frontend/` are preserved. The original preview page sources remain for reference but are not imported into the production entry point; active pages are in `src/pages/LivePages.tsx`.
+</div>
 
-## Run from your current backend terminal
+## Overview
 
-```powershell
-cd "C:\Users\DELL\OneDrive\Yash\OneDrive\Desktop\LearnPathAI\backend"
-powershell -ExecutionPolicy Bypass -File .\start-project.ps1
+LearnPath AI brings assessment, classroom attendance, study planning, and learning support into one persistent academic workspace. A separate research explorer uses the public OULAD dataset to demonstrate engagement heatmaps, trends, and historical outcomes.
+
+- **Academic workflows** — question banks, timed tests, assignments, reviewed grading, attendance, and study plans.
+- **Role-aware access** — institution administration, department oversight, assigned teaching scopes, and individual student records.
+- **Interactive analytics** — heatmaps, line/area graphs, bar charts, outcome distributions, cohort filters, learner drill-downs, and CSV exports.
+- **Grounded AI assistance** — MySQL-backed retrieval, inspectable citations, optional Groq generation, and saved conversations.
+- **Persistent records** — academic data, research aggregates, and assistant history live in MySQL; schema and reporting SQL are included in the repository.
+
+Risk indicators and study-plan priorities are transparent heuristics. They are not validated predictive models. Generated questions and grading suggestions require faculty review.
+
+## Architecture
+
+```mermaid
+flowchart LR
+    U["Student · Faculty · HOD · Admin"] --> WEB["React + TypeScript<br/>Role-based portal"]
+    WEB -->|"HTTPS in deployment / HTTP on localhost<br/>Bearer JWT · JSON"| API["FastAPI<br/>Authentication and academic scope"]
+    API --> ACAD["Academic workflows<br/>Tests · Assignments · Attendance"]
+    API --> ANA["Analytics<br/>College metrics · OULAD research"]
+    API --> RAG["RAG assistant<br/>BM25 retrieval · Citation checks"]
+    API --> GEN["GenAI tools<br/>Question drafts · Explanations · Feedback"]
+    ACAD --> SQL["SQLAlchemy + PyMySQL"]
+    ANA --> SQL
+    RAG --> SQL
+    SQL --> DB[("MySQL<br/>learnpath_ai")]
+    RAG -->|"Question + retrieved public evidence"| LLM["Groq API<br/>Optional model inference"]
+    GEN -->|"Requested learning content"| LLM
+    DATA["Public Kaggle OULAD CSV archive"] --> IMPORT["Python importer<br/>Validate · Aggregate · Reconcile"]
+    IMPORT --> DB
 ```
 
-The same command works from the parent LearnPathAI folder. Open **http://127.0.0.1:8001/app/**. Select Student / Faculty / HOD / Admin, then enter the matching credentials from `backend/.local/portal-logins.txt`. A separate copy was delivered in `LearnPathAI-role-credentials.txt`. The four portal accounts now use user-requested simple local passwords; see backend/.local/portal-logins.txt. Reapply them with python -m scripts.set_local_demo_passwords from backend/. Existing demo and personal administrator credentials are unchanged.
+The application is a **modular monolith**: one FastAPI process serves APIs and the compiled React application. Academic workflows, analytics, and AI are separate modules within that process; they are not independently deployed microservices.
 
-| Role | Email | Mapping |
-| --- | --- | --- |
-| Admin | admin@learnpath.dev | Institution administration |
-| HOD | hod@learnpath.dev | Existing department |
-| Faculty | faculty@learnpath.dev | Existing department subjects and sections |
-| Student | student@learnpath.dev | Existing course/section |
+| Layer | Responsibility | Source |
+|---|---|---|
+| Presentation | Role layouts, forms, charts, assistant UI | [`frontend-react/src/`](frontend-react/src/) |
+| Application/API | Validation, academic workflows, scoped portal snapshots | [`backend/app/main.py`](backend/app/main.py), [`portal.py`](backend/app/portal.py) |
+| Security | Argon2id verification, JWTs, role and academic scope checks | [`backend/app/security.py`](backend/app/security.py) |
+| Analytics | College reports and isolated public research analytics | [`analytics.py`](backend/app/analytics.py), [`dataset_analytics.py`](backend/app/dataset_analytics.py) |
+| AI | Structured GenAI tasks and evidence-grounded assistant | [`ai.py`](backend/app/ai.py), [`rag.py`](backend/app/rag.py) |
+| Persistence | MySQL schema, transactions, imports, reporting queries | [`backend/app/db.py`](backend/app/db.py), [`backend/db/`](backend/db/) |
 
-New users start with their own records. The newly created Portal Student completed one synthetic practice attempt during verification (6 marks) and has a generated study plan. Original sample students retain their previous work. No passwords are stored in the React bundle. The generated local credentials file is private reference material; MySQL stores Argon2id hashes in users.password_hash.
+[Read the architecture and data-flow guide →](backend/docs/architecture.md)
 
-## Connected workflows
-
-- Login validates actual credentials. Role navigation is based on `/auth/me`; choosing a role does not grant that role. Protected routes redirect mismatched users to their own workspace.
-- Dashboard scores, enrollment counts, attendance, history and charts use stored academic records. Unassessed users show `Awaiting data`; missing scores remain blank rather than fabricated.
-- Faculty manages topics and question banks, creates tests from approved questions, publishes/closes papers, and reviews objective/descriptive results. Generated questions require review.
-- Students take server-timed assessments, save answers in their browser tab, submit to FastAPI, and receive persisted objective scores. Faculty assigns final marks to descriptive answers.
-- Assignments support creation, student text submissions, faculty grading and feedback. Deadlines and mark bounds are enforced by the backend.
-- Attendance records one class session for the selected section; the same records feed analytics.
-- Study plans are generated from topic history; checkboxes persist progress to MySQL. Risk and prioritization are documented heuristics, not a trained predictive model.
-- HOD dashboards and directories are department-scoped. Student data is restricted to the authenticated student; faculty sees assigned sections.
-- Admin manages users, account status, passwords, departments, courses, subjects, topics, sections, enrollment and teaching mappings, and calendar events. After creating a student/faculty account, use Academic mapping to give it its academic scope.
-- Academic reports export real values to CSV. Profile and settings show actual backend identity and connection state.
-- GenAI explanations, draft questions and suggested grading feedback use server-side provider credentials. Configure LLM_API_KEY, LLM_BASE_URL and LLM_MODEL in backend/.env. Missing credentials produce an error rather than a pretend response.
-- Public self-registration and email password-recovery claims from the preview were removed from active behavior. Administrators create accounts and reset passwords; no email service is configured.
-
-## Source and architecture
+## Repository
 
 ```text
-LearnPathAI/
-  start-project.ps1
-  frontend-react/
-    src/pages/Login.tsx       # Real login with role validation
-    src/pages/LivePages.tsx   # Connected workflow screens
-    src/context/AppContext.tsx
-    src/components/          # ZIP design components
-    src/layouts/             # Four ZIP role layouts
-    package.json / package-lock.json
-    dist/                    # Built React app served by FastAPI
-  frontend/                  # Previous frontend, preserved
-  backend/
-    start-project.ps1        # Wrapper; works from your backend terminal
-    app/portal.py            # Scoped snapshot and admin password reset
-    app/main.py              # Existing API + /api aliases + React SPA routes
-    scripts/create_portal_accounts.py
-    .local/portal-logins.txt  # Private generated credentials
-    db/                      # Existing project schema and SQL queries
+Neural-Code-Ninjas/
+├── frontend-react/                 Active React + TypeScript application
+│   ├── src/
+│   │   ├── components/             Shared UI controls, tables, navigation
+│   │   ├── context/AppContext.tsx  Authenticated API client and workspace state
+│   │   ├── layouts/                Student, Faculty, HOD, Admin shells
+│   │   ├── pages/
+│   │   │   ├── Login.tsx           Database-backed sign-in
+│   │   │   ├── LivePages.tsx       Connected academic workflow screens
+│   │   │   ├── DatasetAnalytics.tsx  OULAD research explorer
+│   │   │   └── RagAssistant.tsx    Cited assistant and saved history
+│   │   └── App.tsx                Routing and role guards
+│   ├── package.json               Frontend scripts and dependencies
+│   └── vite.config.ts             Build configuration and development proxy
+├── backend/
+│   ├── app/                       FastAPI application modules
+│   ├── db/                        MySQL schemas, migrations, query packs
+│   ├── scripts/                   Database setup, imports, account utilities
+│   ├── tests/                     MySQL integration tests
+│   ├── docs/                      Architecture and implementation guides
+│   ├── data/oulad/                Dataset provenance and import manifest
+│   ├── .env.example               Configuration template; no real secrets
+│   ├── Dockerfile                 React build + Python runtime image
+│   └── compose.yaml               MySQL and API service definitions
+├── frontend/                      Preserved legacy frontend at /legacy
+├── start-project.ps1              Existing local showcase launcher
+├── .gitignore                     Excludes secrets, runtime data, dependencies
+└── README.md
 ```
 
-Browser → React → authenticated `/api/...` → FastAPI permissions/services → SQLAlchemy/PyMySQL → MySQL `learnpath_ai`. FastAPI serves the React build from `/app/`, including deep-link refreshes. The previous UI is available at `/legacy`.
+The active workflow screens are `LivePages.tsx`, `DatasetAnalytics.tsx`, and `RagAssistant.tsx`. Older design-preview page files remain in the source tree for reference. `dist/`, virtual environments, dependencies, raw archives, and local database files are generated locally and excluded from Git.
 
-## Development and rebuild
+## Role workspaces
 
-Normal startup uses the existing build; no separate React server is required. After changing React source:
+| Role | Main responsibilities | Private academic access |
+|---|---|---|
+| Student | Take tests, submit assignments, review results, track study plans | Own authorized academic records |
+| Faculty | Manage questions and assessments, record attendance, grade submissions | Assigned subjects and sections |
+| HOD | Review departmental performance and learning gaps | Department scope |
+| Admin | Manage users, academic structure, enrollment and teaching mappings | Institution administration |
+
+All roles can explore the **public research dataset** and use the **AI Knowledge Assistant**. Conversation history is owner-scoped, including when the requesting user is an administrator. Choosing a role on the login screen does not grant that role.
+
+## Quick start
+
+### Fresh clone: manual setup
+
+Prerequisites: **Python 3.12+**, **Node.js 22+ with npm**, and a running **MySQL 8.0.16+** server. The Docker configuration uses MySQL 8.4. Configure a dedicated database user with the permissions needed for schema setup; use a suitably restricted account for runtime access.
 
 ```powershell
+git clone https://github.com/Yash301201/Neural-Code-Ninjas.git
+cd Neural-Code-Ninjas
+
+cd frontend-react
+npm ci
+npm run build
+cd ..\backend
+
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+Copy-Item .env.example .env
+.\.venv\Scripts\python.exe -c "import secrets; print(secrets.token_urlsafe(48))"
+```
+
+Edit `backend/.env`: set `DATABASE_URL` to your MySQL connection and replace `JWT_SECRET` with the generated value. URL-encode special characters in database credentials. Do not overwrite an existing local configuration when updating an installation.
+
+```powershell
+# From backend/; --create-database requires CREATE DATABASE permission.
+.\.venv\Scripts\python.exe -m scripts.init_db --create-database
+.\.venv\Scripts\python.exe -m scripts.create_admin
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8001
+```
+
+If `learnpath_ai` already exists and the account has no server-level creation permission, omit `--create-database`. Use the admin workspace to create academic structure, users, enrollment, and faculty assignments. Public self-registration and email password recovery are not configured.
+
+| Service | Local URL |
+|---|---|
+| Application | [http://127.0.0.1:8001/app/](http://127.0.0.1:8001/app/) |
+| Interactive API docs | [http://127.0.0.1:8001/docs](http://127.0.0.1:8001/docs) |
+| Health check | [http://127.0.0.1:8001/health](http://127.0.0.1:8001/health) |
+| Legacy UI | [http://127.0.0.1:8001/legacy](http://127.0.0.1:8001/legacy) |
+
+### Existing Windows showcase installation
+
+For the previously configured installation with its virtual environment and private local MySQL directory, run from the project root:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\start-project.ps1
+# Rebuild after frontend changes:
 powershell -ExecutionPolicy Bypass -File .\start-project.ps1 -Rebuild
 ```
 
-Or run `npm run build` in `frontend-react/`. For Vite development run `npm run dev` there while FastAPI is running on 8001, then use http://127.0.0.1:3000/app/. Vite proxies `/api` to FastAPI. On a new computer run `npm ci` before building and follow the backend MySQL/Python setup. Do not copy an active MySQL data directory. Docker source context was updated to build React and package both apps, but Docker execution was not tested.
+The launcher expects the existing machine-specific MySQL setup; it does not provision a fresh clone. Stop the old backend before restarting after Python or `.env` changes. For frontend development, run `npm run dev` in `frontend-react/`; Vite serves port 3000 and proxies `/api` to port 8001.
 
-If backend Python files change, stop the old server with Ctrl+C and restart it. If port 8001 is occupied by an older instance, stop that project's terminal before starting the new version. Another local port can be selected with `-Port 8002`; Vite's development proxy remains configured for 8001 unless you update it.
+## Dataset & RAG
 
-## Verification
+### Research analytics pipeline
 
-- Production TypeScript check and Vite build passed.
-- **10 MySQL integration tests passed**, including the existing workflows and new scoped React portal / API-alias checks. The TestClient transport emits one deprecation warning; assertions pass.
-- All four generated accounts authenticated successfully, and each fetched an authorized portal workspace. Student snapshots contain no staff answer bank, password hashes or other students' private histories.
-- Browser verified rejection of a wrong admin password, real admin sign-in and database-backed user management.
-- Browser signed in with the generated Student account, completed the practice test, received 6 marks with EVALUATED status, and generated a persisted personalized plan.
-- The root and backend-folder startup entry points launch the same app. React assets and nested app routes are served through FastAPI.
-- Live LLM requests, email recovery, Docker runtime and full college-scale load testing are not verified.
+The [OULAD Kaggle mirror](https://www.kaggle.com/datasets/rocki37/open-university-learning-analytics-dataset) supplies historical Open University research data. The imported reference batch contains **32,593 course enrollments**, **28,785 distinct learners**, **22 course cohorts**, and **10,655,280 VLE activity records**.
 
-References: https://vite.dev/guide/backend-integration and https://fastapi.tiangolo.com/tutorial/static-files/.
+```powershell
+# From backend/, after database initialization:
+.\.venv\Scripts\python.exe -m scripts.download_oulad
+.\.venv\Scripts\python.exe -m scripts.import_oulad
+.\.venv\Scripts\python.exe -m scripts.setup_rag
+```
 
-Final browser checks also verified the generated Faculty, HOD and Admin credentials, the student route guard against an admin URL, the faculty question bank and attendance history, and the desktop responsive layout.
+The importer streams the archive, avoids duplicate CSV copies, aggregates weekly engagement, reconciles totals, and exposes only completed `READY` batches. Research tables use the `oulad_` prefix and do not create login accounts.
+
+OULAD is historical UK data from 2013–2014, attributed to **Kuzilek, Hlosta, and Zdrahal**, under **CC BY 4.0**. See the [official dataset documentation](https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+dataset). Andhra/Telugu display names are fictional aliases. VLE clicks measure online activity, not classroom attendance.
+
+### Grounded assistant
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant UI as React assistant
+    participant API as FastAPI /api/rag
+    participant DB as MySQL
+    participant LLM as Groq
+    User->>UI: Ask a question and optionally select a cohort
+    UI->>API: Authenticated question
+    API->>DB: Read public knowledge chunks
+    DB-->>API: Source text and provenance
+    Note over API: BM25 ranks relevant chunks
+    alt API key configured and generation requested
+        API->>LLM: Question + retrieved evidence
+        LLM-->>API: Answer with source labels
+        Note over API: Validate citation labels; fall back on failure
+    else Evidence-only mode or missing key
+        Note over API: Return explicitly labeled source excerpts
+    end
+    API->>DB: Save owner-scoped conversation and evidence snapshot
+    API-->>UI: Answer mode, answer, citations
+```
+
+The reference index contains **905 chunks** covering public research aggregates and curated project guidance. Retrieval uses **BM25 lexical ranking**, not embeddings or a vector database. The assistant does not retrieve private grades, credential files, password hashes, or JWT keys, and cannot execute database writes through the model.
+
+To enable Groq generation, configure these existing entries privately in `backend/.env`, then restart the backend:
+
+```dotenv
+LLM_API_KEY=your_groq_api_key
+LLM_BASE_URL=https://api.groq.com/openai/v1
+LLM_MODEL=llama-3.3-70b-versatile
+```
+
+Without a working key, retrieval remains available and is clearly distinguished from generated answers. After importing a new dataset batch, refresh the index with `scripts.setup_rag` or the admin refresh button. Stored conversations retain their original evidence snapshots. Each question is retrieved independently; saved history is not conversational model memory.
+
+## Database & security
+
+| Data domain | MySQL storage | Definition |
+|---|---|---|
+| Academic records | Users, courses, enrollment, tests, submissions, attendance, study plans | [`001_schema.sql`](backend/db/001_schema.sql) |
+| Calendar | Academic events | [`003_calendar.sql`](backend/db/003_calendar.sql) |
+| Public research | `oulad_*` source and aggregate tables | [`005_oulad_analytics.sql`](backend/db/005_oulad_analytics.sql) |
+| Assistant | `rag_chunks`, `rag_conversations`, `rag_messages` | [`007_rag_assistant.sql`](backend/db/007_rag_assistant.sql) |
+
+SQL files define the database; MySQL holds live application rows. Database initialization and additive schema updates are explicit commands, not automatic API-startup migrations. Reporting query packs are separate from schema setup. Back up existing databases before applying DDL.
+
+- Passwords use **Argon2id hashes**; **HS256 JWTs** represent expiring sessions, not password storage.
+- FastAPI enforces role and academic scope; browser route guards provide navigation behavior.
+- `get_db()` commits successful requests and rolls back failures; SQLAlchemy binds query parameters.
+- Provider keys and database credentials remain server-side. `.env` and `.local/` are excluded from version control.
+- Generated assessment content requires faculty review. Citations can be inspected but do not guarantee every generated claim is correct.
+
+## Development & verification
+
+```powershell
+# Frontend, from frontend-react/:
+npm ci
+npm run build
+
+# Backend, from backend/:
+# Set TEST_DATABASE_URL to a disposable MySQL database ending in _test.
+.\.venv\Scripts\python.exe -m pytest tests -q
+```
+
+The test suite recreates its target schema and refuses databases whose names do not end in `_test`. Never point tests at application data.
+
+Recorded local verification: **16 backend tests passed** and the TypeScript/Vite production build passed. Coverage includes academic permissions, assessment workflows, dataset totals, RAG fallback, citation-label validation, and conversation ownership. Live Groq generation requires a configured key and has not been verified; Docker runtime and college-scale load testing have not been verified.
+
+Docker build and Compose definitions are supplied in [`backend/`](backend/). See the backend setup guide for required environment variables. Container initialization scripts run only for a fresh MySQL volume.
+
+## Documentation
+
+- [Architecture and folder responsibilities](backend/docs/architecture.md)
+- [Backend setup and API workflows](backend/README.md)
+- [Frontend integration notes](backend/docs/react-integration.md)
+- [OULAD import, attribution, and analytics](backend/docs/oulad-integration.md)
+- [Groq, RAG, and MySQL persistence](backend/docs/rag-integration.md)
+- [Credential storage](backend/docs/credential-storage.md)
+- [Academic reporting queries](backend/db/004_project_queries.sql)
+- [OULAD reporting queries](backend/db/006_oulad_reporting_queries.sql)
+- [Assistant reporting queries](backend/db/008_rag_reporting_queries.sql)
+
+## Contributing
+
+Keep presentation changes in `frontend-react/`, API behavior in `backend/app/`, and schema/query changes in `backend/db/`. Include matching database updates when a feature introduces persistent data. Document configuration changes, run the checks relevant to the change, and keep credentials and runtime data out of commits.

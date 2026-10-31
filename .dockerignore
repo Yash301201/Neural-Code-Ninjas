@@ -1,0 +1,11 @@
+**/.venv
+**/.local
+**/.env
+**/__pycache__
+**/.pytest_cache
+**/.git
+
+**/node_modules
+**/dist
+
+backend/data/oulad/raw

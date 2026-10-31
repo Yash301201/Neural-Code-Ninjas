@@ -1,0 +1,35 @@
+{
+  "batch_id": 1,
+  "source_url": "https://www.kaggle.com/datasets/rocki37/open-university-learning-analytics-dataset",
+  "license": "CC BY 4.0",
+  "attribution": "Kuzilek, J., Hlosta, M., & Zdrahal, Z. (2015). OULAD. DOI: 10.24432/C5KK69. CC BY 4.0.",
+  "archive_sha256": "22ba62b7db14e7ccd0679d35bdf8873efd0cb112dec6e02e28d291494690dd07",
+  "csv_members": {
+    "courses.csv": "courses.csv",
+    "studentInfo.csv": "studentInfo.csv",
+    "studentRegistration.csv": "studentRegistration.csv",
+    "assessments.csv": "assessments.csv",
+    "studentAssessment.csv": "studentAssessment.csv",
+    "vle.csv": "vle.csv",
+    "studentVle.csv": "studentVle.csv"
+  },
+  "counts": {
+    "courses": 22,
+    "students": 32593,
+    "registrations": 32593,
+    "assessments": 206,
+    "scores": 173912,
+    "vle_sites": 6364,
+    "raw_vle_records": 10655280,
+    "source_clicks": 39605099,
+    "weekly_engagement": 627031,
+    "weekly_activity": 8436,
+    "distinct_students": 28785
+  },
+  "transformations": [
+    "Duplicate CSV archive copies skipped",
+    "Only academic outcome/credits fields retained from studentInfo",
+    "VLE logs aggregated by learner/course/presentation/week",
+    "Source identities are not login accounts"
+  ]
+}

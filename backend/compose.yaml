@@ -1,0 +1,33 @@
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: learnpath_ai
+      MYSQL_USER: learnpath
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in .env}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD in .env}
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./db/001_schema.sql:/docker-entrypoint-initdb.d/001_schema.sql:ro
+      - ./db/003_calendar.sql:/docker-entrypoint-initdb.d/003_calendar.sql:ro
+      - ./db/005_oulad_analytics.sql:/docker-entrypoint-initdb.d/005_oulad_analytics.sql:ro
+      - ./db/007_rag_assistant.sql:/docker-entrypoint-initdb.d/007_rag_assistant.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  api:
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile
+    env_file: .env
+    environment:
+      DATABASE_URL: mysql+pymysql://learnpath:${MYSQL_PASSWORD}@db:3306/learnpath_ai?charset=utf8mb4
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  mysql_data:

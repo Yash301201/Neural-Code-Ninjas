@@ -1,0 +1,9 @@
+import React from 'react';
+import {useLocation,useNavigate} from 'react-router-dom';
+import {Menu,ChevronRight,RefreshCw} from 'lucide-react';
+import {useApp} from '../context/AppContext';
+export function Header({onOpenMobileMenu,roleTitle}:{onOpenMobileMenu:()=>void;roleTitle:string}){
+ const {currentUser,refresh,addToast}=useApp(),location=useLocation(),navigate=useNavigate();
+ const title=location.pathname.split('/').filter(Boolean).slice(1).join(' ').replaceAll('-',' ')||'Overview Dashboard';
+ return <header className="h-16 bg-white border-b border-slate-200 px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-3 sticky top-0 z-30"><div className="flex items-center gap-3 min-w-0"><button onClick={onOpenMobileMenu} aria-label="Open navigation menu" className="lg:hidden p-2"><Menu size={20}/></button><div className="flex items-center gap-2 text-sm min-w-0"><span className="hidden sm:block text-slate-500">{roleTitle}</span><ChevronRight size={15} className="hidden sm:block text-slate-300"/><strong className="capitalize truncate">{title}</strong></div></div><div className="flex items-center gap-3"><span className="hidden md:inline text-xs text-emerald-700">● Connected to MySQL</span><button aria-label="Refresh workspace" className="p-2 text-slate-500" onClick={()=>refresh().then(()=>addToast('Workspace refreshed')).catch(e=>addToast('Refresh failed',e.message,'error'))}><RefreshCw size={16}/></button><button onClick={()=>navigate('/'+currentUser?.role+'/profile')} className="flex items-center gap-2"><span className="hidden md:block text-xs text-right"><strong className="block">{currentUser?.name}</strong><span className="text-slate-500">{currentUser?.role.toUpperCase()}</span></span><span className="rounded-full h-9 w-9 bg-blue-600 text-white text-xs flex items-center justify-center">{currentUser?.name.split(' ').map(p=>p[0]).slice(0,2).join('')}</span></button></div></header>
+}

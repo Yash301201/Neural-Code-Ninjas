@@ -1,5 +1,24 @@
-﻿.env
+# Private runtime configuration and credentials
+.env
+.env.*
+!.env.example
+**/.local/
+*.pem
+*.key
+# Dependencies, build output and caches
 .venv/
-__pycache__/
 node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
 dist/
+build/
+coverage/
+*.log
+# Database files and downloadable data
+*.db
+*.sqlite*
+mysql-data/
+backend/data/oulad/raw/
+*.zip
+.DS_Store

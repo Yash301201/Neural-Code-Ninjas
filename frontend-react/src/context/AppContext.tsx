@@ -1,0 +1,23 @@
+import React,{createContext,useContext,useState,useEffect,useCallback} from 'react';
+import {UserProfile,UserRole,ToastMessage,ConfirmDialogState} from '../types';
+export type Row=Record<string,any>;
+export async function api(path:string,method='GET',body?:unknown):Promise<any>{
+ const token=sessionStorage.getItem('learnpath.react.token');let response:Response;
+ try{response=await fetch('/api'+path,{method,headers:{...(token?{Authorization:'Bearer '+token}:{}),...(body!==undefined?{'Content-Type':'application/json'}:{})},body:body===undefined?undefined:JSON.stringify(body)})}catch{throw Error('The backend is unreachable. Start the project and retry.')}
+ const data=await response.json().catch(()=>({}));
+ if(!response.ok){if(response.status===401&&path!=='/auth/login')window.dispatchEvent(new Event('learnpath:expired'));const detail=data.detail;throw Error(Array.isArray(detail)?detail.map((x:any)=>`${x.loc.slice(1).join(' ')}: ${x.msg}`).join('; '):detail||'Request failed')};return data;
+}
+type ContextValue={currentUser:UserProfile|null;rawUser:Row|null;workspace:Row|null;loading:boolean;login:(email:string,password:string,role?:UserRole)=>Promise<UserProfile>;logout:()=>void;refresh:()=>Promise<void>;subjectId:number;sectionId:number;setScope:(subject:number,section:number)=>void;toasts:ToastMessage[];addToast:(title:string,description?:string,variant?:ToastMessage['variant'])=>void;dismissToast:(id:string)=>void;confirmDialog:ConfirmDialogState;requestConfirm:(o:Omit<ConfirmDialogState,'isOpen'>)=>void;closeConfirm:()=>void};
+const C=createContext<ContextValue|null>(null);
+export const profile=(u:Row,departments:Row[]=[]):UserProfile=>({id:String(u.user_id),name:u.full_name,email:u.email,role:u.role.toLowerCase() as UserRole,department:departments.find(d=>d.department_id===u.department_id)?.department_name||'Institution',rollOrEmpId:u.registration_number||`${u.role}-${u.user_id}`,status:u.is_active?'Active':'Inactive',joinedDate:u.created_at?.slice(0,10)||''});
+export function AppProvider({children}:{children:React.ReactNode}){
+ const [workspace,setWorkspace]=useState<Row|null>(null),[loading,setLoading]=useState(true),[subjectId,setSubject]=useState(0),[sectionId,setSection]=useState(0),[toasts,setToasts]=useState<ToastMessage[]>([]);
+ const [confirmDialog,setConfirm]=useState<ConfirmDialogState>({isOpen:false,title:'',message:'',confirmLabel:'Confirm',onConfirm:()=>{}});
+ const addToast=useCallback((title:string,description='',variant:ToastMessage['variant']='success')=>{const id=crypto.randomUUID();setToasts(p=>[...p.slice(-3),{id,title,description,variant}]);setTimeout(()=>setToasts(p=>p.filter(t=>t.id!==id)),6000)},[]);
+ const logout=useCallback(()=>{sessionStorage.removeItem('learnpath.react.token');setWorkspace(null);setSubject(0);setSection(0)},[]);
+ const refresh=useCallback(async()=>{const data=await api('/portal/workspace');setWorkspace(data);setSubject(p=>data.scopes.some((s:Row)=>s.subject_id===p)?p:data.scopes[0]?.subject_id||0);setSection(p=>data.scopes.some((s:Row)=>s.section_id===p)?p:data.scopes[0]?.section_id||0)},[]);
+ useEffect(()=>{const expired=()=>{logout();addToast('Session expired','Please sign in again.','warning')};window.addEventListener('learnpath:expired',expired);if(sessionStorage.getItem('learnpath.react.token'))refresh().catch(e=>{logout();addToast('Could not restore session',e.message,'error')}).finally(()=>setLoading(false));else setLoading(false);return()=>window.removeEventListener('learnpath:expired',expired)},[refresh,logout,addToast]);
+ const login=async(email:string,password:string,role?:UserRole)=>{const auth=await api('/auth/login','POST',{email,password});sessionStorage.setItem('learnpath.react.token',auth.access_token);try{const raw=await api('/auth/me');if(role&&raw.role.toLowerCase()!==role){sessionStorage.removeItem('learnpath.react.token');throw Error('This account belongs to the '+raw.role+' role. Select that role to continue.')}const data=await api('/portal/workspace');setWorkspace(data);setSubject(data.scopes[0]?.subject_id||0);setSection(data.scopes[0]?.section_id||0);return profile(raw,data.departments)}catch(e){sessionStorage.removeItem('learnpath.react.token');throw e}};
+ return <C.Provider value={{workspace,rawUser:workspace?.user||null,currentUser:workspace?profile(workspace.user,workspace.departments):null,loading,login,logout,refresh,subjectId,sectionId,setScope:(s,c)=>{setSubject(s);setSection(c)},toasts,addToast,dismissToast:id=>setToasts(p=>p.filter(t=>t.id!==id)),confirmDialog,requestConfirm:o=>setConfirm({...o,isOpen:true}),closeConfirm:()=>setConfirm(p=>({...p,isOpen:false}))}}>{children}</C.Provider>
+}
+export function useApp(){const c=useContext(C);if(!c)throw Error('AppProvider missing');return c}

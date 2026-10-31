@@ -1,0 +1,6 @@
+{
+  "name": "LearnPath AI",
+  "description": "Adaptive Assessment and GenAI Study Coach for Engineering Colleges — a modern LMS with personalized study plans, intelligent question generation, online examinations, and role-based academic analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

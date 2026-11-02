@@ -34,7 +34,7 @@ const ROLE_OPTIONS: {
   {
     role: UserRole.FACULTY,
     label: 'Faculty',
-    desc: 'AI Questions & Grading',
+    desc: 'Teaching & Assessment',
     icon: <Users className="w-4 h-4" />,
     route: '/faculty',
   },
@@ -97,7 +97,7 @@ export const Login: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();if(!validate())return;setIsSubmitting(true);
-    try{const user=await login(email,password,selectedRole);addToast('Welcome back',user.name+' · authenticated with MySQL');navigate('/'+user.role,{replace:true})}
+    try{const user=await login(email,password,selectedRole);addToast('Welcome back',user.name+' · your academic workspace is ready');navigate('/'+user.role,{replace:true})}
     catch(err){setErrors({password:(err as Error).message})}finally{setIsSubmitting(false)}
   };
   const handleForgotSubmit = (e: React.FormEvent) => {e.preventDefault();addToast('Contact your administrator','Password recovery email is not configured. An administrator can reset your password in User Management.','info');};
@@ -130,7 +130,7 @@ export const Login: React.FC = () => {
               Sign in to your academic workspace
             </h1>
             <p className="text-sm text-slate-500">
-              Adaptive assessments, personalized study coaching, and department analytics.
+              Access your courses, academic records, and campus services in one place.
             </p>
           </div>
 
@@ -279,8 +279,8 @@ export const Login: React.FC = () => {
 
         {/* Footer */}
         <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400">
-          <span>LearnPath AI · Adaptive Engineering Education Platform</span>
-          <span>FastAPI + MySQL · Synthetic showcase data</span>
+          <span>LearnPath AI · Your academic community</span>
+          <span>Learn with purpose. Shape your future.</span>
         </div>
       </div>
 
@@ -300,10 +300,10 @@ export const Login: React.FC = () => {
               <div className="w-full aspect-[4/3] bg-gradient-to-br from-blue-50 via-white to-violet-50 flex flex-col items-center justify-center p-8 text-center">
                 <GraduationCap className="w-14 h-14 text-[#2563EB] mb-3" />
                 <p className="text-base font-semibold text-slate-900">
-                  Adaptive Engineering Curriculum Intelligence
+                  Knowledge that shapes your future
                 </p>
                 <p className="text-xs text-slate-500 mt-1">
-                  Diagnostic Assessments · Study Roadmaps · Outcome Analytics
+                  Learn with purpose. Grow with confidence.
                 </p>
               </div>
             )}
@@ -311,37 +311,37 @@ export const Login: React.FC = () => {
 
           <div className="space-y-4">
             <h2 className="text-2xl font-bold font-display text-slate-900 tracking-tight text-balance">
-              Adaptive Assessment and GenAI Study Coach for Engineering Colleges
+              Learning today. Leading tomorrow.
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed">
-              Identify conceptual gaps across engineering subjects, generate faculty-reviewed
-              question drafts, and connect assessments, attendance and study plans
-              with your academic records.
+              Every lecture, every question, and every discovery is a step towards your future.
+              Connect with your academic community, build your knowledge, and make the most
+              of your journey from classroom learning to meaningful achievement.
             </p>
 
             <div className="grid grid-cols-3 gap-4 pt-2 border-t border-slate-200">
               <div>
                 <p className="text-xl font-bold font-display text-slate-900 tabular-nums">
-                  MySQL
+                  Learn
                 </p>
                 <p className="text-xs text-slate-500 mt-0.5">
-                  Persistent academic records and evaluated results
+                  Explore ideas and deepen your understanding.
                 </p>
               </div>
               <div>
                 <p className="text-xl font-bold font-display text-slate-900 tabular-nums">
-                  4 Roles
+                  Grow
                 </p>
                 <p className="text-xs text-slate-500 mt-0.5">
-                  Unified Student, Faculty, HOD & Admin workflows
+                  Collaborate with teachers and fellow learners.
                 </p>
               </div>
               <div>
                 <p className="text-xl font-bold font-display text-slate-900 tabular-nums">
-                  Argon2id
+                  Achieve
                 </p>
                 <p className="text-xs text-slate-500 mt-0.5">
-                  Hashed passwords and authenticated role access
+                  Turn your dedication into lasting progress.
                 </p>
               </div>
             </div>

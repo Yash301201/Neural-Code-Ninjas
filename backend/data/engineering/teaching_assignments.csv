@@ -1,0 +1,439 @@
+﻿faculty_id,faculty_name,subject_id,section_id,study_year,semester,course_id,program_level,hod_ids
+11,Dr. K. Sravani,7,2,2,3,1,UG,15
+19,Prof. D. Pavan Kumar,7,2,2,3,1,UG,15
+12,Prof. V. Ramana,8,2,2,3,1,UG,15
+11,Dr. K. Sravani,8,2,2,3,1,UG,15
+11,Dr. K. Sravani,46,2,2,4,1,UG,15
+11,Dr. K. Sravani,45,2,2,4,1,UG,15
+11,Dr. K. Sravani,44,2,2,4,1,UG,15
+11,Dr. K. Sravani,43,2,2,3,1,UG,15
+11,Dr. K. Sravani,59,3,1,1,2,PG,15
+11,Dr. K. Sravani,62,3,1,2,2,PG,15
+11,Dr. K. Sravani,60,3,1,1,2,PG,15
+16,Dr. N. Harika,10,3,1,1,2,PG,15
+11,Dr. K. Sravani,10,3,1,1,2,PG,15
+13,Dr. P. Ravi Teja,9,3,1,1,2,PG,15
+11,Dr. K. Sravani,9,3,1,1,2,PG,15
+11,Dr. K. Sravani,64,3,1,2,2,PG,15
+11,Dr. K. Sravani,63,3,1,2,2,PG,15
+11,Dr. K. Sravani,61,3,1,2,2,PG,15
+11,Dr. K. Sravani,72,4,1,1,3,PG,15
+11,Dr. K. Sravani,75,4,1,2,3,PG,15
+11,Dr. K. Sravani,73,4,1,1,3,PG,15
+18,Dr. G. Lakshmi Priya,12,4,1,1,3,PG,15
+11,Dr. K. Sravani,12,4,1,1,3,PG,15
+17,Prof. M. Srinivas,11,4,1,1,3,PG,15
+11,Dr. K. Sravani,11,4,1,1,3,PG,15
+11,Dr. K. Sravani,77,4,1,2,3,PG,15
+11,Dr. K. Sravani,76,4,1,2,3,PG,15
+11,Dr. K. Sravani,74,4,1,2,3,PG,15
+11,Dr. K. Sravani,91,11,2,3,10,UG,15
+11,Dr. K. Sravani,94,11,2,4,10,UG,15
+11,Dr. K. Sravani,93,11,2,4,10,UG,15
+11,Dr. K. Sravani,26,11,2,3,10,UG,15
+11,Dr. K. Sravani,92,11,2,4,10,UG,15
+11,Dr. K. Sravani,25,11,2,3,10,UG,15
+11,Dr. K. Sravani,116,12,2,4,11,UG,15
+11,Dr. K. Sravani,28,12,2,3,11,UG,15
+11,Dr. K. Sravani,27,12,2,3,11,UG,15
+11,Dr. K. Sravani,115,12,2,4,11,UG,15
+11,Dr. K. Sravani,114,12,2,4,11,UG,15
+11,Dr. K. Sravani,113,12,2,3,11,UG,15
+159,Dr. B. Ravi Kumar,138,13,2,4,12,UG,158
+159,Dr. B. Ravi Kumar,136,13,2,4,12,UG,158
+159,Dr. B. Ravi Kumar,30,13,2,3,12,UG,158
+159,Dr. B. Ravi Kumar,29,13,2,3,12,UG,158
+159,Dr. B. Ravi Kumar,135,13,2,3,12,UG,158
+159,Dr. B. Ravi Kumar,137,13,2,4,12,UG,158
+171,Dr. C. Suresh,158,14,2,4,13,UG,170
+171,Dr. C. Suresh,32,14,2,3,13,UG,170
+171,Dr. C. Suresh,31,14,2,3,13,UG,170
+171,Dr. C. Suresh,157,14,2,3,13,UG,170
+171,Dr. C. Suresh,159,14,2,4,13,UG,170
+171,Dr. C. Suresh,160,14,2,4,13,UG,170
+183,Dr. K. Madhavi,33,15,2,3,14,UG,182
+183,Dr. K. Madhavi,180,15,2,4,14,UG,182
+183,Dr. K. Madhavi,182,15,2,4,14,UG,182
+183,Dr. K. Madhavi,181,15,2,4,14,UG,182
+183,Dr. K. Madhavi,179,15,2,3,14,UG,182
+183,Dr. K. Madhavi,34,15,2,3,14,UG,182
+195,Dr. P. Satish,204,16,2,4,15,UG,194
+195,Dr. P. Satish,203,16,2,4,15,UG,194
+195,Dr. P. Satish,202,16,2,4,15,UG,194
+195,Dr. P. Satish,201,16,2,3,15,UG,194
+195,Dr. P. Satish,35,16,2,3,15,UG,194
+195,Dr. P. Satish,36,16,2,3,15,UG,194
+11,Dr. K. Sravani,41,17,1,2,1,UG,15
+11,Dr. K. Sravani,40,17,1,2,1,UG,15
+11,Dr. K. Sravani,37,17,1,1,1,UG,15
+11,Dr. K. Sravani,38,17,1,1,1,UG,15
+11,Dr. K. Sravani,39,17,1,1,1,UG,15
+11,Dr. K. Sravani,42,17,1,2,1,UG,15
+11,Dr. K. Sravani,41,18,1,2,1,UG,15
+11,Dr. K. Sravani,40,18,1,2,1,UG,15
+11,Dr. K. Sravani,37,18,1,1,1,UG,15
+11,Dr. K. Sravani,38,18,1,1,1,UG,15
+11,Dr. K. Sravani,39,18,1,1,1,UG,15
+11,Dr. K. Sravani,42,18,1,2,1,UG,15
+11,Dr. K. Sravani,7,19,2,3,1,UG,15
+11,Dr. K. Sravani,8,19,2,3,1,UG,15
+11,Dr. K. Sravani,46,19,2,4,1,UG,15
+11,Dr. K. Sravani,45,19,2,4,1,UG,15
+11,Dr. K. Sravani,44,19,2,4,1,UG,15
+11,Dr. K. Sravani,43,19,2,3,1,UG,15
+11,Dr. K. Sravani,50,20,3,6,1,UG,15
+11,Dr. K. Sravani,52,20,3,6,1,UG,15
+11,Dr. K. Sravani,47,20,3,5,1,UG,15
+11,Dr. K. Sravani,48,20,3,5,1,UG,15
+11,Dr. K. Sravani,49,20,3,5,1,UG,15
+11,Dr. K. Sravani,51,20,3,6,1,UG,15
+11,Dr. K. Sravani,50,21,3,6,1,UG,15
+11,Dr. K. Sravani,52,21,3,6,1,UG,15
+11,Dr. K. Sravani,47,21,3,5,1,UG,15
+11,Dr. K. Sravani,48,21,3,5,1,UG,15
+11,Dr. K. Sravani,49,21,3,5,1,UG,15
+11,Dr. K. Sravani,51,21,3,6,1,UG,15
+11,Dr. K. Sravani,55,22,4,7,1,UG,15
+11,Dr. K. Sravani,56,22,4,8,1,UG,15
+11,Dr. K. Sravani,57,22,4,8,1,UG,15
+11,Dr. K. Sravani,54,22,4,7,1,UG,15
+11,Dr. K. Sravani,58,22,4,8,1,UG,15
+11,Dr. K. Sravani,53,22,4,7,1,UG,15
+11,Dr. K. Sravani,55,23,4,7,1,UG,15
+11,Dr. K. Sravani,56,23,4,8,1,UG,15
+11,Dr. K. Sravani,57,23,4,8,1,UG,15
+11,Dr. K. Sravani,54,23,4,7,1,UG,15
+11,Dr. K. Sravani,58,23,4,8,1,UG,15
+11,Dr. K. Sravani,53,23,4,7,1,UG,15
+11,Dr. K. Sravani,59,24,1,1,2,PG,15
+11,Dr. K. Sravani,62,24,1,2,2,PG,15
+11,Dr. K. Sravani,60,24,1,1,2,PG,15
+11,Dr. K. Sravani,10,24,1,1,2,PG,15
+11,Dr. K. Sravani,9,24,1,1,2,PG,15
+11,Dr. K. Sravani,64,24,1,2,2,PG,15
+11,Dr. K. Sravani,63,24,1,2,2,PG,15
+11,Dr. K. Sravani,61,24,1,2,2,PG,15
+11,Dr. K. Sravani,70,25,2,4,2,PG,15
+11,Dr. K. Sravani,65,25,2,3,2,PG,15
+11,Dr. K. Sravani,66,25,2,3,2,PG,15
+11,Dr. K. Sravani,67,25,2,3,2,PG,15
+11,Dr. K. Sravani,69,25,2,4,2,PG,15
+11,Dr. K. Sravani,71,25,2,4,2,PG,15
+11,Dr. K. Sravani,68,25,2,3,2,PG,15
+11,Dr. K. Sravani,70,26,2,4,2,PG,15
+11,Dr. K. Sravani,65,26,2,3,2,PG,15
+11,Dr. K. Sravani,66,26,2,3,2,PG,15
+11,Dr. K. Sravani,67,26,2,3,2,PG,15
+11,Dr. K. Sravani,69,26,2,4,2,PG,15
+11,Dr. K. Sravani,71,26,2,4,2,PG,15
+11,Dr. K. Sravani,68,26,2,3,2,PG,15
+11,Dr. K. Sravani,72,27,1,1,3,PG,15
+11,Dr. K. Sravani,75,27,1,2,3,PG,15
+11,Dr. K. Sravani,73,27,1,1,3,PG,15
+11,Dr. K. Sravani,12,27,1,1,3,PG,15
+11,Dr. K. Sravani,11,27,1,1,3,PG,15
+11,Dr. K. Sravani,77,27,1,2,3,PG,15
+11,Dr. K. Sravani,76,27,1,2,3,PG,15
+11,Dr. K. Sravani,74,27,1,2,3,PG,15
+11,Dr. K. Sravani,83,28,2,4,3,PG,15
+11,Dr. K. Sravani,78,28,2,3,3,PG,15
+11,Dr. K. Sravani,79,28,2,3,3,PG,15
+11,Dr. K. Sravani,80,28,2,3,3,PG,15
+11,Dr. K. Sravani,82,28,2,4,3,PG,15
+11,Dr. K. Sravani,84,28,2,4,3,PG,15
+11,Dr. K. Sravani,81,28,2,3,3,PG,15
+11,Dr. K. Sravani,83,29,2,4,3,PG,15
+11,Dr. K. Sravani,78,29,2,3,3,PG,15
+11,Dr. K. Sravani,79,29,2,3,3,PG,15
+11,Dr. K. Sravani,80,29,2,3,3,PG,15
+11,Dr. K. Sravani,82,29,2,4,3,PG,15
+11,Dr. K. Sravani,84,29,2,4,3,PG,15
+11,Dr. K. Sravani,81,29,2,3,3,PG,15
+11,Dr. K. Sravani,89,30,1,2,10,UG,15
+11,Dr. K. Sravani,88,30,1,2,10,UG,15
+11,Dr. K. Sravani,85,30,1,1,10,UG,15
+11,Dr. K. Sravani,86,30,1,1,10,UG,15
+11,Dr. K. Sravani,87,30,1,1,10,UG,15
+11,Dr. K. Sravani,90,30,1,2,10,UG,15
+11,Dr. K. Sravani,89,31,1,2,10,UG,15
+11,Dr. K. Sravani,88,31,1,2,10,UG,15
+11,Dr. K. Sravani,85,31,1,1,10,UG,15
+11,Dr. K. Sravani,86,31,1,1,10,UG,15
+11,Dr. K. Sravani,87,31,1,1,10,UG,15
+11,Dr. K. Sravani,90,31,1,2,10,UG,15
+11,Dr. K. Sravani,91,32,2,3,10,UG,15
+11,Dr. K. Sravani,94,32,2,4,10,UG,15
+11,Dr. K. Sravani,93,32,2,4,10,UG,15
+11,Dr. K. Sravani,26,32,2,3,10,UG,15
+11,Dr. K. Sravani,92,32,2,4,10,UG,15
+11,Dr. K. Sravani,25,32,2,3,10,UG,15
+11,Dr. K. Sravani,95,33,3,5,10,UG,15
+11,Dr. K. Sravani,99,33,3,6,10,UG,15
+11,Dr. K. Sravani,96,33,3,5,10,UG,15
+11,Dr. K. Sravani,97,33,3,5,10,UG,15
+11,Dr. K. Sravani,98,33,3,6,10,UG,15
+11,Dr. K. Sravani,100,33,3,6,10,UG,15
+11,Dr. K. Sravani,95,34,3,5,10,UG,15
+11,Dr. K. Sravani,99,34,3,6,10,UG,15
+11,Dr. K. Sravani,96,34,3,5,10,UG,15
+11,Dr. K. Sravani,97,34,3,5,10,UG,15
+11,Dr. K. Sravani,98,34,3,6,10,UG,15
+11,Dr. K. Sravani,100,34,3,6,10,UG,15
+11,Dr. K. Sravani,103,35,4,7,10,UG,15
+11,Dr. K. Sravani,104,35,4,8,10,UG,15
+11,Dr. K. Sravani,105,35,4,8,10,UG,15
+11,Dr. K. Sravani,106,35,4,8,10,UG,15
+11,Dr. K. Sravani,101,35,4,7,10,UG,15
+11,Dr. K. Sravani,102,35,4,7,10,UG,15
+11,Dr. K. Sravani,103,36,4,7,10,UG,15
+11,Dr. K. Sravani,104,36,4,8,10,UG,15
+11,Dr. K. Sravani,105,36,4,8,10,UG,15
+11,Dr. K. Sravani,106,36,4,8,10,UG,15
+11,Dr. K. Sravani,101,36,4,7,10,UG,15
+11,Dr. K. Sravani,102,36,4,7,10,UG,15
+11,Dr. K. Sravani,111,37,1,2,11,UG,15
+11,Dr. K. Sravani,110,37,1,2,11,UG,15
+11,Dr. K. Sravani,107,37,1,1,11,UG,15
+11,Dr. K. Sravani,108,37,1,1,11,UG,15
+11,Dr. K. Sravani,109,37,1,1,11,UG,15
+11,Dr. K. Sravani,112,37,1,2,11,UG,15
+11,Dr. K. Sravani,111,38,1,2,11,UG,15
+11,Dr. K. Sravani,110,38,1,2,11,UG,15
+11,Dr. K. Sravani,107,38,1,1,11,UG,15
+11,Dr. K. Sravani,108,38,1,1,11,UG,15
+11,Dr. K. Sravani,109,38,1,1,11,UG,15
+11,Dr. K. Sravani,112,38,1,2,11,UG,15
+11,Dr. K. Sravani,116,39,2,4,11,UG,15
+11,Dr. K. Sravani,28,39,2,3,11,UG,15
+11,Dr. K. Sravani,27,39,2,3,11,UG,15
+11,Dr. K. Sravani,115,39,2,4,11,UG,15
+11,Dr. K. Sravani,114,39,2,4,11,UG,15
+11,Dr. K. Sravani,113,39,2,3,11,UG,15
+11,Dr. K. Sravani,120,40,3,6,11,UG,15
+11,Dr. K. Sravani,122,40,3,6,11,UG,15
+11,Dr. K. Sravani,117,40,3,5,11,UG,15
+11,Dr. K. Sravani,118,40,3,5,11,UG,15
+11,Dr. K. Sravani,119,40,3,5,11,UG,15
+11,Dr. K. Sravani,121,40,3,6,11,UG,15
+11,Dr. K. Sravani,120,41,3,6,11,UG,15
+11,Dr. K. Sravani,122,41,3,6,11,UG,15
+11,Dr. K. Sravani,117,41,3,5,11,UG,15
+11,Dr. K. Sravani,118,41,3,5,11,UG,15
+11,Dr. K. Sravani,119,41,3,5,11,UG,15
+11,Dr. K. Sravani,121,41,3,6,11,UG,15
+11,Dr. K. Sravani,125,42,4,7,11,UG,15
+11,Dr. K. Sravani,126,42,4,8,11,UG,15
+11,Dr. K. Sravani,127,42,4,8,11,UG,15
+11,Dr. K. Sravani,124,42,4,7,11,UG,15
+11,Dr. K. Sravani,128,42,4,8,11,UG,15
+11,Dr. K. Sravani,123,42,4,7,11,UG,15
+11,Dr. K. Sravani,125,43,4,7,11,UG,15
+11,Dr. K. Sravani,126,43,4,8,11,UG,15
+11,Dr. K. Sravani,127,43,4,8,11,UG,15
+11,Dr. K. Sravani,124,43,4,7,11,UG,15
+11,Dr. K. Sravani,128,43,4,8,11,UG,15
+11,Dr. K. Sravani,123,43,4,7,11,UG,15
+159,Dr. B. Ravi Kumar,133,44,1,2,12,UG,158
+159,Dr. B. Ravi Kumar,132,44,1,2,12,UG,158
+159,Dr. B. Ravi Kumar,129,44,1,1,12,UG,158
+159,Dr. B. Ravi Kumar,130,44,1,1,12,UG,158
+159,Dr. B. Ravi Kumar,131,44,1,1,12,UG,158
+159,Dr. B. Ravi Kumar,134,44,1,2,12,UG,158
+159,Dr. B. Ravi Kumar,133,45,1,2,12,UG,158
+159,Dr. B. Ravi Kumar,132,45,1,2,12,UG,158
+159,Dr. B. Ravi Kumar,129,45,1,1,12,UG,158
+159,Dr. B. Ravi Kumar,130,45,1,1,12,UG,158
+159,Dr. B. Ravi Kumar,131,45,1,1,12,UG,158
+159,Dr. B. Ravi Kumar,134,45,1,2,12,UG,158
+159,Dr. B. Ravi Kumar,138,46,2,4,12,UG,158
+159,Dr. B. Ravi Kumar,136,46,2,4,12,UG,158
+159,Dr. B. Ravi Kumar,30,46,2,3,12,UG,158
+159,Dr. B. Ravi Kumar,29,46,2,3,12,UG,158
+159,Dr. B. Ravi Kumar,135,46,2,3,12,UG,158
+159,Dr. B. Ravi Kumar,137,46,2,4,12,UG,158
+159,Dr. B. Ravi Kumar,144,47,3,6,12,UG,158
+159,Dr. B. Ravi Kumar,141,47,3,5,12,UG,158
+159,Dr. B. Ravi Kumar,139,47,3,5,12,UG,158
+159,Dr. B. Ravi Kumar,142,47,3,6,12,UG,158
+159,Dr. B. Ravi Kumar,140,47,3,5,12,UG,158
+159,Dr. B. Ravi Kumar,143,47,3,6,12,UG,158
+159,Dr. B. Ravi Kumar,144,48,3,6,12,UG,158
+159,Dr. B. Ravi Kumar,141,48,3,5,12,UG,158
+159,Dr. B. Ravi Kumar,139,48,3,5,12,UG,158
+159,Dr. B. Ravi Kumar,142,48,3,6,12,UG,158
+159,Dr. B. Ravi Kumar,140,48,3,5,12,UG,158
+159,Dr. B. Ravi Kumar,143,48,3,6,12,UG,158
+159,Dr. B. Ravi Kumar,145,49,4,7,12,UG,158
+159,Dr. B. Ravi Kumar,146,49,4,7,12,UG,158
+159,Dr. B. Ravi Kumar,150,49,4,8,12,UG,158
+159,Dr. B. Ravi Kumar,149,49,4,8,12,UG,158
+159,Dr. B. Ravi Kumar,148,49,4,8,12,UG,158
+159,Dr. B. Ravi Kumar,147,49,4,7,12,UG,158
+159,Dr. B. Ravi Kumar,145,50,4,7,12,UG,158
+159,Dr. B. Ravi Kumar,146,50,4,7,12,UG,158
+159,Dr. B. Ravi Kumar,150,50,4,8,12,UG,158
+159,Dr. B. Ravi Kumar,149,50,4,8,12,UG,158
+159,Dr. B. Ravi Kumar,148,50,4,8,12,UG,158
+159,Dr. B. Ravi Kumar,147,50,4,7,12,UG,158
+171,Dr. C. Suresh,155,51,1,2,13,UG,170
+171,Dr. C. Suresh,154,51,1,2,13,UG,170
+171,Dr. C. Suresh,151,51,1,1,13,UG,170
+171,Dr. C. Suresh,152,51,1,1,13,UG,170
+171,Dr. C. Suresh,153,51,1,1,13,UG,170
+171,Dr. C. Suresh,156,51,1,2,13,UG,170
+171,Dr. C. Suresh,155,52,1,2,13,UG,170
+171,Dr. C. Suresh,154,52,1,2,13,UG,170
+171,Dr. C. Suresh,151,52,1,1,13,UG,170
+171,Dr. C. Suresh,152,52,1,1,13,UG,170
+171,Dr. C. Suresh,153,52,1,1,13,UG,170
+171,Dr. C. Suresh,156,52,1,2,13,UG,170
+171,Dr. C. Suresh,158,53,2,4,13,UG,170
+171,Dr. C. Suresh,32,53,2,3,13,UG,170
+171,Dr. C. Suresh,31,53,2,3,13,UG,170
+171,Dr. C. Suresh,157,53,2,3,13,UG,170
+171,Dr. C. Suresh,159,53,2,4,13,UG,170
+171,Dr. C. Suresh,160,53,2,4,13,UG,170
+171,Dr. C. Suresh,163,54,3,5,13,UG,170
+171,Dr. C. Suresh,166,54,3,6,13,UG,170
+171,Dr. C. Suresh,162,54,3,5,13,UG,170
+171,Dr. C. Suresh,161,54,3,5,13,UG,170
+171,Dr. C. Suresh,164,54,3,6,13,UG,170
+171,Dr. C. Suresh,165,54,3,6,13,UG,170
+171,Dr. C. Suresh,163,55,3,5,13,UG,170
+171,Dr. C. Suresh,166,55,3,6,13,UG,170
+171,Dr. C. Suresh,162,55,3,5,13,UG,170
+171,Dr. C. Suresh,161,55,3,5,13,UG,170
+171,Dr. C. Suresh,164,55,3,6,13,UG,170
+171,Dr. C. Suresh,165,55,3,6,13,UG,170
+171,Dr. C. Suresh,167,56,4,7,13,UG,170
+171,Dr. C. Suresh,168,56,4,7,13,UG,170
+171,Dr. C. Suresh,171,56,4,8,13,UG,170
+171,Dr. C. Suresh,169,56,4,7,13,UG,170
+171,Dr. C. Suresh,170,56,4,8,13,UG,170
+171,Dr. C. Suresh,172,56,4,8,13,UG,170
+171,Dr. C. Suresh,167,57,4,7,13,UG,170
+171,Dr. C. Suresh,168,57,4,7,13,UG,170
+171,Dr. C. Suresh,171,57,4,8,13,UG,170
+171,Dr. C. Suresh,169,57,4,7,13,UG,170
+171,Dr. C. Suresh,170,57,4,8,13,UG,170
+171,Dr. C. Suresh,172,57,4,8,13,UG,170
+183,Dr. K. Madhavi,176,58,1,2,14,UG,182
+183,Dr. K. Madhavi,173,58,1,1,14,UG,182
+183,Dr. K. Madhavi,174,58,1,1,14,UG,182
+183,Dr. K. Madhavi,175,58,1,1,14,UG,182
+183,Dr. K. Madhavi,178,58,1,2,14,UG,182
+183,Dr. K. Madhavi,177,58,1,2,14,UG,182
+183,Dr. K. Madhavi,176,59,1,2,14,UG,182
+183,Dr. K. Madhavi,173,59,1,1,14,UG,182
+183,Dr. K. Madhavi,174,59,1,1,14,UG,182
+183,Dr. K. Madhavi,175,59,1,1,14,UG,182
+183,Dr. K. Madhavi,178,59,1,2,14,UG,182
+183,Dr. K. Madhavi,177,59,1,2,14,UG,182
+183,Dr. K. Madhavi,33,60,2,3,14,UG,182
+183,Dr. K. Madhavi,180,60,2,4,14,UG,182
+183,Dr. K. Madhavi,182,60,2,4,14,UG,182
+183,Dr. K. Madhavi,181,60,2,4,14,UG,182
+183,Dr. K. Madhavi,179,60,2,3,14,UG,182
+183,Dr. K. Madhavi,34,60,2,3,14,UG,182
+183,Dr. K. Madhavi,185,61,3,5,14,UG,182
+183,Dr. K. Madhavi,186,61,3,6,14,UG,182
+183,Dr. K. Madhavi,183,61,3,5,14,UG,182
+183,Dr. K. Madhavi,187,61,3,6,14,UG,182
+183,Dr. K. Madhavi,188,61,3,6,14,UG,182
+183,Dr. K. Madhavi,184,61,3,5,14,UG,182
+183,Dr. K. Madhavi,185,62,3,5,14,UG,182
+183,Dr. K. Madhavi,186,62,3,6,14,UG,182
+183,Dr. K. Madhavi,183,62,3,5,14,UG,182
+183,Dr. K. Madhavi,187,62,3,6,14,UG,182
+183,Dr. K. Madhavi,188,62,3,6,14,UG,182
+183,Dr. K. Madhavi,184,62,3,5,14,UG,182
+183,Dr. K. Madhavi,189,63,4,7,14,UG,182
+183,Dr. K. Madhavi,193,63,4,8,14,UG,182
+183,Dr. K. Madhavi,190,63,4,7,14,UG,182
+183,Dr. K. Madhavi,194,63,4,8,14,UG,182
+183,Dr. K. Madhavi,191,63,4,7,14,UG,182
+183,Dr. K. Madhavi,192,63,4,8,14,UG,182
+183,Dr. K. Madhavi,189,64,4,7,14,UG,182
+183,Dr. K. Madhavi,193,64,4,8,14,UG,182
+183,Dr. K. Madhavi,190,64,4,7,14,UG,182
+183,Dr. K. Madhavi,194,64,4,8,14,UG,182
+183,Dr. K. Madhavi,191,64,4,7,14,UG,182
+183,Dr. K. Madhavi,192,64,4,8,14,UG,182
+195,Dr. P. Satish,199,65,1,2,15,UG,194
+195,Dr. P. Satish,198,65,1,2,15,UG,194
+195,Dr. P. Satish,195,65,1,1,15,UG,194
+195,Dr. P. Satish,196,65,1,1,15,UG,194
+195,Dr. P. Satish,197,65,1,1,15,UG,194
+195,Dr. P. Satish,200,65,1,2,15,UG,194
+195,Dr. P. Satish,199,66,1,2,15,UG,194
+195,Dr. P. Satish,198,66,1,2,15,UG,194
+195,Dr. P. Satish,195,66,1,1,15,UG,194
+195,Dr. P. Satish,196,66,1,1,15,UG,194
+195,Dr. P. Satish,197,66,1,1,15,UG,194
+195,Dr. P. Satish,200,66,1,2,15,UG,194
+195,Dr. P. Satish,204,67,2,4,15,UG,194
+195,Dr. P. Satish,203,67,2,4,15,UG,194
+195,Dr. P. Satish,202,67,2,4,15,UG,194
+195,Dr. P. Satish,201,67,2,3,15,UG,194
+195,Dr. P. Satish,35,67,2,3,15,UG,194
+195,Dr. P. Satish,36,67,2,3,15,UG,194
+195,Dr. P. Satish,205,68,3,5,15,UG,194
+195,Dr. P. Satish,207,68,3,5,15,UG,194
+195,Dr. P. Satish,209,68,3,6,15,UG,194
+195,Dr. P. Satish,206,68,3,5,15,UG,194
+195,Dr. P. Satish,210,68,3,6,15,UG,194
+195,Dr. P. Satish,208,68,3,6,15,UG,194
+195,Dr. P. Satish,205,69,3,5,15,UG,194
+195,Dr. P. Satish,207,69,3,5,15,UG,194
+195,Dr. P. Satish,209,69,3,6,15,UG,194
+195,Dr. P. Satish,206,69,3,5,15,UG,194
+195,Dr. P. Satish,210,69,3,6,15,UG,194
+195,Dr. P. Satish,208,69,3,6,15,UG,194
+195,Dr. P. Satish,215,70,4,8,15,UG,194
+195,Dr. P. Satish,211,70,4,7,15,UG,194
+195,Dr. P. Satish,214,70,4,8,15,UG,194
+195,Dr. P. Satish,216,70,4,8,15,UG,194
+195,Dr. P. Satish,213,70,4,7,15,UG,194
+195,Dr. P. Satish,212,70,4,7,15,UG,194
+195,Dr. P. Satish,215,71,4,8,15,UG,194
+195,Dr. P. Satish,211,71,4,7,15,UG,194
+195,Dr. P. Satish,214,71,4,8,15,UG,194
+195,Dr. P. Satish,216,71,4,8,15,UG,194
+195,Dr. P. Satish,213,71,4,7,15,UG,194
+195,Dr. P. Satish,212,71,4,7,15,UG,194
+11,Dr. K. Sravani,220,72,1,2,16,UG,15
+11,Dr. K. Sravani,222,72,1,2,16,UG,15
+11,Dr. K. Sravani,219,72,1,1,16,UG,15
+11,Dr. K. Sravani,218,72,1,1,16,UG,15
+11,Dr. K. Sravani,217,72,1,1,16,UG,15
+11,Dr. K. Sravani,221,72,1,2,16,UG,15
+11,Dr. K. Sravani,220,73,1,2,16,UG,15
+11,Dr. K. Sravani,222,73,1,2,16,UG,15
+11,Dr. K. Sravani,219,73,1,1,16,UG,15
+11,Dr. K. Sravani,218,73,1,1,16,UG,15
+11,Dr. K. Sravani,217,73,1,1,16,UG,15
+11,Dr. K. Sravani,221,73,1,2,16,UG,15
+11,Dr. K. Sravani,226,74,2,4,16,UG,15
+11,Dr. K. Sravani,223,74,2,3,16,UG,15
+11,Dr. K. Sravani,224,74,2,3,16,UG,15
+11,Dr. K. Sravani,225,74,2,3,16,UG,15
+11,Dr. K. Sravani,227,74,2,4,16,UG,15
+11,Dr. K. Sravani,228,74,2,4,16,UG,15
+11,Dr. K. Sravani,226,75,2,4,16,UG,15
+11,Dr. K. Sravani,223,75,2,3,16,UG,15
+11,Dr. K. Sravani,224,75,2,3,16,UG,15
+11,Dr. K. Sravani,225,75,2,3,16,UG,15
+11,Dr. K. Sravani,227,75,2,4,16,UG,15
+11,Dr. K. Sravani,228,75,2,4,16,UG,15
+11,Dr. K. Sravani,231,76,3,5,16,UG,15
+11,Dr. K. Sravani,232,76,3,6,16,UG,15
+11,Dr. K. Sravani,229,76,3,5,16,UG,15
+11,Dr. K. Sravani,233,76,3,6,16,UG,15
+11,Dr. K. Sravani,234,76,3,6,16,UG,15
+11,Dr. K. Sravani,230,76,3,5,16,UG,15
+11,Dr. K. Sravani,231,77,3,5,16,UG,15
+11,Dr. K. Sravani,232,77,3,6,16,UG,15
+11,Dr. K. Sravani,229,77,3,5,16,UG,15
+11,Dr. K. Sravani,233,77,3,6,16,UG,15
+11,Dr. K. Sravani,234,77,3,6,16,UG,15
+11,Dr. K. Sravani,230,77,3,5,16,UG,15

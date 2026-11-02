@@ -17,8 +17,16 @@ import { Sidebar, SidebarNavItem } from '../components/Sidebar';
 import { Header } from '../components/Header';
 
 const FACULTY_NAV: SidebarNavItem[] = [
+ {label:'Years, Curriculum & Teaching',to:'/faculty/curriculum',icon:<LayoutDashboard className="w-4 h-4"/>},
+ {label:'Exam Performance',to:"/faculty/performance-insights",icon:<LayoutDashboard className="w-4 h-4"/>},
+ {label:'Colleague Feedback',to:"/faculty/teaching-feedback",icon:<LayoutDashboard className="w-4 h-4"/>},
+ {label:'My Professional Portfolio',to:"/faculty/staff-development",icon:<LayoutDashboard className="w-4 h-4"/>},
+  { label: 'Exam Studio', to: '/faculty/exam-studio', icon: <LayoutDashboard className="w-4 h-4" /> },
+  { label: 'Learner Register', to: '/faculty/learner-register', icon: <LayoutDashboard className="w-4 h-4" /> },
+  { label: 'Weekly Timetable', to: '/faculty/timetable', icon: <LayoutDashboard className="w-4 h-4" /> },
+  { label: 'My Leave Requests', to: '/faculty/faculty-leave', icon: <LayoutDashboard className="w-4 h-4" /> },
   { label: 'AI Knowledge Assistant', to: '/faculty/rag-assistant', icon: <LayoutDashboard className="w-4 h-4" /> },
-  { label: 'Dataset Analytics', to: '/faculty/dataset-analytics', icon: <LayoutDashboard className="w-4 h-4" /> },
+  { label: 'Engineering Dataset', to: '/faculty/dataset-analytics', icon: <LayoutDashboard className="w-4 h-4" /> },
   { label: 'Dashboard', to: '/faculty', icon: <LayoutDashboard className="w-4 h-4" /> },
   { label: 'My Subjects', to: '/faculty/subjects', icon: <BookMarked className="w-4 h-4" /> },
   { label: 'Manage Topics', to: '/faculty/topics', icon: <ListTree className="w-4 h-4" /> },

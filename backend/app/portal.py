@@ -47,7 +47,7 @@ def workspace(u=Depends(current_user),db=Depends(get_db)):
                 continue
             data['metrics'].append({'student_id':person['user_id'],'subject_id':sid,**metrics(db,person['user_id'],sid)})
     te=table('tests')
-    data['tests']=[t for t in records('tests') if (t['subject_id'],t['section_id']) in pairs and (u['role']!='STUDENT' or t['status']=='PUBLISHED')]
+    data['tests']=[t for t in records('tests') if (t['subject_id'],t['section_id']) in pairs and (u['role']!='STUDENT' or t['status'] in ('PUBLISHED','CLOSED'))]
     tq=table('test_questions')
     for t in data['tests']:
         totals=db.execute(select(func.count(),func.coalesce(func.sum(tq.c.marks),0)).where(tq.c.test_id==t['test_id'])).one()

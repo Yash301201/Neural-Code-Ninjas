@@ -1,3 +1,4 @@
+import json
 from contextlib import asynccontextmanager
 from datetime import datetime, timedelta, timezone
 from fastapi import FastAPI, Depends, HTTPException, Query
@@ -83,6 +84,7 @@ class Department(Input):
     department_name: str = Field(min_length=1,max_length=120)
     department_code: str = Field(min_length=1,max_length=20)
 class Course(Input):
+    program_level: Literal['UG','PG','UNCLASSIFIED'] | None = None
     department_id: int
     course_name: str = Field(min_length=1,max_length=120)
     course_code: str = Field(min_length=1,max_length=30)
@@ -119,6 +121,21 @@ class Event(Input):
         return self
 
 def register_catalog(name, schema, scope):
+    def linked(db,entity,ident):
+        refs={'subjects':[('faculty_subject_assignments','subject_id'),('tests','subject_id'),('assignments','subject_id'),('class_sessions','subject_id')],
+              'sections':[('student_enrollments','section_id'),('faculty_subject_assignments','section_id'),('tests','section_id'),('assignments','section_id'),('class_sessions','section_id')],
+              'topics':[('questions','topic_id'),('study_plan_items','topic_id'),('class_sessions','topic_id'),('teaching_topic_progress','topic_id')]}
+        return any(db.execute(select(list(table(t).primary_key)[0]).where(table(t).c[col]==ident).limit(1)).first() for t,col in refs.get(entity,[]) if t in metadata.tables)
+    def department_for(db,row):
+        if name=='departments':return row['department_id']
+        if name=='courses':return row['department_id']
+        if name in ['subjects','sections']:return one(db,'courses',row['course_id'])['department_id']
+        if name=='topics':return one(db,'courses',one(db,'subjects',row['subject_id'])['course_id'])['department_id']
+        return None
+    def record_audit(db,u,action,ident,before,after):
+        from .campus import audit
+        safe=lambda value:json.loads(json.dumps(value,default=str)) if value is not None else None
+        audit(db,u,action,name,ident,safe(before),safe(after),'Academic catalog change saved',ident if name=='departments' else department_for(db,after))
     def validate(db,u,data):
         if scope == 'subject':
             subject_access(db,u,data['subject_id'],write=True)
@@ -131,15 +148,49 @@ def register_catalog(name, schema, scope):
     def create(body, u=Depends(staff if scope else admin), db=Depends(get_db)):
         data=body.model_dump()
         validate(db,u,data)
-        return add(db,name,**data)
+        level=data.pop('program_level',None) if name=='courses' else None
+        result=add(db,name,**data)
+        if name=='courses':
+            db.execute(table('course_programs').insert().values(course_id=result['course_id'],program_level=level or 'UNCLASSIFIED'))
+        record_audit(db,u,'CATALOG_CREATED',result[list(table(name).primary_key)[0].name],None,data)
+        return result
     create.__annotations__['body']=schema
     create.__name__='create_'+name
     def edit(ident:int,body,u=Depends(staff if scope else admin),db=Depends(get_db)):
-        old=one(db,name,ident)
+        old=one(db,name,ident,True)
         validate(db,u,old)
         data=body.model_dump()
         validate(db,u,data)
-        return update(db,name,ident,**data)
+        level=data.pop('program_level',None) if name=='courses' else None
+        curriculum=None
+        if name=='subjects':
+            if data['course_id']!=old['course_id'] and linked(db,name,ident):raise HTTPException(409,'Subject has teaching or academic history; create a new subject instead of moving it')
+            if 'subject_curriculum' in metadata.tables:
+                ct=table('subject_curriculum');curriculum=db.execute(select(ct).where(ct.c.subject_id==ident)).mappings().first()
+                year=(data['semester']+1)//2
+                if year>(one(db,'courses',data['course_id'])['duration_years'] or 8):raise HTTPException(422,'Semester exceeds program duration')
+                if curriculum and year!=curriculum['study_year'] and linked(db,name,ident):raise HTTPException(409,'Subject year has teaching or academic history; create a new subject for the other year')
+        if name=='sections' and data['course_id']!=old['course_id'] and linked(db,name,ident):raise HTTPException(409,'Section has enrollment or academic history; create a new section instead')
+        if name=='topics' and data['subject_id']!=old['subject_id'] and linked(db,name,ident):raise HTTPException(409,'Topic has questions, progress or academic history; create a new topic instead')
+        if name=='courses':
+            max_year=0
+            if 'subject_curriculum' in metadata.tables:
+                ct,st=table('subject_curriculum'),table('subjects');max_year=db.scalar(select(func.max(ct.c.study_year)).join(st,st.c.subject_id==ct.c.subject_id).where(st.c.course_id==ident)) or 0
+            if 'section_study_years' in metadata.tables:
+                sy,sec=table('section_study_years'),table('sections');max_year=max(max_year,db.scalar(select(func.max(sy.c.study_year)).join(sec,sec.c.section_id==sy.c.section_id).where(sec.c.course_id==ident)) or 0)
+            if data['duration_years']<max_year:raise HTTPException(409,'Duration cannot exclude existing curriculum or cohort years')
+            if data['department_id']!=old['department_id']:
+                st,sec=table('subjects'),table('sections')
+                if db.execute(select(st.c.subject_id).where(st.c.course_id==ident).limit(1)).first() or db.execute(select(sec.c.section_id).where(sec.c.course_id==ident).limit(1)).first():raise HTTPException(409,'Course has subjects or sections; create a new course for another department')
+        result=update(db,name,ident,**data)
+        if curriculum:
+            ct=table('subject_curriculum');db.execute(ct.update().where(ct.c.subject_id==ident).values(study_year=(data['semester']+1)//2,semester=data['semester']))
+        if name=='courses'  and level is not None:
+            cp=table('course_programs')
+            if db.execute(select(cp.c.course_id).where(cp.c.course_id==ident)).first():db.execute(cp.update().where(cp.c.course_id==ident).values(program_level=level))
+            else:db.execute(cp.insert().values(course_id=ident,program_level=level))
+        record_audit(db,u,'CATALOG_UPDATED',ident,{k:old.get(k) for k in data},data)
+        return result
     edit.__annotations__['body']=schema
     edit.__name__='edit_'+name
     def listing(offset:int=Query(0,ge=0),limit:int=Query(50,ge=1,le=200),u=Depends(current_user),db=Depends(get_db)):
@@ -272,6 +323,10 @@ def start_attempt(ident:int,u=Depends(student),db=Depends(get_db)):
     active=next((x for x in previous if x['status']=='IN_PROGRESS'),None)
     if active:
         if t['duration_minutes'] and datetime.now(timezone.utc).replace(tzinfo=None) > active['started_at'] + timedelta(minutes=t['duration_minutes']):
+            if 'exam_schedules' in metadata.tables:
+                scheduled = table('exam_schedules')
+                if db.scalar(select(scheduled.c.test_id).where(scheduled.c.test_id==ident)):
+                    return active
             update(db,'test_attempts',active['attempt_id'],status='CANCELLED')
         else:
             return active
@@ -407,12 +462,22 @@ from .dataset_analytics import router as dataset_router
 app.include_router(dataset_router)
 from .rag import router as rag_router
 app.include_router(rag_router)
+from .campus import router as campus_router
+app.include_router(campus_router)
+from .faculty_ops import router as faculty_ops_router
+app.include_router(faculty_ops_router)
+from .development import router as development_router
+app.include_router(development_router)
+from .college_data import router as college_router
+app.include_router(college_router)
+from .academics import router as academics_router
+app.include_router(academics_router)
 from fastapi import APIRouter
 from fastapi.routing import APIRoute
 api_aliases=APIRouter()
 api_aliases.routes.extend(route for route in app.routes if isinstance(route,APIRoute))
 app.include_router(api_aliases,prefix='/api')
-for linked_router in (portal_router, ui_router, analytics_router, ai_router, dataset_router, rag_router):
+for linked_router in (portal_router, ui_router, analytics_router, ai_router, dataset_router, rag_router, campus_router, faculty_ops_router, development_router, college_router, academics_router):
     app.include_router(linked_router,prefix='/api')
 
 from pathlib import Path

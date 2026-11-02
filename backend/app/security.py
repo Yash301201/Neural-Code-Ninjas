@@ -46,6 +46,11 @@ def subject_access(db, u, subject_id, section_id=None, write=False):
     course = one(db, 'courses', subject['course_id'])
     if section_id is not None and one(db, 'sections', section_id)['course_id'] != subject['course_id']:
         raise HTTPException(422, 'Section and subject belong to different courses')
+    from .academics import year_maps
+    if 'academic_year_maps' not in db.info:db.info['academic_year_maps']=year_maps(db)
+    cohort_years,curricula=db.info['academic_year_maps'];expected=curricula.get(subject_id,{}).get('study_year')
+    if expected is not None and section_id is not None and cohort_years.get(section_id)!=expected:
+        raise HTTPException(422,'Subject and section belong to different study years; classify the cohort first')
     role = u['role']
     if role == 'ADMIN':
         return
@@ -63,6 +68,8 @@ def subject_access(db, u, subject_id, section_id=None, write=False):
         stmt = select(e).join(s, e.c.section_id == s.c.section_id).where(e.c.student_id == u['user_id'], e.c.status == 'ACTIVE', s.c.course_id == subject['course_id'])
         if section_id is not None:
             stmt = stmt.where(e.c.section_id == section_id)
+        if expected is not None:
+            stmt=stmt.where(e.c.section_id.in_([sid for sid,year in cohort_years.items() if year==expected]))
         if db.execute(stmt).first():
             return
     raise HTTPException(403, 'Academic scope not permitted')

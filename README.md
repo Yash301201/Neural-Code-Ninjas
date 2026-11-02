@@ -2,14 +2,13 @@
 
 # LearnPath AI
 
-**Academic assessment, learning analytics, and evidence-grounded AI for engineering colleges.**
+**Academic management, assessment, and learning analytics for engineering colleges.**
 
 A role-based workspace connecting **students, faculty, HODs, and administrators** through React, FastAPI, and MySQL.
 
 [![React](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react&logoColor=white)](frontend-react/package.json)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Python%203.12%2B-009688?style=flat-square&logo=fastapi&logoColor=white)](backend/requirements.txt)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0.16%2B-4479A1?style=flat-square&logo=mysql&logoColor=white)](backend/db/001_schema.sql)
-[![RAG](https://img.shields.io/badge/RAG-BM25%20%2B%20Groq-6D28D9?style=flat-square)](backend/app/rag.py)
 
 **[Quick start](#quick-start)** · **[Architecture](#architecture)** · **[Repository](#repository)** · **[Dataset & RAG](#dataset--rag)** · **[Documentation](#documentation)**
 
@@ -22,10 +21,9 @@ LearnPath AI brings assessment, classroom attendance, study planning, and learni
 - **Academic workflows** — question banks, timed tests, assignments, reviewed grading, attendance, and study plans.
 - **Role-aware access** — institution administration, department oversight, assigned teaching scopes, and individual student records.
 - **Interactive analytics** — heatmaps, line/area graphs, bar charts, outcome distributions, cohort filters, learner drill-downs, and CSV exports.
-- **Grounded AI assistance** — MySQL-backed retrieval, inspectable citations, optional Groq generation, and saved conversations.
 - **Persistent records** — academic data, research aggregates, and assistant history live in MySQL; schema and reporting SQL are included in the repository.
 
-Risk indicators and study-plan priorities are transparent heuristics. They are not validated predictive models. Generated questions and grading suggestions require faculty review.
+Risk indicators and study-plan priorities are transparent heuristics. They are not validated predictive models. GenAI generation is planned and is not a completed feature.
 
 ## Architecture
 
@@ -35,14 +33,9 @@ flowchart LR
     WEB -->|"HTTPS in deployment / HTTP on localhost<br/>Bearer JWT · JSON"| API["FastAPI<br/>Authentication and academic scope"]
     API --> ACAD["Academic workflows<br/>Tests · Assignments · Attendance"]
     API --> ANA["Analytics<br/>College metrics · OULAD research"]
-    API --> RAG["RAG assistant<br/>BM25 retrieval · Citation checks"]
-    API --> GEN["GenAI tools<br/>Question drafts · Explanations · Feedback"]
     ACAD --> SQL["SQLAlchemy + PyMySQL"]
     ANA --> SQL
-    RAG --> SQL
     SQL --> DB[("MySQL<br/>learnpath_ai")]
-    RAG -->|"Question + retrieved public evidence"| LLM["Groq API<br/>Optional model inference"]
-    GEN -->|"Requested learning content"| LLM
     DATA["Public Kaggle OULAD CSV archive"] --> IMPORT["Python importer<br/>Validate · Aggregate · Reconcile"]
     IMPORT --> DB
 ```
@@ -174,42 +167,9 @@ The importer streams the archive, avoids duplicate CSV copies, aggregates weekly
 
 OULAD is historical UK data from 2013–2014, attributed to **Kuzilek, Hlosta, and Zdrahal**, under **CC BY 4.0**. See the [official dataset documentation](https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+dataset). Andhra/Telugu display names are fictional aliases. VLE clicks measure online activity, not classroom attendance.
 
-### Grounded assistant
+### GenAI integration status
 
-```mermaid
-sequenceDiagram
-    actor User
-    participant UI as React assistant
-    participant API as FastAPI /api/rag
-    participant DB as MySQL
-    participant LLM as Groq
-    User->>UI: Ask a question and optionally select a cohort
-    UI->>API: Authenticated question
-    API->>DB: Read public knowledge chunks
-    DB-->>API: Source text and provenance
-    Note over API: BM25 ranks relevant chunks
-    alt API key configured and generation requested
-        API->>LLM: Question + retrieved evidence
-        LLM-->>API: Answer with source labels
-        Note over API: Validate citation labels; fall back on failure
-    else Evidence-only mode or missing key
-        Note over API: Return explicitly labeled source excerpts
-    end
-    API->>DB: Save owner-scoped conversation and evidence snapshot
-    API-->>UI: Answer mode, answer, citations
-```
-
-The reference index contains **905 chunks** covering public research aggregates and curated project guidance. Retrieval uses **BM25 lexical ranking**, not embeddings or a vector database. The assistant does not retrieve private grades, credential files, password hashes, or JWT keys, and cannot execute database writes through the model.
-
-To enable Groq generation, configure these existing entries privately in `backend/.env`, then restart the backend:
-
-```dotenv
-LLM_API_KEY=your_groq_api_key
-LLM_BASE_URL=https://api.groq.com/openai/v1
-LLM_MODEL=llama-3.3-70b-versatile
-```
-
-Without a working key, retrieval remains available and is clearly distinguished from generated answers. After importing a new dataset batch, refresh the index with `scripts.setup_rag` or the admin refresh button. Stored conversations retain their original evidence snapshots. Each question is retrieved independently; saved history is not conversational model memory.
+GenAI integration is pending. Provider integration code and assistant screens are included as scaffolding, but live model generation has not been completed or verified. It is not presented as a completed showcase feature. Academic management, attendance, assignments, exams and analytics use FastAPI and MySQL independently.
 
 ## Database & security
 
@@ -237,16 +197,30 @@ npm run build
 
 # Backend, from backend/:
 # Set TEST_DATABASE_URL to a disposable MySQL database ending in _test.
-.\.venv\Scripts\python.exe -m pytest tests -q
+.\.venv\Scripts\python.exe -m scripts.check_backend
 ```
 
 The test suite recreates its target schema and refuses databases whose names do not end in `_test`. Never point tests at application data.
 
-Recorded local verification: **16 backend tests passed** and the TypeScript/Vite production build passed. Coverage includes academic permissions, assessment workflows, dataset totals, RAG fallback, citation-label validation, and conversation ownership. Live Groq generation requires a configured key and has not been verified; Docker runtime and college-scale load testing have not been verified.
+Recorded local verification: **31 backend tests passed** and the TypeScript/Vite production build passed. Coverage includes academic permissions, assessment workflows, dataset totals, RAG fallback, citation-label validation, and conversation ownership. Live Groq generation requires a configured key and has not been verified; Docker runtime and college-scale load testing have not been verified.
 
 Docker build and Compose definitions are supplied in [`backend/`](backend/). See the backend setup guide for required environment variables. Container initialization scripts run only for a fresh MySQL volume.
 
 ## Documentation
+
+- [Every admin feature: FastAPI, MySQL persistence and verification queries](backend/docs/admin-feature-persistence.md)
+
+- [Year-wise UG/PG curricula, student cohorts and faculty topic coverage](backend/docs/year-wise-curriculum.md)
+
+- [Academic Data Centre and expanded prefilled courses](backend/docs/academic-data-centre.md)
+
+- [Engineering-college dataset: named records, provenance and exports](backend/docs/engineering-dataset.md)
+
+- [Single working copy, duplicate cleanup and OULAD code meanings](backend/docs/project-cleanup.md)
+
+- [Four-role demo, OULAD references, staff development and evaluator walkthrough](backend/docs/showcase-walkthrough.md)
+
+- [Faculty UG/PG, submission tracking, timetable and leave workflows](backend/docs/faculty-operations.md)
 
 - [Architecture and folder responsibilities](backend/docs/architecture.md)
 - [Backend setup and API workflows](backend/README.md)

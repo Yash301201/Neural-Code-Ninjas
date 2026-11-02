@@ -19,7 +19,7 @@ def main():
     if url.get_backend_name()!='mysql' or url.database!='learnpath_ai':
         raise SystemExit('Use a MySQL URL with database learnpath_ai')
     engine=create_engine(url.set(database=None) if args.create_database else url)
-    files=['001_schema.sql','003_calendar.sql','005_oulad_analytics.sql','007_rag_assistant.sql']
+    files=['001_schema.sql','003_calendar.sql','005_oulad_analytics.sql','007_rag_assistant.sql','009_campus_workflows.sql','011_faculty_operations.sql','013_showcase_development.sql','015_year_curriculum.sql']
     if args.sample_data:
         files.append('002_sample_data.sql')
     with engine.connect() as c:

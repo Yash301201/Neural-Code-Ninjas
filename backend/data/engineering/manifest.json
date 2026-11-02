@@ -1,0 +1,201 @@
+{
+  "name": "LearnPath Academic College Dataset",
+  "provenance": "Locally generated fictional demo identities and academic records, exported from MySQL. Not a Kaggle/OULAD research dataset.",
+  "generated_at": "2026-11-01T14:23:54.675991+00:00",
+  "passwords_included": false,
+  "counts": {
+    "students": 232,
+    "faculty": 11,
+    "hods": 5,
+    "admins": 1,
+    "staff_evidence": 85,
+    "enrollments": 232,
+    "curriculum": 216,
+    "topics": 648,
+    "topic_coverage": 1314,
+    "subjects": 216,
+    "teaching_assignments": 438,
+    "student_subject_performance": 1474
+  },
+  "files": {
+    "students.csv": {
+      "sha256": "b93eb4f628cc4fe7eb1737b0f40ca0fe12c288b576beacd23837e42fa1e3e433",
+      "columns": [
+        "user_id",
+        "full_name",
+        "email",
+        "role",
+        "department_id",
+        "registration_number",
+        "is_active"
+      ]
+    },
+    "faculty.csv": {
+      "sha256": "040d3c837a0d25e8d7065ee84428cc228a6129d9ed57204f5cf2cf714de7fe6e",
+      "columns": [
+        "user_id",
+        "full_name",
+        "email",
+        "role",
+        "department_id",
+        "registration_number",
+        "is_active",
+        "teaching_mappings"
+      ]
+    },
+    "hods.csv": {
+      "sha256": "743042af67528f2077547db8209bda47b9b40a8aed6f3a0b1541441dcd376e29",
+      "columns": [
+        "user_id",
+        "full_name",
+        "email",
+        "role",
+        "department_id",
+        "registration_number",
+        "is_active",
+        "managed_students",
+        "managed_faculty"
+      ]
+    },
+    "admins.csv": {
+      "sha256": "603eea516d39220059722771608eca955499fac05e86f1cee58265bcdc5c5016",
+      "columns": [
+        "user_id",
+        "full_name",
+        "email",
+        "role",
+        "is_active"
+      ]
+    },
+    "staff_evidence.csv": {
+      "sha256": "4f45abb4ada0c9077c2d07f332c30529de61c2e94038d2561d4eb82d68aa26c8",
+      "columns": [
+        "evidence_id",
+        "owner_id",
+        "category",
+        "title",
+        "details",
+        "reference_url",
+        "skill_level",
+        "status",
+        "review_note",
+        "reviewed_by",
+        "updated_at",
+        "created_at"
+      ]
+    },
+    "enrollments.csv": {
+      "sha256": "4a157e4f399c967b616e7c9ecbcf774c62d7c651a48941abd6b27d06ee295f38",
+      "columns": [
+        "student_id",
+        "section_id",
+        "section_name",
+        "academic_year",
+        "study_year",
+        "course_id",
+        "course_name",
+        "program_level",
+        "department_id",
+        "department_name"
+      ]
+    },
+    "curriculum.csv": {
+      "sha256": "eb2ab0bc0924b8d6dcc890c567bacdf8e93940726b41ac0df053cf7b41637201",
+      "columns": [
+        "subject_id",
+        "course_id",
+        "subject_name",
+        "subject_code",
+        "semester",
+        "created_at",
+        "study_year",
+        "course_name"
+      ]
+    },
+    "topics.csv": {
+      "sha256": "883ce2e33cf838e70aa789b40a104557531e12b18d07b6c70517d15a2925d856",
+      "columns": [
+        "topic_id",
+        "subject_id",
+        "topic_name",
+        "description",
+        "created_at"
+      ]
+    },
+    "topic_coverage.csv": {
+      "sha256": "99175f5540e9dcd7985ae540b58f8bac5249e8c9d56d8113043216a068a94b67",
+      "columns": [
+        "faculty_assignment_id",
+        "faculty_id",
+        "faculty_name",
+        "subject_id",
+        "section_id",
+        "topic_id",
+        "topic_name",
+        "status"
+      ]
+    },
+    "subjects.csv": {
+      "sha256": "570f4cbab0303a39e916459795f5cbe7b9184f9ad5a92996758ece41f3d6aabe",
+      "columns": [
+        "subject_id",
+        "subject_name",
+        "subject_code",
+        "study_year",
+        "semester",
+        "course_id",
+        "course_name",
+        "program_level",
+        "department_id",
+        "department_name"
+      ]
+    },
+    "teaching_assignments.csv": {
+      "sha256": "021600f421eac1ed4caffe80f196aa4560f774e36a343bf9fa26c174639433ed",
+      "columns": [
+        "faculty_id",
+        "faculty_name",
+        "subject_id",
+        "section_id",
+        "study_year",
+        "semester",
+        "course_id",
+        "program_level",
+        "hod_ids"
+      ]
+    },
+    "student_subject_performance.csv": {
+      "sha256": "0acbb9ee7a2e384d73aadfaa0c577d390cca621ea21bf18ffca84af5bd200713",
+      "columns": [
+        "student_id",
+        "section_id",
+        "section_name",
+        "academic_year",
+        "subject_id",
+        "subject_name",
+        "subject_code",
+        "semester",
+        "course_id",
+        "course_name",
+        "department_id",
+        "department_name",
+        "study_year",
+        "student_name",
+        "student_email",
+        "registration_number",
+        "program_level",
+        "synthetic",
+        "exam_attempts",
+        "exam_percentage",
+        "classes_recorded",
+        "classes_attended",
+        "classes_absent",
+        "attendance_percentage",
+        "assignments_total",
+        "assignments_submitted",
+        "faculty_ids",
+        "hod_ids"
+      ]
+    }
+  }
+}

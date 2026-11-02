@@ -1,0 +1,1315 @@
+﻿faculty_assignment_id,faculty_id,faculty_name,subject_id,section_id,topic_id,topic_name,status
+5,11,Dr. K. Sravani,7,2,6,Relational Model and SQL,COMPLETED
+5,11,Dr. K. Sravani,7,2,7,Transactions and Indexing,IN_PROGRESS
+5,11,Dr. K. Sravani,7,2,60,Relational modelling and SQL,PLANNED
+6,12,Prof. V. Ramana,8,2,8,Network Protocols,PLANNED
+6,12,Prof. V. Ramana,8,2,9,Addressing and Routing,PLANNED
+6,12,Prof. V. Ramana,8,2,61,Network layers and protocols,PLANNED
+7,13,Dr. P. Ravi Teja,9,3,10,Relational Model and SQL,PLANNED
+7,13,Dr. P. Ravi Teja,9,3,11,Transactions and Indexing,PLANNED
+7,13,Dr. P. Ravi Teja,9,3,110,Relational modelling and SQL,PLANNED
+8,16,Dr. N. Harika,10,3,12,Network Protocols,PLANNED
+8,16,Dr. N. Harika,10,3,13,Addressing and Routing,PLANNED
+8,16,Dr. N. Harika,10,3,111,Network layers and protocols,PLANNED
+9,17,Prof. M. Srinivas,11,4,14,Relational Model and SQL,PLANNED
+9,17,Prof. M. Srinivas,11,4,15,Transactions and Indexing,PLANNED
+9,17,Prof. M. Srinivas,11,4,151,Relational modelling and SQL,PLANNED
+10,18,Dr. G. Lakshmi Priya,12,4,16,Network Protocols,PLANNED
+10,18,Dr. G. Lakshmi Priya,12,4,17,Addressing and Routing,PLANNED
+10,18,Dr. G. Lakshmi Priya,12,4,152,Network layers and protocols,PLANNED
+11,19,Prof. D. Pavan Kumar,7,2,6,Relational Model and SQL,PLANNED
+11,19,Prof. D. Pavan Kumar,7,2,7,Transactions and Indexing,PLANNED
+11,19,Prof. D. Pavan Kumar,7,2,60,Relational modelling and SQL,PLANNED
+24,11,Dr. K. Sravani,25,11,30,Python Programming Fundamentals,COMPLETED
+24,11,Dr. K. Sravani,25,11,210,Language fundamentals and control flow,IN_PROGRESS
+24,11,Dr. K. Sravani,25,11,211,Functions and data structures,PLANNED
+25,11,Dr. K. Sravani,26,11,31,Machine Learning Fundamentals,COMPLETED
+25,11,Dr. K. Sravani,26,11,212,"Training, validation and evaluation",IN_PROGRESS
+25,11,Dr. K. Sravani,26,11,213,Regression and classification,PLANNED
+26,11,Dr. K. Sravani,27,12,32,Data Structures Fundamentals,COMPLETED
+26,11,Dr. K. Sravani,27,12,280,"Arrays, lists and stacks",IN_PROGRESS
+26,11,Dr. K. Sravani,27,12,281,Trees and graph traversal,PLANNED
+27,11,Dr. K. Sravani,28,12,33,Data Analytics Fundamentals,COMPLETED
+27,11,Dr. K. Sravani,28,12,282,Data Analytics principles,IN_PROGRESS
+27,11,Dr. K. Sravani,28,12,283,Data Analytics analytical methods,PLANNED
+28,159,Dr. B. Ravi Kumar,29,13,34,Digital Electronics Fundamentals,COMPLETED
+28,159,Dr. B. Ravi Kumar,29,13,350,Digital Electronics principles,IN_PROGRESS
+28,159,Dr. B. Ravi Kumar,29,13,351,Digital Electronics analytical methods,PLANNED
+29,159,Dr. B. Ravi Kumar,30,13,35,Communication Systems Fundamentals,COMPLETED
+29,159,Dr. B. Ravi Kumar,30,13,352,Communication Systems principles,IN_PROGRESS
+29,159,Dr. B. Ravi Kumar,30,13,353,Communication Systems analytical methods,PLANNED
+30,171,Dr. C. Suresh,31,14,36,Electrical Circuits Fundamentals,COMPLETED
+30,171,Dr. C. Suresh,31,14,420,Circuit laws and network theorems,IN_PROGRESS
+30,171,Dr. C. Suresh,31,14,421,AC and transient analysis,PLANNED
+31,171,Dr. C. Suresh,32,14,37,Control Systems Fundamentals,COMPLETED
+31,171,Dr. C. Suresh,32,14,422,Control Systems principles,IN_PROGRESS
+31,171,Dr. C. Suresh,32,14,423,Control Systems analytical methods,PLANNED
+32,183,Dr. K. Madhavi,33,15,38,Engineering Mechanics Fundamentals,COMPLETED
+32,183,Dr. K. Madhavi,33,15,490,Engineering Mechanics principles,IN_PROGRESS
+32,183,Dr. K. Madhavi,33,15,491,Engineering Mechanics analytical methods,PLANNED
+33,183,Dr. K. Madhavi,34,15,39,Thermodynamics Fundamentals,COMPLETED
+33,183,Dr. K. Madhavi,34,15,492,Energy and the first law,IN_PROGRESS
+33,183,Dr. K. Madhavi,34,15,493,Entropy and the second law,PLANNED
+34,195,Dr. P. Satish,35,16,40,Structural Analysis Fundamentals,COMPLETED
+34,195,Dr. P. Satish,35,16,560,Structural Analysis principles,IN_PROGRESS
+34,195,Dr. P. Satish,35,16,561,Structural Analysis analytical methods,PLANNED
+35,195,Dr. P. Satish,36,16,41,Surveying Fundamentals,COMPLETED
+35,195,Dr. P. Satish,36,16,562,Levelling and angle measurement,IN_PROGRESS
+35,195,Dr. P. Satish,36,16,563,Traversing and contouring,PLANNED
+36,11,Dr. K. Sravani,37,17,42,Calculus and linear algebra,COMPLETED
+36,11,Dr. K. Sravani,37,17,43,Differential equations,IN_PROGRESS
+36,11,Dr. K. Sravani,37,17,44,Engineering numerical applications,PLANNED
+37,11,Dr. K. Sravani,38,17,45,Engineering Physics principles,COMPLETED
+37,11,Dr. K. Sravani,38,17,46,Engineering Physics analytical methods,IN_PROGRESS
+37,11,Dr. K. Sravani,38,17,47,Engineering Physics practical applications,PLANNED
+38,11,Dr. K. Sravani,39,17,48,Language fundamentals and control flow,COMPLETED
+38,11,Dr. K. Sravani,39,17,49,Functions and data structures,IN_PROGRESS
+38,11,Dr. K. Sravani,39,17,50,Testing and problem solving,PLANNED
+39,11,Dr. K. Sravani,40,17,51,Engineering Graphics principles,COMPLETED
+39,11,Dr. K. Sravani,40,17,52,Engineering Graphics analytical methods,IN_PROGRESS
+39,11,Dr. K. Sravani,40,17,53,Engineering Graphics practical applications,PLANNED
+40,11,Dr. K. Sravani,41,17,54,Basic Electrical Engineering principles,COMPLETED
+40,11,Dr. K. Sravani,41,17,55,Basic Electrical Engineering analytical methods,IN_PROGRESS
+40,11,Dr. K. Sravani,41,17,56,Basic Electrical Engineering practical applications,PLANNED
+41,11,Dr. K. Sravani,42,17,57,Technical Communication principles,COMPLETED
+41,11,Dr. K. Sravani,42,17,58,Technical Communication analytical methods,IN_PROGRESS
+41,11,Dr. K. Sravani,42,17,59,Technical Communication practical applications,PLANNED
+42,11,Dr. K. Sravani,37,18,42,Calculus and linear algebra,COMPLETED
+42,11,Dr. K. Sravani,37,18,43,Differential equations,IN_PROGRESS
+42,11,Dr. K. Sravani,37,18,44,Engineering numerical applications,PLANNED
+43,11,Dr. K. Sravani,38,18,45,Engineering Physics principles,COMPLETED
+43,11,Dr. K. Sravani,38,18,46,Engineering Physics analytical methods,IN_PROGRESS
+43,11,Dr. K. Sravani,38,18,47,Engineering Physics practical applications,PLANNED
+44,11,Dr. K. Sravani,39,18,48,Language fundamentals and control flow,COMPLETED
+44,11,Dr. K. Sravani,39,18,49,Functions and data structures,IN_PROGRESS
+44,11,Dr. K. Sravani,39,18,50,Testing and problem solving,PLANNED
+45,11,Dr. K. Sravani,40,18,51,Engineering Graphics principles,COMPLETED
+45,11,Dr. K. Sravani,40,18,52,Engineering Graphics analytical methods,IN_PROGRESS
+45,11,Dr. K. Sravani,40,18,53,Engineering Graphics practical applications,PLANNED
+46,11,Dr. K. Sravani,41,18,54,Basic Electrical Engineering principles,COMPLETED
+46,11,Dr. K. Sravani,41,18,55,Basic Electrical Engineering analytical methods,IN_PROGRESS
+46,11,Dr. K. Sravani,41,18,56,Basic Electrical Engineering practical applications,PLANNED
+47,11,Dr. K. Sravani,42,18,57,Technical Communication principles,COMPLETED
+47,11,Dr. K. Sravani,42,18,58,Technical Communication analytical methods,IN_PROGRESS
+47,11,Dr. K. Sravani,42,18,59,Technical Communication practical applications,PLANNED
+48,11,Dr. K. Sravani,8,2,8,Network Protocols,COMPLETED
+48,11,Dr. K. Sravani,8,2,9,Addressing and Routing,IN_PROGRESS
+48,11,Dr. K. Sravani,8,2,61,Network layers and protocols,PLANNED
+49,11,Dr. K. Sravani,43,2,62,Language fundamentals and control flow,COMPLETED
+49,11,Dr. K. Sravani,43,2,63,Functions and data structures,IN_PROGRESS
+49,11,Dr. K. Sravani,43,2,64,Testing and problem solving,PLANNED
+50,11,Dr. K. Sravani,44,2,65,Calculus and linear algebra,COMPLETED
+50,11,Dr. K. Sravani,44,2,66,Differential equations,IN_PROGRESS
+50,11,Dr. K. Sravani,44,2,67,Engineering numerical applications,PLANNED
+51,11,Dr. K. Sravani,45,2,68,Digital Logic principles,COMPLETED
+51,11,Dr. K. Sravani,45,2,69,Digital Logic analytical methods,IN_PROGRESS
+51,11,Dr. K. Sravani,45,2,70,Digital Logic practical applications,PLANNED
+52,11,Dr. K. Sravani,46,2,71,Computer Organization principles,COMPLETED
+52,11,Dr. K. Sravani,46,2,72,Computer Organization analytical methods,IN_PROGRESS
+52,11,Dr. K. Sravani,46,2,73,Computer Organization practical applications,PLANNED
+53,11,Dr. K. Sravani,7,19,6,Relational Model and SQL,COMPLETED
+53,11,Dr. K. Sravani,7,19,7,Transactions and Indexing,IN_PROGRESS
+53,11,Dr. K. Sravani,7,19,60,Relational modelling and SQL,PLANNED
+54,11,Dr. K. Sravani,8,19,8,Network Protocols,COMPLETED
+54,11,Dr. K. Sravani,8,19,9,Addressing and Routing,IN_PROGRESS
+54,11,Dr. K. Sravani,8,19,61,Network layers and protocols,PLANNED
+55,11,Dr. K. Sravani,43,19,62,Language fundamentals and control flow,COMPLETED
+55,11,Dr. K. Sravani,43,19,63,Functions and data structures,IN_PROGRESS
+55,11,Dr. K. Sravani,43,19,64,Testing and problem solving,PLANNED
+56,11,Dr. K. Sravani,44,19,65,Calculus and linear algebra,COMPLETED
+56,11,Dr. K. Sravani,44,19,66,Differential equations,IN_PROGRESS
+56,11,Dr. K. Sravani,44,19,67,Engineering numerical applications,PLANNED
+57,11,Dr. K. Sravani,45,19,68,Digital Logic principles,COMPLETED
+57,11,Dr. K. Sravani,45,19,69,Digital Logic analytical methods,IN_PROGRESS
+57,11,Dr. K. Sravani,45,19,70,Digital Logic practical applications,PLANNED
+58,11,Dr. K. Sravani,46,19,71,Computer Organization principles,COMPLETED
+58,11,Dr. K. Sravani,46,19,72,Computer Organization analytical methods,IN_PROGRESS
+58,11,Dr. K. Sravani,46,19,73,Computer Organization practical applications,PLANNED
+59,11,Dr. K. Sravani,47,20,74,Numerical Methods principles,COMPLETED
+59,11,Dr. K. Sravani,47,20,75,Numerical Methods analytical methods,IN_PROGRESS
+59,11,Dr. K. Sravani,47,20,76,Numerical Methods practical applications,PLANNED
+60,11,Dr. K. Sravani,48,20,77,Operating Systems principles,COMPLETED
+60,11,Dr. K. Sravani,48,20,78,Operating Systems analytical methods,IN_PROGRESS
+60,11,Dr. K. Sravani,48,20,79,Operating Systems practical applications,PLANNED
+61,11,Dr. K. Sravani,49,20,80,Software Engineering principles,COMPLETED
+61,11,Dr. K. Sravani,49,20,81,Software Engineering analytical methods,IN_PROGRESS
+61,11,Dr. K. Sravani,49,20,82,Software Engineering practical applications,PLANNED
+62,11,Dr. K. Sravani,50,20,83,Design and Analysis of Algorithms principles,COMPLETED
+62,11,Dr. K. Sravani,50,20,84,Design and Analysis of Algorithms analytical methods,IN_PROGRESS
+62,11,Dr. K. Sravani,50,20,85,Design and Analysis of Algorithms practical applications,PLANNED
+63,11,Dr. K. Sravani,51,20,86,Theory of Computation principles,COMPLETED
+63,11,Dr. K. Sravani,51,20,87,Theory of Computation analytical methods,IN_PROGRESS
+63,11,Dr. K. Sravani,51,20,88,Theory of Computation practical applications,PLANNED
+64,11,Dr. K. Sravani,52,20,89,Microprocessors principles,COMPLETED
+64,11,Dr. K. Sravani,52,20,90,Microprocessors analytical methods,IN_PROGRESS
+64,11,Dr. K. Sravani,52,20,91,Microprocessors practical applications,PLANNED
+65,11,Dr. K. Sravani,47,21,74,Numerical Methods principles,COMPLETED
+65,11,Dr. K. Sravani,47,21,75,Numerical Methods analytical methods,IN_PROGRESS
+65,11,Dr. K. Sravani,47,21,76,Numerical Methods practical applications,PLANNED
+66,11,Dr. K. Sravani,48,21,77,Operating Systems principles,COMPLETED
+66,11,Dr. K. Sravani,48,21,78,Operating Systems analytical methods,IN_PROGRESS
+66,11,Dr. K. Sravani,48,21,79,Operating Systems practical applications,PLANNED
+67,11,Dr. K. Sravani,49,21,80,Software Engineering principles,COMPLETED
+67,11,Dr. K. Sravani,49,21,81,Software Engineering analytical methods,IN_PROGRESS
+67,11,Dr. K. Sravani,49,21,82,Software Engineering practical applications,PLANNED
+68,11,Dr. K. Sravani,50,21,83,Design and Analysis of Algorithms principles,COMPLETED
+68,11,Dr. K. Sravani,50,21,84,Design and Analysis of Algorithms analytical methods,IN_PROGRESS
+68,11,Dr. K. Sravani,50,21,85,Design and Analysis of Algorithms practical applications,PLANNED
+69,11,Dr. K. Sravani,51,21,86,Theory of Computation principles,COMPLETED
+69,11,Dr. K. Sravani,51,21,87,Theory of Computation analytical methods,IN_PROGRESS
+69,11,Dr. K. Sravani,51,21,88,Theory of Computation practical applications,PLANNED
+70,11,Dr. K. Sravani,52,21,89,Microprocessors principles,COMPLETED
+70,11,Dr. K. Sravani,52,21,90,Microprocessors analytical methods,IN_PROGRESS
+70,11,Dr. K. Sravani,52,21,91,Microprocessors practical applications,PLANNED
+71,11,Dr. K. Sravani,53,22,92,Web Technologies principles,COMPLETED
+71,11,Dr. K. Sravani,53,22,93,Web Technologies analytical methods,IN_PROGRESS
+71,11,Dr. K. Sravani,53,22,94,Web Technologies practical applications,PLANNED
+72,11,Dr. K. Sravani,54,22,95,"Training, validation and evaluation",COMPLETED
+72,11,Dr. K. Sravani,54,22,96,Regression and classification,IN_PROGRESS
+72,11,Dr. K. Sravani,54,22,97,Model limitations and applications,PLANNED
+73,11,Dr. K. Sravani,55,22,98,Cloud Computing principles,COMPLETED
+73,11,Dr. K. Sravani,55,22,99,Cloud Computing analytical methods,IN_PROGRESS
+73,11,Dr. K. Sravani,55,22,100,Cloud Computing practical applications,PLANNED
+74,11,Dr. K. Sravani,56,22,101,Cyber Security principles,COMPLETED
+74,11,Dr. K. Sravani,56,22,102,Cyber Security analytical methods,IN_PROGRESS
+74,11,Dr. K. Sravani,56,22,103,Cyber Security practical applications,PLANNED
+75,11,Dr. K. Sravani,57,22,104,Distributed Systems principles,COMPLETED
+75,11,Dr. K. Sravani,57,22,105,Distributed Systems analytical methods,IN_PROGRESS
+75,11,Dr. K. Sravani,57,22,106,Distributed Systems practical applications,PLANNED
+76,11,Dr. K. Sravani,58,22,107,Major Project I principles,COMPLETED
+76,11,Dr. K. Sravani,58,22,108,Major Project I analytical methods,IN_PROGRESS
+76,11,Dr. K. Sravani,58,22,109,Major Project I practical applications,PLANNED
+77,11,Dr. K. Sravani,53,23,92,Web Technologies principles,COMPLETED
+77,11,Dr. K. Sravani,53,23,93,Web Technologies analytical methods,IN_PROGRESS
+77,11,Dr. K. Sravani,53,23,94,Web Technologies practical applications,PLANNED
+78,11,Dr. K. Sravani,54,23,95,"Training, validation and evaluation",COMPLETED
+78,11,Dr. K. Sravani,54,23,96,Regression and classification,IN_PROGRESS
+78,11,Dr. K. Sravani,54,23,97,Model limitations and applications,PLANNED
+79,11,Dr. K. Sravani,55,23,98,Cloud Computing principles,COMPLETED
+79,11,Dr. K. Sravani,55,23,99,Cloud Computing analytical methods,IN_PROGRESS
+79,11,Dr. K. Sravani,55,23,100,Cloud Computing practical applications,PLANNED
+80,11,Dr. K. Sravani,56,23,101,Cyber Security principles,COMPLETED
+80,11,Dr. K. Sravani,56,23,102,Cyber Security analytical methods,IN_PROGRESS
+80,11,Dr. K. Sravani,56,23,103,Cyber Security practical applications,PLANNED
+81,11,Dr. K. Sravani,57,23,104,Distributed Systems principles,COMPLETED
+81,11,Dr. K. Sravani,57,23,105,Distributed Systems analytical methods,IN_PROGRESS
+81,11,Dr. K. Sravani,57,23,106,Distributed Systems practical applications,PLANNED
+82,11,Dr. K. Sravani,58,23,107,Major Project I principles,COMPLETED
+82,11,Dr. K. Sravani,58,23,108,Major Project I analytical methods,IN_PROGRESS
+82,11,Dr. K. Sravani,58,23,109,Major Project I practical applications,PLANNED
+83,11,Dr. K. Sravani,9,3,10,Relational Model and SQL,COMPLETED
+83,11,Dr. K. Sravani,9,3,11,Transactions and Indexing,IN_PROGRESS
+83,11,Dr. K. Sravani,9,3,110,Relational modelling and SQL,PLANNED
+84,11,Dr. K. Sravani,10,3,12,Network Protocols,COMPLETED
+84,11,Dr. K. Sravani,10,3,13,Addressing and Routing,IN_PROGRESS
+84,11,Dr. K. Sravani,10,3,111,Network layers and protocols,PLANNED
+85,11,Dr. K. Sravani,59,3,112,Advanced Algorithms principles,COMPLETED
+85,11,Dr. K. Sravani,59,3,113,Advanced Algorithms analytical methods,IN_PROGRESS
+85,11,Dr. K. Sravani,59,3,114,Advanced Algorithms practical applications,PLANNED
+86,11,Dr. K. Sravani,60,3,115,Relational modelling and SQL,COMPLETED
+86,11,Dr. K. Sravani,60,3,116,Normalization and transactions,IN_PROGRESS
+86,11,Dr. K. Sravani,60,3,117,Indexing and query optimization,PLANNED
+87,11,Dr. K. Sravani,61,3,118,Research Methodology principles,COMPLETED
+87,11,Dr. K. Sravani,61,3,119,Research Methodology analytical methods,IN_PROGRESS
+87,11,Dr. K. Sravani,61,3,120,Research Methodology practical applications,PLANNED
+88,11,Dr. K. Sravani,62,3,121,Network layers and protocols,COMPLETED
+88,11,Dr. K. Sravani,62,3,122,IP addressing and routing,IN_PROGRESS
+88,11,Dr. K. Sravani,62,3,123,Transport protocols and security,PLANNED
+89,11,Dr. K. Sravani,63,3,124,"Training, validation and evaluation",COMPLETED
+89,11,Dr. K. Sravani,63,3,125,Regression and classification,IN_PROGRESS
+89,11,Dr. K. Sravani,63,3,126,Model limitations and applications,PLANNED
+90,11,Dr. K. Sravani,64,3,127,Distributed Computing principles,COMPLETED
+90,11,Dr. K. Sravani,64,3,128,Distributed Computing analytical methods,IN_PROGRESS
+90,11,Dr. K. Sravani,64,3,129,Distributed Computing practical applications,PLANNED
+91,11,Dr. K. Sravani,9,24,10,Relational Model and SQL,COMPLETED
+91,11,Dr. K. Sravani,9,24,11,Transactions and Indexing,IN_PROGRESS
+91,11,Dr. K. Sravani,9,24,110,Relational modelling and SQL,PLANNED
+92,11,Dr. K. Sravani,10,24,12,Network Protocols,COMPLETED
+92,11,Dr. K. Sravani,10,24,13,Addressing and Routing,IN_PROGRESS
+92,11,Dr. K. Sravani,10,24,111,Network layers and protocols,PLANNED
+93,11,Dr. K. Sravani,59,24,112,Advanced Algorithms principles,COMPLETED
+93,11,Dr. K. Sravani,59,24,113,Advanced Algorithms analytical methods,IN_PROGRESS
+93,11,Dr. K. Sravani,59,24,114,Advanced Algorithms practical applications,PLANNED
+94,11,Dr. K. Sravani,60,24,115,Relational modelling and SQL,COMPLETED
+94,11,Dr. K. Sravani,60,24,116,Normalization and transactions,IN_PROGRESS
+94,11,Dr. K. Sravani,60,24,117,Indexing and query optimization,PLANNED
+95,11,Dr. K. Sravani,61,24,118,Research Methodology principles,COMPLETED
+95,11,Dr. K. Sravani,61,24,119,Research Methodology analytical methods,IN_PROGRESS
+95,11,Dr. K. Sravani,61,24,120,Research Methodology practical applications,PLANNED
+96,11,Dr. K. Sravani,62,24,121,Network layers and protocols,COMPLETED
+96,11,Dr. K. Sravani,62,24,122,IP addressing and routing,IN_PROGRESS
+96,11,Dr. K. Sravani,62,24,123,Transport protocols and security,PLANNED
+97,11,Dr. K. Sravani,63,24,124,"Training, validation and evaluation",COMPLETED
+97,11,Dr. K. Sravani,63,24,125,Regression and classification,IN_PROGRESS
+97,11,Dr. K. Sravani,63,24,126,Model limitations and applications,PLANNED
+98,11,Dr. K. Sravani,64,24,127,Distributed Computing principles,COMPLETED
+98,11,Dr. K. Sravani,64,24,128,Distributed Computing analytical methods,IN_PROGRESS
+98,11,Dr. K. Sravani,64,24,129,Distributed Computing practical applications,PLANNED
+99,11,Dr. K. Sravani,65,25,130,Cloud Architecture principles,COMPLETED
+99,11,Dr. K. Sravani,65,25,131,Cloud Architecture analytical methods,IN_PROGRESS
+99,11,Dr. K. Sravani,65,25,132,Cloud Architecture practical applications,PLANNED
+100,11,Dr. K. Sravani,66,25,133,Data Engineering principles,COMPLETED
+100,11,Dr. K. Sravani,66,25,134,Data Engineering analytical methods,IN_PROGRESS
+100,11,Dr. K. Sravani,66,25,135,Data Engineering practical applications,PLANNED
+101,11,Dr. K. Sravani,67,25,136,Information Security principles,COMPLETED
+101,11,Dr. K. Sravani,67,25,137,Information Security analytical methods,IN_PROGRESS
+101,11,Dr. K. Sravani,67,25,138,Information Security practical applications,PLANNED
+102,11,Dr. K. Sravani,68,25,139,Software Architecture principles,COMPLETED
+102,11,Dr. K. Sravani,68,25,140,Software Architecture analytical methods,IN_PROGRESS
+102,11,Dr. K. Sravani,68,25,141,Software Architecture practical applications,PLANNED
+103,11,Dr. K. Sravani,69,25,142,Optimization Methods principles,COMPLETED
+103,11,Dr. K. Sravani,69,25,143,Optimization Methods analytical methods,IN_PROGRESS
+103,11,Dr. K. Sravani,69,25,144,Optimization Methods practical applications,PLANNED
+104,11,Dr. K. Sravani,70,25,145,Advanced Computing Laboratory principles,COMPLETED
+104,11,Dr. K. Sravani,70,25,146,Advanced Computing Laboratory analytical methods,IN_PROGRESS
+104,11,Dr. K. Sravani,70,25,147,Advanced Computing Laboratory practical applications,PLANNED
+105,11,Dr. K. Sravani,71,25,148,Research Seminar principles,COMPLETED
+105,11,Dr. K. Sravani,71,25,149,Research Seminar analytical methods,IN_PROGRESS
+105,11,Dr. K. Sravani,71,25,150,Research Seminar practical applications,PLANNED
+106,11,Dr. K. Sravani,65,26,130,Cloud Architecture principles,COMPLETED
+106,11,Dr. K. Sravani,65,26,131,Cloud Architecture analytical methods,IN_PROGRESS
+106,11,Dr. K. Sravani,65,26,132,Cloud Architecture practical applications,PLANNED
+107,11,Dr. K. Sravani,66,26,133,Data Engineering principles,COMPLETED
+107,11,Dr. K. Sravani,66,26,134,Data Engineering analytical methods,IN_PROGRESS
+107,11,Dr. K. Sravani,66,26,135,Data Engineering practical applications,PLANNED
+108,11,Dr. K. Sravani,67,26,136,Information Security principles,COMPLETED
+108,11,Dr. K. Sravani,67,26,137,Information Security analytical methods,IN_PROGRESS
+108,11,Dr. K. Sravani,67,26,138,Information Security practical applications,PLANNED
+109,11,Dr. K. Sravani,68,26,139,Software Architecture principles,COMPLETED
+109,11,Dr. K. Sravani,68,26,140,Software Architecture analytical methods,IN_PROGRESS
+109,11,Dr. K. Sravani,68,26,141,Software Architecture practical applications,PLANNED
+110,11,Dr. K. Sravani,69,26,142,Optimization Methods principles,COMPLETED
+110,11,Dr. K. Sravani,69,26,143,Optimization Methods analytical methods,IN_PROGRESS
+110,11,Dr. K. Sravani,69,26,144,Optimization Methods practical applications,PLANNED
+111,11,Dr. K. Sravani,70,26,145,Advanced Computing Laboratory principles,COMPLETED
+111,11,Dr. K. Sravani,70,26,146,Advanced Computing Laboratory analytical methods,IN_PROGRESS
+111,11,Dr. K. Sravani,70,26,147,Advanced Computing Laboratory practical applications,PLANNED
+112,11,Dr. K. Sravani,71,26,148,Research Seminar principles,COMPLETED
+112,11,Dr. K. Sravani,71,26,149,Research Seminar analytical methods,IN_PROGRESS
+112,11,Dr. K. Sravani,71,26,150,Research Seminar practical applications,PLANNED
+113,11,Dr. K. Sravani,11,4,14,Relational Model and SQL,COMPLETED
+113,11,Dr. K. Sravani,11,4,15,Transactions and Indexing,IN_PROGRESS
+113,11,Dr. K. Sravani,11,4,151,Relational modelling and SQL,PLANNED
+114,11,Dr. K. Sravani,12,4,16,Network Protocols,COMPLETED
+114,11,Dr. K. Sravani,12,4,17,Addressing and Routing,IN_PROGRESS
+114,11,Dr. K. Sravani,12,4,152,Network layers and protocols,PLANNED
+115,11,Dr. K. Sravani,72,4,153,Advanced Algorithms principles,COMPLETED
+115,11,Dr. K. Sravani,72,4,154,Advanced Algorithms analytical methods,IN_PROGRESS
+115,11,Dr. K. Sravani,72,4,155,Advanced Algorithms practical applications,PLANNED
+116,11,Dr. K. Sravani,73,4,156,Relational modelling and SQL,COMPLETED
+116,11,Dr. K. Sravani,73,4,157,Normalization and transactions,IN_PROGRESS
+116,11,Dr. K. Sravani,73,4,158,Indexing and query optimization,PLANNED
+117,11,Dr. K. Sravani,74,4,159,Research Methodology principles,COMPLETED
+117,11,Dr. K. Sravani,74,4,160,Research Methodology analytical methods,IN_PROGRESS
+117,11,Dr. K. Sravani,74,4,161,Research Methodology practical applications,PLANNED
+118,11,Dr. K. Sravani,75,4,162,Network layers and protocols,COMPLETED
+118,11,Dr. K. Sravani,75,4,163,IP addressing and routing,IN_PROGRESS
+118,11,Dr. K. Sravani,75,4,164,Transport protocols and security,PLANNED
+119,11,Dr. K. Sravani,76,4,165,"Training, validation and evaluation",COMPLETED
+119,11,Dr. K. Sravani,76,4,166,Regression and classification,IN_PROGRESS
+119,11,Dr. K. Sravani,76,4,167,Model limitations and applications,PLANNED
+120,11,Dr. K. Sravani,77,4,168,Distributed Computing principles,COMPLETED
+120,11,Dr. K. Sravani,77,4,169,Distributed Computing analytical methods,IN_PROGRESS
+120,11,Dr. K. Sravani,77,4,170,Distributed Computing practical applications,PLANNED
+121,11,Dr. K. Sravani,11,27,14,Relational Model and SQL,COMPLETED
+121,11,Dr. K. Sravani,11,27,15,Transactions and Indexing,IN_PROGRESS
+121,11,Dr. K. Sravani,11,27,151,Relational modelling and SQL,PLANNED
+122,11,Dr. K. Sravani,12,27,16,Network Protocols,COMPLETED
+122,11,Dr. K. Sravani,12,27,17,Addressing and Routing,IN_PROGRESS
+122,11,Dr. K. Sravani,12,27,152,Network layers and protocols,PLANNED
+123,11,Dr. K. Sravani,72,27,153,Advanced Algorithms principles,COMPLETED
+123,11,Dr. K. Sravani,72,27,154,Advanced Algorithms analytical methods,IN_PROGRESS
+123,11,Dr. K. Sravani,72,27,155,Advanced Algorithms practical applications,PLANNED
+124,11,Dr. K. Sravani,73,27,156,Relational modelling and SQL,COMPLETED
+124,11,Dr. K. Sravani,73,27,157,Normalization and transactions,IN_PROGRESS
+124,11,Dr. K. Sravani,73,27,158,Indexing and query optimization,PLANNED
+125,11,Dr. K. Sravani,74,27,159,Research Methodology principles,COMPLETED
+125,11,Dr. K. Sravani,74,27,160,Research Methodology analytical methods,IN_PROGRESS
+125,11,Dr. K. Sravani,74,27,161,Research Methodology practical applications,PLANNED
+126,11,Dr. K. Sravani,75,27,162,Network layers and protocols,COMPLETED
+126,11,Dr. K. Sravani,75,27,163,IP addressing and routing,IN_PROGRESS
+126,11,Dr. K. Sravani,75,27,164,Transport protocols and security,PLANNED
+127,11,Dr. K. Sravani,76,27,165,"Training, validation and evaluation",COMPLETED
+127,11,Dr. K. Sravani,76,27,166,Regression and classification,IN_PROGRESS
+127,11,Dr. K. Sravani,76,27,167,Model limitations and applications,PLANNED
+128,11,Dr. K. Sravani,77,27,168,Distributed Computing principles,COMPLETED
+128,11,Dr. K. Sravani,77,27,169,Distributed Computing analytical methods,IN_PROGRESS
+128,11,Dr. K. Sravani,77,27,170,Distributed Computing practical applications,PLANNED
+129,11,Dr. K. Sravani,78,28,171,Cloud Architecture principles,COMPLETED
+129,11,Dr. K. Sravani,78,28,172,Cloud Architecture analytical methods,IN_PROGRESS
+129,11,Dr. K. Sravani,78,28,173,Cloud Architecture practical applications,PLANNED
+130,11,Dr. K. Sravani,79,28,174,Data Engineering principles,COMPLETED
+130,11,Dr. K. Sravani,79,28,175,Data Engineering analytical methods,IN_PROGRESS
+130,11,Dr. K. Sravani,79,28,176,Data Engineering practical applications,PLANNED
+131,11,Dr. K. Sravani,80,28,177,Information Security principles,COMPLETED
+131,11,Dr. K. Sravani,80,28,178,Information Security analytical methods,IN_PROGRESS
+131,11,Dr. K. Sravani,80,28,179,Information Security practical applications,PLANNED
+132,11,Dr. K. Sravani,81,28,180,Software Architecture principles,COMPLETED
+132,11,Dr. K. Sravani,81,28,181,Software Architecture analytical methods,IN_PROGRESS
+132,11,Dr. K. Sravani,81,28,182,Software Architecture practical applications,PLANNED
+133,11,Dr. K. Sravani,82,28,183,Optimization Methods principles,COMPLETED
+133,11,Dr. K. Sravani,82,28,184,Optimization Methods analytical methods,IN_PROGRESS
+133,11,Dr. K. Sravani,82,28,185,Optimization Methods practical applications,PLANNED
+134,11,Dr. K. Sravani,83,28,186,Advanced Computing Laboratory principles,COMPLETED
+134,11,Dr. K. Sravani,83,28,187,Advanced Computing Laboratory analytical methods,IN_PROGRESS
+134,11,Dr. K. Sravani,83,28,188,Advanced Computing Laboratory practical applications,PLANNED
+135,11,Dr. K. Sravani,84,28,189,Research Seminar principles,COMPLETED
+135,11,Dr. K. Sravani,84,28,190,Research Seminar analytical methods,IN_PROGRESS
+135,11,Dr. K. Sravani,84,28,191,Research Seminar practical applications,PLANNED
+136,11,Dr. K. Sravani,78,29,171,Cloud Architecture principles,COMPLETED
+136,11,Dr. K. Sravani,78,29,172,Cloud Architecture analytical methods,IN_PROGRESS
+136,11,Dr. K. Sravani,78,29,173,Cloud Architecture practical applications,PLANNED
+137,11,Dr. K. Sravani,79,29,174,Data Engineering principles,COMPLETED
+137,11,Dr. K. Sravani,79,29,175,Data Engineering analytical methods,IN_PROGRESS
+137,11,Dr. K. Sravani,79,29,176,Data Engineering practical applications,PLANNED
+138,11,Dr. K. Sravani,80,29,177,Information Security principles,COMPLETED
+138,11,Dr. K. Sravani,80,29,178,Information Security analytical methods,IN_PROGRESS
+138,11,Dr. K. Sravani,80,29,179,Information Security practical applications,PLANNED
+139,11,Dr. K. Sravani,81,29,180,Software Architecture principles,COMPLETED
+139,11,Dr. K. Sravani,81,29,181,Software Architecture analytical methods,IN_PROGRESS
+139,11,Dr. K. Sravani,81,29,182,Software Architecture practical applications,PLANNED
+140,11,Dr. K. Sravani,82,29,183,Optimization Methods principles,COMPLETED
+140,11,Dr. K. Sravani,82,29,184,Optimization Methods analytical methods,IN_PROGRESS
+140,11,Dr. K. Sravani,82,29,185,Optimization Methods practical applications,PLANNED
+141,11,Dr. K. Sravani,83,29,186,Advanced Computing Laboratory principles,COMPLETED
+141,11,Dr. K. Sravani,83,29,187,Advanced Computing Laboratory analytical methods,IN_PROGRESS
+141,11,Dr. K. Sravani,83,29,188,Advanced Computing Laboratory practical applications,PLANNED
+142,11,Dr. K. Sravani,84,29,189,Research Seminar principles,COMPLETED
+142,11,Dr. K. Sravani,84,29,190,Research Seminar analytical methods,IN_PROGRESS
+142,11,Dr. K. Sravani,84,29,191,Research Seminar practical applications,PLANNED
+143,11,Dr. K. Sravani,85,30,192,Calculus and linear algebra,COMPLETED
+143,11,Dr. K. Sravani,85,30,193,Differential equations,IN_PROGRESS
+143,11,Dr. K. Sravani,85,30,194,Engineering numerical applications,PLANNED
+144,11,Dr. K. Sravani,86,30,195,Engineering Physics principles,COMPLETED
+144,11,Dr. K. Sravani,86,30,196,Engineering Physics analytical methods,IN_PROGRESS
+144,11,Dr. K. Sravani,86,30,197,Engineering Physics practical applications,PLANNED
+145,11,Dr. K. Sravani,87,30,198,Language fundamentals and control flow,COMPLETED
+145,11,Dr. K. Sravani,87,30,199,Functions and data structures,IN_PROGRESS
+145,11,Dr. K. Sravani,87,30,200,Testing and problem solving,PLANNED
+146,11,Dr. K. Sravani,88,30,201,Engineering Graphics principles,COMPLETED
+146,11,Dr. K. Sravani,88,30,202,Engineering Graphics analytical methods,IN_PROGRESS
+146,11,Dr. K. Sravani,88,30,203,Engineering Graphics practical applications,PLANNED
+147,11,Dr. K. Sravani,89,30,204,Basic Electrical Engineering principles,COMPLETED
+147,11,Dr. K. Sravani,89,30,205,Basic Electrical Engineering analytical methods,IN_PROGRESS
+147,11,Dr. K. Sravani,89,30,206,Basic Electrical Engineering practical applications,PLANNED
+148,11,Dr. K. Sravani,90,30,207,Technical Communication principles,COMPLETED
+148,11,Dr. K. Sravani,90,30,208,Technical Communication analytical methods,IN_PROGRESS
+148,11,Dr. K. Sravani,90,30,209,Technical Communication practical applications,PLANNED
+149,11,Dr. K. Sravani,85,31,192,Calculus and linear algebra,COMPLETED
+149,11,Dr. K. Sravani,85,31,193,Differential equations,IN_PROGRESS
+149,11,Dr. K. Sravani,85,31,194,Engineering numerical applications,PLANNED
+150,11,Dr. K. Sravani,86,31,195,Engineering Physics principles,COMPLETED
+150,11,Dr. K. Sravani,86,31,196,Engineering Physics analytical methods,IN_PROGRESS
+150,11,Dr. K. Sravani,86,31,197,Engineering Physics practical applications,PLANNED
+151,11,Dr. K. Sravani,87,31,198,Language fundamentals and control flow,COMPLETED
+151,11,Dr. K. Sravani,87,31,199,Functions and data structures,IN_PROGRESS
+151,11,Dr. K. Sravani,87,31,200,Testing and problem solving,PLANNED
+152,11,Dr. K. Sravani,88,31,201,Engineering Graphics principles,COMPLETED
+152,11,Dr. K. Sravani,88,31,202,Engineering Graphics analytical methods,IN_PROGRESS
+152,11,Dr. K. Sravani,88,31,203,Engineering Graphics practical applications,PLANNED
+153,11,Dr. K. Sravani,89,31,204,Basic Electrical Engineering principles,COMPLETED
+153,11,Dr. K. Sravani,89,31,205,Basic Electrical Engineering analytical methods,IN_PROGRESS
+153,11,Dr. K. Sravani,89,31,206,Basic Electrical Engineering practical applications,PLANNED
+154,11,Dr. K. Sravani,90,31,207,Technical Communication principles,COMPLETED
+154,11,Dr. K. Sravani,90,31,208,Technical Communication analytical methods,IN_PROGRESS
+154,11,Dr. K. Sravani,90,31,209,Technical Communication practical applications,PLANNED
+155,11,Dr. K. Sravani,91,11,214,"Arrays, lists and stacks",COMPLETED
+155,11,Dr. K. Sravani,91,11,215,Trees and graph traversal,IN_PROGRESS
+155,11,Dr. K. Sravani,91,11,216,Complexity and practical algorithms,PLANNED
+156,11,Dr. K. Sravani,92,11,217,Language fundamentals and control flow,COMPLETED
+156,11,Dr. K. Sravani,92,11,218,Functions and data structures,IN_PROGRESS
+156,11,Dr. K. Sravani,92,11,219,Testing and problem solving,PLANNED
+157,11,Dr. K. Sravani,93,11,220,Calculus and linear algebra,COMPLETED
+157,11,Dr. K. Sravani,93,11,221,Differential equations,IN_PROGRESS
+157,11,Dr. K. Sravani,93,11,222,Engineering numerical applications,PLANNED
+158,11,Dr. K. Sravani,94,11,223,Digital Logic principles,COMPLETED
+158,11,Dr. K. Sravani,94,11,224,Digital Logic analytical methods,IN_PROGRESS
+158,11,Dr. K. Sravani,94,11,225,Digital Logic practical applications,PLANNED
+159,11,Dr. K. Sravani,25,32,30,Python Programming Fundamentals,COMPLETED
+159,11,Dr. K. Sravani,25,32,210,Language fundamentals and control flow,IN_PROGRESS
+159,11,Dr. K. Sravani,25,32,211,Functions and data structures,PLANNED
+160,11,Dr. K. Sravani,26,32,31,Machine Learning Fundamentals,COMPLETED
+160,11,Dr. K. Sravani,26,32,212,"Training, validation and evaluation",IN_PROGRESS
+160,11,Dr. K. Sravani,26,32,213,Regression and classification,PLANNED
+161,11,Dr. K. Sravani,91,32,214,"Arrays, lists and stacks",COMPLETED
+161,11,Dr. K. Sravani,91,32,215,Trees and graph traversal,IN_PROGRESS
+161,11,Dr. K. Sravani,91,32,216,Complexity and practical algorithms,PLANNED
+162,11,Dr. K. Sravani,92,32,217,Language fundamentals and control flow,COMPLETED
+162,11,Dr. K. Sravani,92,32,218,Functions and data structures,IN_PROGRESS
+162,11,Dr. K. Sravani,92,32,219,Testing and problem solving,PLANNED
+163,11,Dr. K. Sravani,93,32,220,Calculus and linear algebra,COMPLETED
+163,11,Dr. K. Sravani,93,32,221,Differential equations,IN_PROGRESS
+163,11,Dr. K. Sravani,93,32,222,Engineering numerical applications,PLANNED
+164,11,Dr. K. Sravani,94,32,223,Digital Logic principles,COMPLETED
+164,11,Dr. K. Sravani,94,32,224,Digital Logic analytical methods,IN_PROGRESS
+164,11,Dr. K. Sravani,94,32,225,Digital Logic practical applications,PLANNED
+165,11,Dr. K. Sravani,95,33,226,Computer Organization principles,COMPLETED
+165,11,Dr. K. Sravani,95,33,227,Computer Organization analytical methods,IN_PROGRESS
+165,11,Dr. K. Sravani,95,33,228,Computer Organization practical applications,PLANNED
+166,11,Dr. K. Sravani,96,33,229,Numerical Methods principles,COMPLETED
+166,11,Dr. K. Sravani,96,33,230,Numerical Methods analytical methods,IN_PROGRESS
+166,11,Dr. K. Sravani,96,33,231,Numerical Methods practical applications,PLANNED
+167,11,Dr. K. Sravani,97,33,232,Operating Systems principles,COMPLETED
+167,11,Dr. K. Sravani,97,33,233,Operating Systems analytical methods,IN_PROGRESS
+167,11,Dr. K. Sravani,97,33,234,Operating Systems practical applications,PLANNED
+168,11,Dr. K. Sravani,98,33,235,Software Engineering principles,COMPLETED
+168,11,Dr. K. Sravani,98,33,236,Software Engineering analytical methods,IN_PROGRESS
+168,11,Dr. K. Sravani,98,33,237,Software Engineering practical applications,PLANNED
+169,11,Dr. K. Sravani,99,33,238,Design and Analysis of Algorithms principles,COMPLETED
+169,11,Dr. K. Sravani,99,33,239,Design and Analysis of Algorithms analytical methods,IN_PROGRESS
+169,11,Dr. K. Sravani,99,33,240,Design and Analysis of Algorithms practical applications,PLANNED
+170,11,Dr. K. Sravani,100,33,241,Theory of Computation principles,COMPLETED
+170,11,Dr. K. Sravani,100,33,242,Theory of Computation analytical methods,IN_PROGRESS
+170,11,Dr. K. Sravani,100,33,243,Theory of Computation practical applications,PLANNED
+171,11,Dr. K. Sravani,95,34,226,Computer Organization principles,COMPLETED
+171,11,Dr. K. Sravani,95,34,227,Computer Organization analytical methods,IN_PROGRESS
+171,11,Dr. K. Sravani,95,34,228,Computer Organization practical applications,PLANNED
+172,11,Dr. K. Sravani,96,34,229,Numerical Methods principles,COMPLETED
+172,11,Dr. K. Sravani,96,34,230,Numerical Methods analytical methods,IN_PROGRESS
+172,11,Dr. K. Sravani,96,34,231,Numerical Methods practical applications,PLANNED
+173,11,Dr. K. Sravani,97,34,232,Operating Systems principles,COMPLETED
+173,11,Dr. K. Sravani,97,34,233,Operating Systems analytical methods,IN_PROGRESS
+173,11,Dr. K. Sravani,97,34,234,Operating Systems practical applications,PLANNED
+174,11,Dr. K. Sravani,98,34,235,Software Engineering principles,COMPLETED
+174,11,Dr. K. Sravani,98,34,236,Software Engineering analytical methods,IN_PROGRESS
+174,11,Dr. K. Sravani,98,34,237,Software Engineering practical applications,PLANNED
+175,11,Dr. K. Sravani,99,34,238,Design and Analysis of Algorithms principles,COMPLETED
+175,11,Dr. K. Sravani,99,34,239,Design and Analysis of Algorithms analytical methods,IN_PROGRESS
+175,11,Dr. K. Sravani,99,34,240,Design and Analysis of Algorithms practical applications,PLANNED
+176,11,Dr. K. Sravani,100,34,241,Theory of Computation principles,COMPLETED
+176,11,Dr. K. Sravani,100,34,242,Theory of Computation analytical methods,IN_PROGRESS
+176,11,Dr. K. Sravani,100,34,243,Theory of Computation practical applications,PLANNED
+177,11,Dr. K. Sravani,101,35,244,Microprocessors principles,COMPLETED
+177,11,Dr. K. Sravani,101,35,245,Microprocessors analytical methods,IN_PROGRESS
+177,11,Dr. K. Sravani,101,35,246,Microprocessors practical applications,PLANNED
+178,11,Dr. K. Sravani,102,35,247,Web Technologies principles,COMPLETED
+178,11,Dr. K. Sravani,102,35,248,Web Technologies analytical methods,IN_PROGRESS
+178,11,Dr. K. Sravani,102,35,249,Web Technologies practical applications,PLANNED
+179,11,Dr. K. Sravani,103,35,250,Cloud Computing principles,COMPLETED
+179,11,Dr. K. Sravani,103,35,251,Cloud Computing analytical methods,IN_PROGRESS
+179,11,Dr. K. Sravani,103,35,252,Cloud Computing practical applications,PLANNED
+180,11,Dr. K. Sravani,104,35,253,Cyber Security principles,COMPLETED
+180,11,Dr. K. Sravani,104,35,254,Cyber Security analytical methods,IN_PROGRESS
+180,11,Dr. K. Sravani,104,35,255,Cyber Security practical applications,PLANNED
+181,11,Dr. K. Sravani,105,35,256,Distributed Systems principles,COMPLETED
+181,11,Dr. K. Sravani,105,35,257,Distributed Systems analytical methods,IN_PROGRESS
+181,11,Dr. K. Sravani,105,35,258,Distributed Systems practical applications,PLANNED
+182,11,Dr. K. Sravani,106,35,259,Major Project I principles,COMPLETED
+182,11,Dr. K. Sravani,106,35,260,Major Project I analytical methods,IN_PROGRESS
+182,11,Dr. K. Sravani,106,35,261,Major Project I practical applications,PLANNED
+183,11,Dr. K. Sravani,101,36,244,Microprocessors principles,COMPLETED
+183,11,Dr. K. Sravani,101,36,245,Microprocessors analytical methods,IN_PROGRESS
+183,11,Dr. K. Sravani,101,36,246,Microprocessors practical applications,PLANNED
+184,11,Dr. K. Sravani,102,36,247,Web Technologies principles,COMPLETED
+184,11,Dr. K. Sravani,102,36,248,Web Technologies analytical methods,IN_PROGRESS
+184,11,Dr. K. Sravani,102,36,249,Web Technologies practical applications,PLANNED
+185,11,Dr. K. Sravani,103,36,250,Cloud Computing principles,COMPLETED
+185,11,Dr. K. Sravani,103,36,251,Cloud Computing analytical methods,IN_PROGRESS
+185,11,Dr. K. Sravani,103,36,252,Cloud Computing practical applications,PLANNED
+186,11,Dr. K. Sravani,104,36,253,Cyber Security principles,COMPLETED
+186,11,Dr. K. Sravani,104,36,254,Cyber Security analytical methods,IN_PROGRESS
+186,11,Dr. K. Sravani,104,36,255,Cyber Security practical applications,PLANNED
+187,11,Dr. K. Sravani,105,36,256,Distributed Systems principles,COMPLETED
+187,11,Dr. K. Sravani,105,36,257,Distributed Systems analytical methods,IN_PROGRESS
+187,11,Dr. K. Sravani,105,36,258,Distributed Systems practical applications,PLANNED
+188,11,Dr. K. Sravani,106,36,259,Major Project I principles,COMPLETED
+188,11,Dr. K. Sravani,106,36,260,Major Project I analytical methods,IN_PROGRESS
+188,11,Dr. K. Sravani,106,36,261,Major Project I practical applications,PLANNED
+189,11,Dr. K. Sravani,107,37,262,Calculus and linear algebra,COMPLETED
+189,11,Dr. K. Sravani,107,37,263,Differential equations,IN_PROGRESS
+189,11,Dr. K. Sravani,107,37,264,Engineering numerical applications,PLANNED
+190,11,Dr. K. Sravani,108,37,265,Engineering Physics principles,COMPLETED
+190,11,Dr. K. Sravani,108,37,266,Engineering Physics analytical methods,IN_PROGRESS
+190,11,Dr. K. Sravani,108,37,267,Engineering Physics practical applications,PLANNED
+191,11,Dr. K. Sravani,109,37,268,Language fundamentals and control flow,COMPLETED
+191,11,Dr. K. Sravani,109,37,269,Functions and data structures,IN_PROGRESS
+191,11,Dr. K. Sravani,109,37,270,Testing and problem solving,PLANNED
+192,11,Dr. K. Sravani,110,37,271,Engineering Graphics principles,COMPLETED
+192,11,Dr. K. Sravani,110,37,272,Engineering Graphics analytical methods,IN_PROGRESS
+192,11,Dr. K. Sravani,110,37,273,Engineering Graphics practical applications,PLANNED
+193,11,Dr. K. Sravani,111,37,274,Basic Electrical Engineering principles,COMPLETED
+193,11,Dr. K. Sravani,111,37,275,Basic Electrical Engineering analytical methods,IN_PROGRESS
+193,11,Dr. K. Sravani,111,37,276,Basic Electrical Engineering practical applications,PLANNED
+194,11,Dr. K. Sravani,112,37,277,Technical Communication principles,COMPLETED
+194,11,Dr. K. Sravani,112,37,278,Technical Communication analytical methods,IN_PROGRESS
+194,11,Dr. K. Sravani,112,37,279,Technical Communication practical applications,PLANNED
+195,11,Dr. K. Sravani,107,38,262,Calculus and linear algebra,COMPLETED
+195,11,Dr. K. Sravani,107,38,263,Differential equations,IN_PROGRESS
+195,11,Dr. K. Sravani,107,38,264,Engineering numerical applications,PLANNED
+196,11,Dr. K. Sravani,108,38,265,Engineering Physics principles,COMPLETED
+196,11,Dr. K. Sravani,108,38,266,Engineering Physics analytical methods,IN_PROGRESS
+196,11,Dr. K. Sravani,108,38,267,Engineering Physics practical applications,PLANNED
+197,11,Dr. K. Sravani,109,38,268,Language fundamentals and control flow,COMPLETED
+197,11,Dr. K. Sravani,109,38,269,Functions and data structures,IN_PROGRESS
+197,11,Dr. K. Sravani,109,38,270,Testing and problem solving,PLANNED
+198,11,Dr. K. Sravani,110,38,271,Engineering Graphics principles,COMPLETED
+198,11,Dr. K. Sravani,110,38,272,Engineering Graphics analytical methods,IN_PROGRESS
+198,11,Dr. K. Sravani,110,38,273,Engineering Graphics practical applications,PLANNED
+199,11,Dr. K. Sravani,111,38,274,Basic Electrical Engineering principles,COMPLETED
+199,11,Dr. K. Sravani,111,38,275,Basic Electrical Engineering analytical methods,IN_PROGRESS
+199,11,Dr. K. Sravani,111,38,276,Basic Electrical Engineering practical applications,PLANNED
+200,11,Dr. K. Sravani,112,38,277,Technical Communication principles,COMPLETED
+200,11,Dr. K. Sravani,112,38,278,Technical Communication analytical methods,IN_PROGRESS
+200,11,Dr. K. Sravani,112,38,279,Technical Communication practical applications,PLANNED
+201,11,Dr. K. Sravani,113,12,284,Language fundamentals and control flow,COMPLETED
+201,11,Dr. K. Sravani,113,12,285,Functions and data structures,IN_PROGRESS
+201,11,Dr. K. Sravani,113,12,286,Testing and problem solving,PLANNED
+202,11,Dr. K. Sravani,114,12,287,Calculus and linear algebra,COMPLETED
+202,11,Dr. K. Sravani,114,12,288,Differential equations,IN_PROGRESS
+202,11,Dr. K. Sravani,114,12,289,Engineering numerical applications,PLANNED
+203,11,Dr. K. Sravani,115,12,290,Digital Logic principles,COMPLETED
+203,11,Dr. K. Sravani,115,12,291,Digital Logic analytical methods,IN_PROGRESS
+203,11,Dr. K. Sravani,115,12,292,Digital Logic practical applications,PLANNED
+204,11,Dr. K. Sravani,116,12,293,Computer Organization principles,COMPLETED
+204,11,Dr. K. Sravani,116,12,294,Computer Organization analytical methods,IN_PROGRESS
+204,11,Dr. K. Sravani,116,12,295,Computer Organization practical applications,PLANNED
+205,11,Dr. K. Sravani,27,39,32,Data Structures Fundamentals,COMPLETED
+205,11,Dr. K. Sravani,27,39,280,"Arrays, lists and stacks",IN_PROGRESS
+205,11,Dr. K. Sravani,27,39,281,Trees and graph traversal,PLANNED
+206,11,Dr. K. Sravani,28,39,33,Data Analytics Fundamentals,COMPLETED
+206,11,Dr. K. Sravani,28,39,282,Data Analytics principles,IN_PROGRESS
+206,11,Dr. K. Sravani,28,39,283,Data Analytics analytical methods,PLANNED
+207,11,Dr. K. Sravani,113,39,284,Language fundamentals and control flow,COMPLETED
+207,11,Dr. K. Sravani,113,39,285,Functions and data structures,IN_PROGRESS
+207,11,Dr. K. Sravani,113,39,286,Testing and problem solving,PLANNED
+208,11,Dr. K. Sravani,114,39,287,Calculus and linear algebra,COMPLETED
+208,11,Dr. K. Sravani,114,39,288,Differential equations,IN_PROGRESS
+208,11,Dr. K. Sravani,114,39,289,Engineering numerical applications,PLANNED
+209,11,Dr. K. Sravani,115,39,290,Digital Logic principles,COMPLETED
+209,11,Dr. K. Sravani,115,39,291,Digital Logic analytical methods,IN_PROGRESS
+209,11,Dr. K. Sravani,115,39,292,Digital Logic practical applications,PLANNED
+210,11,Dr. K. Sravani,116,39,293,Computer Organization principles,COMPLETED
+210,11,Dr. K. Sravani,116,39,294,Computer Organization analytical methods,IN_PROGRESS
+210,11,Dr. K. Sravani,116,39,295,Computer Organization practical applications,PLANNED
+211,11,Dr. K. Sravani,117,40,296,Numerical Methods principles,COMPLETED
+211,11,Dr. K. Sravani,117,40,297,Numerical Methods analytical methods,IN_PROGRESS
+211,11,Dr. K. Sravani,117,40,298,Numerical Methods practical applications,PLANNED
+212,11,Dr. K. Sravani,118,40,299,Operating Systems principles,COMPLETED
+212,11,Dr. K. Sravani,118,40,300,Operating Systems analytical methods,IN_PROGRESS
+212,11,Dr. K. Sravani,118,40,301,Operating Systems practical applications,PLANNED
+213,11,Dr. K. Sravani,119,40,302,Software Engineering principles,COMPLETED
+213,11,Dr. K. Sravani,119,40,303,Software Engineering analytical methods,IN_PROGRESS
+213,11,Dr. K. Sravani,119,40,304,Software Engineering practical applications,PLANNED
+214,11,Dr. K. Sravani,120,40,305,Design and Analysis of Algorithms principles,COMPLETED
+214,11,Dr. K. Sravani,120,40,306,Design and Analysis of Algorithms analytical methods,IN_PROGRESS
+214,11,Dr. K. Sravani,120,40,307,Design and Analysis of Algorithms practical applications,PLANNED
+215,11,Dr. K. Sravani,121,40,308,Theory of Computation principles,COMPLETED
+215,11,Dr. K. Sravani,121,40,309,Theory of Computation analytical methods,IN_PROGRESS
+215,11,Dr. K. Sravani,121,40,310,Theory of Computation practical applications,PLANNED
+216,11,Dr. K. Sravani,122,40,311,Microprocessors principles,COMPLETED
+216,11,Dr. K. Sravani,122,40,312,Microprocessors analytical methods,IN_PROGRESS
+216,11,Dr. K. Sravani,122,40,313,Microprocessors practical applications,PLANNED
+217,11,Dr. K. Sravani,117,41,296,Numerical Methods principles,COMPLETED
+217,11,Dr. K. Sravani,117,41,297,Numerical Methods analytical methods,IN_PROGRESS
+217,11,Dr. K. Sravani,117,41,298,Numerical Methods practical applications,PLANNED
+218,11,Dr. K. Sravani,118,41,299,Operating Systems principles,COMPLETED
+218,11,Dr. K. Sravani,118,41,300,Operating Systems analytical methods,IN_PROGRESS
+218,11,Dr. K. Sravani,118,41,301,Operating Systems practical applications,PLANNED
+219,11,Dr. K. Sravani,119,41,302,Software Engineering principles,COMPLETED
+219,11,Dr. K. Sravani,119,41,303,Software Engineering analytical methods,IN_PROGRESS
+219,11,Dr. K. Sravani,119,41,304,Software Engineering practical applications,PLANNED
+220,11,Dr. K. Sravani,120,41,305,Design and Analysis of Algorithms principles,COMPLETED
+220,11,Dr. K. Sravani,120,41,306,Design and Analysis of Algorithms analytical methods,IN_PROGRESS
+220,11,Dr. K. Sravani,120,41,307,Design and Analysis of Algorithms practical applications,PLANNED
+221,11,Dr. K. Sravani,121,41,308,Theory of Computation principles,COMPLETED
+221,11,Dr. K. Sravani,121,41,309,Theory of Computation analytical methods,IN_PROGRESS
+221,11,Dr. K. Sravani,121,41,310,Theory of Computation practical applications,PLANNED
+222,11,Dr. K. Sravani,122,41,311,Microprocessors principles,COMPLETED
+222,11,Dr. K. Sravani,122,41,312,Microprocessors analytical methods,IN_PROGRESS
+222,11,Dr. K. Sravani,122,41,313,Microprocessors practical applications,PLANNED
+223,11,Dr. K. Sravani,123,42,314,Web Technologies principles,COMPLETED
+223,11,Dr. K. Sravani,123,42,315,Web Technologies analytical methods,IN_PROGRESS
+223,11,Dr. K. Sravani,123,42,316,Web Technologies practical applications,PLANNED
+224,11,Dr. K. Sravani,124,42,317,"Training, validation and evaluation",COMPLETED
+224,11,Dr. K. Sravani,124,42,318,Regression and classification,IN_PROGRESS
+224,11,Dr. K. Sravani,124,42,319,Model limitations and applications,PLANNED
+225,11,Dr. K. Sravani,125,42,320,Cloud Computing principles,COMPLETED
+225,11,Dr. K. Sravani,125,42,321,Cloud Computing analytical methods,IN_PROGRESS
+225,11,Dr. K. Sravani,125,42,322,Cloud Computing practical applications,PLANNED
+226,11,Dr. K. Sravani,126,42,323,Cyber Security principles,COMPLETED
+226,11,Dr. K. Sravani,126,42,324,Cyber Security analytical methods,IN_PROGRESS
+226,11,Dr. K. Sravani,126,42,325,Cyber Security practical applications,PLANNED
+227,11,Dr. K. Sravani,127,42,326,Distributed Systems principles,COMPLETED
+227,11,Dr. K. Sravani,127,42,327,Distributed Systems analytical methods,IN_PROGRESS
+227,11,Dr. K. Sravani,127,42,328,Distributed Systems practical applications,PLANNED
+228,11,Dr. K. Sravani,128,42,329,Major Project I principles,COMPLETED
+228,11,Dr. K. Sravani,128,42,330,Major Project I analytical methods,IN_PROGRESS
+228,11,Dr. K. Sravani,128,42,331,Major Project I practical applications,PLANNED
+229,11,Dr. K. Sravani,123,43,314,Web Technologies principles,COMPLETED
+229,11,Dr. K. Sravani,123,43,315,Web Technologies analytical methods,IN_PROGRESS
+229,11,Dr. K. Sravani,123,43,316,Web Technologies practical applications,PLANNED
+230,11,Dr. K. Sravani,124,43,317,"Training, validation and evaluation",COMPLETED
+230,11,Dr. K. Sravani,124,43,318,Regression and classification,IN_PROGRESS
+230,11,Dr. K. Sravani,124,43,319,Model limitations and applications,PLANNED
+231,11,Dr. K. Sravani,125,43,320,Cloud Computing principles,COMPLETED
+231,11,Dr. K. Sravani,125,43,321,Cloud Computing analytical methods,IN_PROGRESS
+231,11,Dr. K. Sravani,125,43,322,Cloud Computing practical applications,PLANNED
+232,11,Dr. K. Sravani,126,43,323,Cyber Security principles,COMPLETED
+232,11,Dr. K. Sravani,126,43,324,Cyber Security analytical methods,IN_PROGRESS
+232,11,Dr. K. Sravani,126,43,325,Cyber Security practical applications,PLANNED
+233,11,Dr. K. Sravani,127,43,326,Distributed Systems principles,COMPLETED
+233,11,Dr. K. Sravani,127,43,327,Distributed Systems analytical methods,IN_PROGRESS
+233,11,Dr. K. Sravani,127,43,328,Distributed Systems practical applications,PLANNED
+234,11,Dr. K. Sravani,128,43,329,Major Project I principles,COMPLETED
+234,11,Dr. K. Sravani,128,43,330,Major Project I analytical methods,IN_PROGRESS
+234,11,Dr. K. Sravani,128,43,331,Major Project I practical applications,PLANNED
+235,159,Dr. B. Ravi Kumar,129,44,332,Calculus and linear algebra,COMPLETED
+235,159,Dr. B. Ravi Kumar,129,44,333,Differential equations,IN_PROGRESS
+235,159,Dr. B. Ravi Kumar,129,44,334,Engineering numerical applications,PLANNED
+236,159,Dr. B. Ravi Kumar,130,44,335,Engineering Physics principles,COMPLETED
+236,159,Dr. B. Ravi Kumar,130,44,336,Engineering Physics analytical methods,IN_PROGRESS
+236,159,Dr. B. Ravi Kumar,130,44,337,Engineering Physics practical applications,PLANNED
+237,159,Dr. B. Ravi Kumar,131,44,338,Language fundamentals and control flow,COMPLETED
+237,159,Dr. B. Ravi Kumar,131,44,339,Functions and data structures,IN_PROGRESS
+237,159,Dr. B. Ravi Kumar,131,44,340,Testing and problem solving,PLANNED
+238,159,Dr. B. Ravi Kumar,132,44,341,Engineering Graphics principles,COMPLETED
+238,159,Dr. B. Ravi Kumar,132,44,342,Engineering Graphics analytical methods,IN_PROGRESS
+238,159,Dr. B. Ravi Kumar,132,44,343,Engineering Graphics practical applications,PLANNED
+239,159,Dr. B. Ravi Kumar,133,44,344,Basic Electrical Engineering principles,COMPLETED
+239,159,Dr. B. Ravi Kumar,133,44,345,Basic Electrical Engineering analytical methods,IN_PROGRESS
+239,159,Dr. B. Ravi Kumar,133,44,346,Basic Electrical Engineering practical applications,PLANNED
+240,159,Dr. B. Ravi Kumar,134,44,347,Technical Communication principles,COMPLETED
+240,159,Dr. B. Ravi Kumar,134,44,348,Technical Communication analytical methods,IN_PROGRESS
+240,159,Dr. B. Ravi Kumar,134,44,349,Technical Communication practical applications,PLANNED
+241,159,Dr. B. Ravi Kumar,129,45,332,Calculus and linear algebra,COMPLETED
+241,159,Dr. B. Ravi Kumar,129,45,333,Differential equations,IN_PROGRESS
+241,159,Dr. B. Ravi Kumar,129,45,334,Engineering numerical applications,PLANNED
+242,159,Dr. B. Ravi Kumar,130,45,335,Engineering Physics principles,COMPLETED
+242,159,Dr. B. Ravi Kumar,130,45,336,Engineering Physics analytical methods,IN_PROGRESS
+242,159,Dr. B. Ravi Kumar,130,45,337,Engineering Physics practical applications,PLANNED
+243,159,Dr. B. Ravi Kumar,131,45,338,Language fundamentals and control flow,COMPLETED
+243,159,Dr. B. Ravi Kumar,131,45,339,Functions and data structures,IN_PROGRESS
+243,159,Dr. B. Ravi Kumar,131,45,340,Testing and problem solving,PLANNED
+244,159,Dr. B. Ravi Kumar,132,45,341,Engineering Graphics principles,COMPLETED
+244,159,Dr. B. Ravi Kumar,132,45,342,Engineering Graphics analytical methods,IN_PROGRESS
+244,159,Dr. B. Ravi Kumar,132,45,343,Engineering Graphics practical applications,PLANNED
+245,159,Dr. B. Ravi Kumar,133,45,344,Basic Electrical Engineering principles,COMPLETED
+245,159,Dr. B. Ravi Kumar,133,45,345,Basic Electrical Engineering analytical methods,IN_PROGRESS
+245,159,Dr. B. Ravi Kumar,133,45,346,Basic Electrical Engineering practical applications,PLANNED
+246,159,Dr. B. Ravi Kumar,134,45,347,Technical Communication principles,COMPLETED
+246,159,Dr. B. Ravi Kumar,134,45,348,Technical Communication analytical methods,IN_PROGRESS
+246,159,Dr. B. Ravi Kumar,134,45,349,Technical Communication practical applications,PLANNED
+247,159,Dr. B. Ravi Kumar,135,13,354,Electronic Devices principles,COMPLETED
+247,159,Dr. B. Ravi Kumar,135,13,355,Electronic Devices analytical methods,IN_PROGRESS
+247,159,Dr. B. Ravi Kumar,135,13,356,Electronic Devices practical applications,PLANNED
+248,159,Dr. B. Ravi Kumar,136,13,357,Circuit Theory principles,COMPLETED
+248,159,Dr. B. Ravi Kumar,136,13,358,Circuit Theory analytical methods,IN_PROGRESS
+248,159,Dr. B. Ravi Kumar,136,13,359,Circuit Theory practical applications,PLANNED
+249,159,Dr. B. Ravi Kumar,137,13,360,Signals and Systems principles,COMPLETED
+249,159,Dr. B. Ravi Kumar,137,13,361,Signals and Systems analytical methods,IN_PROGRESS
+249,159,Dr. B. Ravi Kumar,137,13,362,Signals and Systems practical applications,PLANNED
+250,159,Dr. B. Ravi Kumar,138,13,363,Analog Electronics principles,COMPLETED
+250,159,Dr. B. Ravi Kumar,138,13,364,Analog Electronics analytical methods,IN_PROGRESS
+250,159,Dr. B. Ravi Kumar,138,13,365,Analog Electronics practical applications,PLANNED
+251,159,Dr. B. Ravi Kumar,29,46,34,Digital Electronics Fundamentals,COMPLETED
+251,159,Dr. B. Ravi Kumar,29,46,350,Digital Electronics principles,IN_PROGRESS
+251,159,Dr. B. Ravi Kumar,29,46,351,Digital Electronics analytical methods,PLANNED
+252,159,Dr. B. Ravi Kumar,30,46,35,Communication Systems Fundamentals,COMPLETED
+252,159,Dr. B. Ravi Kumar,30,46,352,Communication Systems principles,IN_PROGRESS
+252,159,Dr. B. Ravi Kumar,30,46,353,Communication Systems analytical methods,PLANNED
+253,159,Dr. B. Ravi Kumar,135,46,354,Electronic Devices principles,COMPLETED
+253,159,Dr. B. Ravi Kumar,135,46,355,Electronic Devices analytical methods,IN_PROGRESS
+253,159,Dr. B. Ravi Kumar,135,46,356,Electronic Devices practical applications,PLANNED
+254,159,Dr. B. Ravi Kumar,136,46,357,Circuit Theory principles,COMPLETED
+254,159,Dr. B. Ravi Kumar,136,46,358,Circuit Theory analytical methods,IN_PROGRESS
+254,159,Dr. B. Ravi Kumar,136,46,359,Circuit Theory practical applications,PLANNED
+255,159,Dr. B. Ravi Kumar,137,46,360,Signals and Systems principles,COMPLETED
+255,159,Dr. B. Ravi Kumar,137,46,361,Signals and Systems analytical methods,IN_PROGRESS
+255,159,Dr. B. Ravi Kumar,137,46,362,Signals and Systems practical applications,PLANNED
+256,159,Dr. B. Ravi Kumar,138,46,363,Analog Electronics principles,COMPLETED
+256,159,Dr. B. Ravi Kumar,138,46,364,Analog Electronics analytical methods,IN_PROGRESS
+256,159,Dr. B. Ravi Kumar,138,46,365,Analog Electronics practical applications,PLANNED
+257,159,Dr. B. Ravi Kumar,139,47,366,Electromagnetic Fields principles,COMPLETED
+257,159,Dr. B. Ravi Kumar,139,47,367,Electromagnetic Fields analytical methods,IN_PROGRESS
+257,159,Dr. B. Ravi Kumar,139,47,368,Electromagnetic Fields practical applications,PLANNED
+258,159,Dr. B. Ravi Kumar,140,47,369,Network layers and protocols,COMPLETED
+258,159,Dr. B. Ravi Kumar,140,47,370,IP addressing and routing,IN_PROGRESS
+258,159,Dr. B. Ravi Kumar,140,47,371,Transport protocols and security,PLANNED
+259,159,Dr. B. Ravi Kumar,141,47,372,Digital Signal Processing principles,COMPLETED
+259,159,Dr. B. Ravi Kumar,141,47,373,Digital Signal Processing analytical methods,IN_PROGRESS
+259,159,Dr. B. Ravi Kumar,141,47,374,Digital Signal Processing practical applications,PLANNED
+260,159,Dr. B. Ravi Kumar,142,47,375,Microprocessors principles,COMPLETED
+260,159,Dr. B. Ravi Kumar,142,47,376,Microprocessors analytical methods,IN_PROGRESS
+260,159,Dr. B. Ravi Kumar,142,47,377,Microprocessors practical applications,PLANNED
+261,159,Dr. B. Ravi Kumar,143,47,378,VLSI Design principles,COMPLETED
+261,159,Dr. B. Ravi Kumar,143,47,379,VLSI Design analytical methods,IN_PROGRESS
+261,159,Dr. B. Ravi Kumar,143,47,380,VLSI Design practical applications,PLANNED
+262,159,Dr. B. Ravi Kumar,144,47,381,Control Engineering principles,COMPLETED
+262,159,Dr. B. Ravi Kumar,144,47,382,Control Engineering analytical methods,IN_PROGRESS
+262,159,Dr. B. Ravi Kumar,144,47,383,Control Engineering practical applications,PLANNED
+263,159,Dr. B. Ravi Kumar,139,48,366,Electromagnetic Fields principles,COMPLETED
+263,159,Dr. B. Ravi Kumar,139,48,367,Electromagnetic Fields analytical methods,IN_PROGRESS
+263,159,Dr. B. Ravi Kumar,139,48,368,Electromagnetic Fields practical applications,PLANNED
+264,159,Dr. B. Ravi Kumar,140,48,369,Network layers and protocols,COMPLETED
+264,159,Dr. B. Ravi Kumar,140,48,370,IP addressing and routing,IN_PROGRESS
+264,159,Dr. B. Ravi Kumar,140,48,371,Transport protocols and security,PLANNED
+265,159,Dr. B. Ravi Kumar,141,48,372,Digital Signal Processing principles,COMPLETED
+265,159,Dr. B. Ravi Kumar,141,48,373,Digital Signal Processing analytical methods,IN_PROGRESS
+265,159,Dr. B. Ravi Kumar,141,48,374,Digital Signal Processing practical applications,PLANNED
+266,159,Dr. B. Ravi Kumar,142,48,375,Microprocessors principles,COMPLETED
+266,159,Dr. B. Ravi Kumar,142,48,376,Microprocessors analytical methods,IN_PROGRESS
+266,159,Dr. B. Ravi Kumar,142,48,377,Microprocessors practical applications,PLANNED
+267,159,Dr. B. Ravi Kumar,143,48,378,VLSI Design principles,COMPLETED
+267,159,Dr. B. Ravi Kumar,143,48,379,VLSI Design analytical methods,IN_PROGRESS
+267,159,Dr. B. Ravi Kumar,143,48,380,VLSI Design practical applications,PLANNED
+268,159,Dr. B. Ravi Kumar,144,48,381,Control Engineering principles,COMPLETED
+268,159,Dr. B. Ravi Kumar,144,48,382,Control Engineering analytical methods,IN_PROGRESS
+268,159,Dr. B. Ravi Kumar,144,48,383,Control Engineering practical applications,PLANNED
+269,159,Dr. B. Ravi Kumar,145,49,384,Antenna Theory principles,COMPLETED
+269,159,Dr. B. Ravi Kumar,145,49,385,Antenna Theory analytical methods,IN_PROGRESS
+269,159,Dr. B. Ravi Kumar,145,49,386,Antenna Theory practical applications,PLANNED
+270,159,Dr. B. Ravi Kumar,146,49,387,Embedded Systems principles,COMPLETED
+270,159,Dr. B. Ravi Kumar,146,49,388,Embedded Systems analytical methods,IN_PROGRESS
+270,159,Dr. B. Ravi Kumar,146,49,389,Embedded Systems practical applications,PLANNED
+271,159,Dr. B. Ravi Kumar,147,49,390,Wireless Communication principles,COMPLETED
+271,159,Dr. B. Ravi Kumar,147,49,391,Wireless Communication analytical methods,IN_PROGRESS
+271,159,Dr. B. Ravi Kumar,147,49,392,Wireless Communication practical applications,PLANNED
+272,159,Dr. B. Ravi Kumar,148,49,393,Optical Communication principles,COMPLETED
+272,159,Dr. B. Ravi Kumar,148,49,394,Optical Communication analytical methods,IN_PROGRESS
+272,159,Dr. B. Ravi Kumar,148,49,395,Optical Communication practical applications,PLANNED
+273,159,Dr. B. Ravi Kumar,149,49,396,Microwave Engineering principles,COMPLETED
+273,159,Dr. B. Ravi Kumar,149,49,397,Microwave Engineering analytical methods,IN_PROGRESS
+273,159,Dr. B. Ravi Kumar,149,49,398,Microwave Engineering practical applications,PLANNED
+274,159,Dr. B. Ravi Kumar,150,49,399,IoT Systems principles,COMPLETED
+274,159,Dr. B. Ravi Kumar,150,49,400,IoT Systems analytical methods,IN_PROGRESS
+274,159,Dr. B. Ravi Kumar,150,49,401,IoT Systems practical applications,PLANNED
+275,159,Dr. B. Ravi Kumar,145,50,384,Antenna Theory principles,COMPLETED
+275,159,Dr. B. Ravi Kumar,145,50,385,Antenna Theory analytical methods,IN_PROGRESS
+275,159,Dr. B. Ravi Kumar,145,50,386,Antenna Theory practical applications,PLANNED
+276,159,Dr. B. Ravi Kumar,146,50,387,Embedded Systems principles,COMPLETED
+276,159,Dr. B. Ravi Kumar,146,50,388,Embedded Systems analytical methods,IN_PROGRESS
+276,159,Dr. B. Ravi Kumar,146,50,389,Embedded Systems practical applications,PLANNED
+277,159,Dr. B. Ravi Kumar,147,50,390,Wireless Communication principles,COMPLETED
+277,159,Dr. B. Ravi Kumar,147,50,391,Wireless Communication analytical methods,IN_PROGRESS
+277,159,Dr. B. Ravi Kumar,147,50,392,Wireless Communication practical applications,PLANNED
+278,159,Dr. B. Ravi Kumar,148,50,393,Optical Communication principles,COMPLETED
+278,159,Dr. B. Ravi Kumar,148,50,394,Optical Communication analytical methods,IN_PROGRESS
+278,159,Dr. B. Ravi Kumar,148,50,395,Optical Communication practical applications,PLANNED
+279,159,Dr. B. Ravi Kumar,149,50,396,Microwave Engineering principles,COMPLETED
+279,159,Dr. B. Ravi Kumar,149,50,397,Microwave Engineering analytical methods,IN_PROGRESS
+279,159,Dr. B. Ravi Kumar,149,50,398,Microwave Engineering practical applications,PLANNED
+280,159,Dr. B. Ravi Kumar,150,50,399,IoT Systems principles,COMPLETED
+280,159,Dr. B. Ravi Kumar,150,50,400,IoT Systems analytical methods,IN_PROGRESS
+280,159,Dr. B. Ravi Kumar,150,50,401,IoT Systems practical applications,PLANNED
+281,171,Dr. C. Suresh,151,51,402,Calculus and linear algebra,COMPLETED
+281,171,Dr. C. Suresh,151,51,403,Differential equations,IN_PROGRESS
+281,171,Dr. C. Suresh,151,51,404,Engineering numerical applications,PLANNED
+282,171,Dr. C. Suresh,152,51,405,Engineering Physics principles,COMPLETED
+282,171,Dr. C. Suresh,152,51,406,Engineering Physics analytical methods,IN_PROGRESS
+282,171,Dr. C. Suresh,152,51,407,Engineering Physics practical applications,PLANNED
+283,171,Dr. C. Suresh,153,51,408,Language fundamentals and control flow,COMPLETED
+283,171,Dr. C. Suresh,153,51,409,Functions and data structures,IN_PROGRESS
+283,171,Dr. C. Suresh,153,51,410,Testing and problem solving,PLANNED
+284,171,Dr. C. Suresh,154,51,411,Engineering Graphics principles,COMPLETED
+284,171,Dr. C. Suresh,154,51,412,Engineering Graphics analytical methods,IN_PROGRESS
+284,171,Dr. C. Suresh,154,51,413,Engineering Graphics practical applications,PLANNED
+285,171,Dr. C. Suresh,155,51,414,Basic Electronics principles,COMPLETED
+285,171,Dr. C. Suresh,155,51,415,Basic Electronics analytical methods,IN_PROGRESS
+285,171,Dr. C. Suresh,155,51,416,Basic Electronics practical applications,PLANNED
+286,171,Dr. C. Suresh,156,51,417,Technical Communication principles,COMPLETED
+286,171,Dr. C. Suresh,156,51,418,Technical Communication analytical methods,IN_PROGRESS
+286,171,Dr. C. Suresh,156,51,419,Technical Communication practical applications,PLANNED
+287,171,Dr. C. Suresh,151,52,402,Calculus and linear algebra,COMPLETED
+287,171,Dr. C. Suresh,151,52,403,Differential equations,IN_PROGRESS
+287,171,Dr. C. Suresh,151,52,404,Engineering numerical applications,PLANNED
+288,171,Dr. C. Suresh,152,52,405,Engineering Physics principles,COMPLETED
+288,171,Dr. C. Suresh,152,52,406,Engineering Physics analytical methods,IN_PROGRESS
+288,171,Dr. C. Suresh,152,52,407,Engineering Physics practical applications,PLANNED
+289,171,Dr. C. Suresh,153,52,408,Language fundamentals and control flow,COMPLETED
+289,171,Dr. C. Suresh,153,52,409,Functions and data structures,IN_PROGRESS
+289,171,Dr. C. Suresh,153,52,410,Testing and problem solving,PLANNED
+290,171,Dr. C. Suresh,154,52,411,Engineering Graphics principles,COMPLETED
+290,171,Dr. C. Suresh,154,52,412,Engineering Graphics analytical methods,IN_PROGRESS
+290,171,Dr. C. Suresh,154,52,413,Engineering Graphics practical applications,PLANNED
+291,171,Dr. C. Suresh,155,52,414,Basic Electronics principles,COMPLETED
+291,171,Dr. C. Suresh,155,52,415,Basic Electronics analytical methods,IN_PROGRESS
+291,171,Dr. C. Suresh,155,52,416,Basic Electronics practical applications,PLANNED
+292,171,Dr. C. Suresh,156,52,417,Technical Communication principles,COMPLETED
+292,171,Dr. C. Suresh,156,52,418,Technical Communication analytical methods,IN_PROGRESS
+292,171,Dr. C. Suresh,156,52,419,Technical Communication practical applications,PLANNED
+293,171,Dr. C. Suresh,157,14,424,Electrical Machines I principles,COMPLETED
+293,171,Dr. C. Suresh,157,14,425,Electrical Machines I analytical methods,IN_PROGRESS
+293,171,Dr. C. Suresh,157,14,426,Electrical Machines I practical applications,PLANNED
+294,171,Dr. C. Suresh,158,14,427,Circuit Analysis principles,COMPLETED
+294,171,Dr. C. Suresh,158,14,428,Circuit Analysis analytical methods,IN_PROGRESS
+294,171,Dr. C. Suresh,158,14,429,Circuit Analysis practical applications,PLANNED
+295,171,Dr. C. Suresh,159,14,430,Electromagnetic Fields principles,COMPLETED
+295,171,Dr. C. Suresh,159,14,431,Electromagnetic Fields analytical methods,IN_PROGRESS
+295,171,Dr. C. Suresh,159,14,432,Electromagnetic Fields practical applications,PLANNED
+296,171,Dr. C. Suresh,160,14,433,Measurements and Instrumentation principles,COMPLETED
+296,171,Dr. C. Suresh,160,14,434,Measurements and Instrumentation analytical methods,IN_PROGRESS
+296,171,Dr. C. Suresh,160,14,435,Measurements and Instrumentation practical applications,PLANNED
+297,171,Dr. C. Suresh,31,53,36,Electrical Circuits Fundamentals,COMPLETED
+297,171,Dr. C. Suresh,31,53,420,Circuit laws and network theorems,IN_PROGRESS
+297,171,Dr. C. Suresh,31,53,421,AC and transient analysis,PLANNED
+298,171,Dr. C. Suresh,32,53,37,Control Systems Fundamentals,COMPLETED
+298,171,Dr. C. Suresh,32,53,422,Control Systems principles,IN_PROGRESS
+298,171,Dr. C. Suresh,32,53,423,Control Systems analytical methods,PLANNED
+299,171,Dr. C. Suresh,157,53,424,Electrical Machines I principles,COMPLETED
+299,171,Dr. C. Suresh,157,53,425,Electrical Machines I analytical methods,IN_PROGRESS
+299,171,Dr. C. Suresh,157,53,426,Electrical Machines I practical applications,PLANNED
+300,171,Dr. C. Suresh,158,53,427,Circuit Analysis principles,COMPLETED
+300,171,Dr. C. Suresh,158,53,428,Circuit Analysis analytical methods,IN_PROGRESS
+300,171,Dr. C. Suresh,158,53,429,Circuit Analysis practical applications,PLANNED
+301,171,Dr. C. Suresh,159,53,430,Electromagnetic Fields principles,COMPLETED
+301,171,Dr. C. Suresh,159,53,431,Electromagnetic Fields analytical methods,IN_PROGRESS
+301,171,Dr. C. Suresh,159,53,432,Electromagnetic Fields practical applications,PLANNED
+302,171,Dr. C. Suresh,160,53,433,Measurements and Instrumentation principles,COMPLETED
+302,171,Dr. C. Suresh,160,53,434,Measurements and Instrumentation analytical methods,IN_PROGRESS
+302,171,Dr. C. Suresh,160,53,435,Measurements and Instrumentation practical applications,PLANNED
+303,171,Dr. C. Suresh,161,54,436,Power Electronics principles,COMPLETED
+303,171,Dr. C. Suresh,161,54,437,Power Electronics analytical methods,IN_PROGRESS
+303,171,Dr. C. Suresh,161,54,438,Power Electronics practical applications,PLANNED
+304,171,Dr. C. Suresh,162,54,439,Network layers and protocols,COMPLETED
+304,171,Dr. C. Suresh,162,54,440,IP addressing and routing,IN_PROGRESS
+304,171,Dr. C. Suresh,162,54,441,Transport protocols and security,PLANNED
+305,171,Dr. C. Suresh,163,54,442,Electrical Machines II principles,COMPLETED
+305,171,Dr. C. Suresh,163,54,443,Electrical Machines II analytical methods,IN_PROGRESS
+305,171,Dr. C. Suresh,163,54,444,Electrical Machines II practical applications,PLANNED
+306,171,Dr. C. Suresh,164,54,445,Power Systems I principles,COMPLETED
+306,171,Dr. C. Suresh,164,54,446,Power Systems I analytical methods,IN_PROGRESS
+306,171,Dr. C. Suresh,164,54,447,Power Systems I practical applications,PLANNED
+307,171,Dr. C. Suresh,165,54,448,Signals and Systems principles,COMPLETED
+307,171,Dr. C. Suresh,165,54,449,Signals and Systems analytical methods,IN_PROGRESS
+307,171,Dr. C. Suresh,165,54,450,Signals and Systems practical applications,PLANNED
+308,171,Dr. C. Suresh,166,54,451,Microcontrollers principles,COMPLETED
+308,171,Dr. C. Suresh,166,54,452,Microcontrollers analytical methods,IN_PROGRESS
+308,171,Dr. C. Suresh,166,54,453,Microcontrollers practical applications,PLANNED
+309,171,Dr. C. Suresh,161,55,436,Power Electronics principles,COMPLETED
+309,171,Dr. C. Suresh,161,55,437,Power Electronics analytical methods,IN_PROGRESS
+309,171,Dr. C. Suresh,161,55,438,Power Electronics practical applications,PLANNED
+310,171,Dr. C. Suresh,162,55,439,Network layers and protocols,COMPLETED
+310,171,Dr. C. Suresh,162,55,440,IP addressing and routing,IN_PROGRESS
+310,171,Dr. C. Suresh,162,55,441,Transport protocols and security,PLANNED
+311,171,Dr. C. Suresh,163,55,442,Electrical Machines II principles,COMPLETED
+311,171,Dr. C. Suresh,163,55,443,Electrical Machines II analytical methods,IN_PROGRESS
+311,171,Dr. C. Suresh,163,55,444,Electrical Machines II practical applications,PLANNED
+312,171,Dr. C. Suresh,164,55,445,Power Systems I principles,COMPLETED
+312,171,Dr. C. Suresh,164,55,446,Power Systems I analytical methods,IN_PROGRESS
+312,171,Dr. C. Suresh,164,55,447,Power Systems I practical applications,PLANNED
+313,171,Dr. C. Suresh,165,55,448,Signals and Systems principles,COMPLETED
+313,171,Dr. C. Suresh,165,55,449,Signals and Systems analytical methods,IN_PROGRESS
+313,171,Dr. C. Suresh,165,55,450,Signals and Systems practical applications,PLANNED
+314,171,Dr. C. Suresh,166,55,451,Microcontrollers principles,COMPLETED
+314,171,Dr. C. Suresh,166,55,452,Microcontrollers analytical methods,IN_PROGRESS
+314,171,Dr. C. Suresh,166,55,453,Microcontrollers practical applications,PLANNED
+315,171,Dr. C. Suresh,167,56,454,Control Engineering principles,COMPLETED
+315,171,Dr. C. Suresh,167,56,455,Control Engineering analytical methods,IN_PROGRESS
+315,171,Dr. C. Suresh,167,56,456,Control Engineering practical applications,PLANNED
+316,171,Dr. C. Suresh,168,56,457,Electrical Drives principles,COMPLETED
+316,171,Dr. C. Suresh,168,56,458,Electrical Drives analytical methods,IN_PROGRESS
+316,171,Dr. C. Suresh,168,56,459,Electrical Drives practical applications,PLANNED
+317,171,Dr. C. Suresh,169,56,460,Power Systems II principles,COMPLETED
+317,171,Dr. C. Suresh,169,56,461,Power Systems II analytical methods,IN_PROGRESS
+317,171,Dr. C. Suresh,169,56,462,Power Systems II practical applications,PLANNED
+318,171,Dr. C. Suresh,170,56,463,Renewable Energy Systems principles,COMPLETED
+318,171,Dr. C. Suresh,170,56,464,Renewable Energy Systems analytical methods,IN_PROGRESS
+318,171,Dr. C. Suresh,170,56,465,Renewable Energy Systems practical applications,PLANNED
+319,171,Dr. C. Suresh,171,56,466,High Voltage Engineering principles,COMPLETED
+319,171,Dr. C. Suresh,171,56,467,High Voltage Engineering analytical methods,IN_PROGRESS
+319,171,Dr. C. Suresh,171,56,468,High Voltage Engineering practical applications,PLANNED
+320,171,Dr. C. Suresh,172,56,469,Smart Grids principles,COMPLETED
+320,171,Dr. C. Suresh,172,56,470,Smart Grids analytical methods,IN_PROGRESS
+320,171,Dr. C. Suresh,172,56,471,Smart Grids practical applications,PLANNED
+321,171,Dr. C. Suresh,167,57,454,Control Engineering principles,COMPLETED
+321,171,Dr. C. Suresh,167,57,455,Control Engineering analytical methods,IN_PROGRESS
+321,171,Dr. C. Suresh,167,57,456,Control Engineering practical applications,PLANNED
+322,171,Dr. C. Suresh,168,57,457,Electrical Drives principles,COMPLETED
+322,171,Dr. C. Suresh,168,57,458,Electrical Drives analytical methods,IN_PROGRESS
+322,171,Dr. C. Suresh,168,57,459,Electrical Drives practical applications,PLANNED
+323,171,Dr. C. Suresh,169,57,460,Power Systems II principles,COMPLETED
+323,171,Dr. C. Suresh,169,57,461,Power Systems II analytical methods,IN_PROGRESS
+323,171,Dr. C. Suresh,169,57,462,Power Systems II practical applications,PLANNED
+324,171,Dr. C. Suresh,170,57,463,Renewable Energy Systems principles,COMPLETED
+324,171,Dr. C. Suresh,170,57,464,Renewable Energy Systems analytical methods,IN_PROGRESS
+324,171,Dr. C. Suresh,170,57,465,Renewable Energy Systems practical applications,PLANNED
+325,171,Dr. C. Suresh,171,57,466,High Voltage Engineering principles,COMPLETED
+325,171,Dr. C. Suresh,171,57,467,High Voltage Engineering analytical methods,IN_PROGRESS
+325,171,Dr. C. Suresh,171,57,468,High Voltage Engineering practical applications,PLANNED
+326,171,Dr. C. Suresh,172,57,469,Smart Grids principles,COMPLETED
+326,171,Dr. C. Suresh,172,57,470,Smart Grids analytical methods,IN_PROGRESS
+326,171,Dr. C. Suresh,172,57,471,Smart Grids practical applications,PLANNED
+327,183,Dr. K. Madhavi,173,58,472,Calculus and linear algebra,COMPLETED
+327,183,Dr. K. Madhavi,173,58,473,Differential equations,IN_PROGRESS
+327,183,Dr. K. Madhavi,173,58,474,Engineering numerical applications,PLANNED
+328,183,Dr. K. Madhavi,174,58,475,Engineering Physics principles,COMPLETED
+328,183,Dr. K. Madhavi,174,58,476,Engineering Physics analytical methods,IN_PROGRESS
+328,183,Dr. K. Madhavi,174,58,477,Engineering Physics practical applications,PLANNED
+329,183,Dr. K. Madhavi,175,58,478,Language fundamentals and control flow,COMPLETED
+329,183,Dr. K. Madhavi,175,58,479,Functions and data structures,IN_PROGRESS
+329,183,Dr. K. Madhavi,175,58,480,Testing and problem solving,PLANNED
+330,183,Dr. K. Madhavi,176,58,481,Engineering Graphics principles,COMPLETED
+330,183,Dr. K. Madhavi,176,58,482,Engineering Graphics analytical methods,IN_PROGRESS
+330,183,Dr. K. Madhavi,176,58,483,Engineering Graphics practical applications,PLANNED
+331,183,Dr. K. Madhavi,177,58,484,Workshop Practice principles,COMPLETED
+331,183,Dr. K. Madhavi,177,58,485,Workshop Practice analytical methods,IN_PROGRESS
+331,183,Dr. K. Madhavi,177,58,486,Workshop Practice practical applications,PLANNED
+332,183,Dr. K. Madhavi,178,58,487,Technical Communication principles,COMPLETED
+332,183,Dr. K. Madhavi,178,58,488,Technical Communication analytical methods,IN_PROGRESS
+332,183,Dr. K. Madhavi,178,58,489,Technical Communication practical applications,PLANNED
+333,183,Dr. K. Madhavi,173,59,472,Calculus and linear algebra,COMPLETED
+333,183,Dr. K. Madhavi,173,59,473,Differential equations,IN_PROGRESS
+333,183,Dr. K. Madhavi,173,59,474,Engineering numerical applications,PLANNED
+334,183,Dr. K. Madhavi,174,59,475,Engineering Physics principles,COMPLETED
+334,183,Dr. K. Madhavi,174,59,476,Engineering Physics analytical methods,IN_PROGRESS
+334,183,Dr. K. Madhavi,174,59,477,Engineering Physics practical applications,PLANNED
+335,183,Dr. K. Madhavi,175,59,478,Language fundamentals and control flow,COMPLETED
+335,183,Dr. K. Madhavi,175,59,479,Functions and data structures,IN_PROGRESS
+335,183,Dr. K. Madhavi,175,59,480,Testing and problem solving,PLANNED
+336,183,Dr. K. Madhavi,176,59,481,Engineering Graphics principles,COMPLETED
+336,183,Dr. K. Madhavi,176,59,482,Engineering Graphics analytical methods,IN_PROGRESS
+336,183,Dr. K. Madhavi,176,59,483,Engineering Graphics practical applications,PLANNED
+337,183,Dr. K. Madhavi,177,59,484,Workshop Practice principles,COMPLETED
+337,183,Dr. K. Madhavi,177,59,485,Workshop Practice analytical methods,IN_PROGRESS
+337,183,Dr. K. Madhavi,177,59,486,Workshop Practice practical applications,PLANNED
+338,183,Dr. K. Madhavi,178,59,487,Technical Communication principles,COMPLETED
+338,183,Dr. K. Madhavi,178,59,488,Technical Communication analytical methods,IN_PROGRESS
+338,183,Dr. K. Madhavi,178,59,489,Technical Communication practical applications,PLANNED
+339,183,Dr. K. Madhavi,179,15,494,Strength of Materials principles,COMPLETED
+339,183,Dr. K. Madhavi,179,15,495,Strength of Materials analytical methods,IN_PROGRESS
+339,183,Dr. K. Madhavi,179,15,496,Strength of Materials practical applications,PLANNED
+340,183,Dr. K. Madhavi,180,15,497,Fluid Mechanics principles,COMPLETED
+340,183,Dr. K. Madhavi,180,15,498,Fluid Mechanics analytical methods,IN_PROGRESS
+340,183,Dr. K. Madhavi,180,15,499,Fluid Mechanics practical applications,PLANNED
+341,183,Dr. K. Madhavi,181,15,500,Material Science principles,COMPLETED
+341,183,Dr. K. Madhavi,181,15,501,Material Science analytical methods,IN_PROGRESS
+341,183,Dr. K. Madhavi,181,15,502,Material Science practical applications,PLANNED
+342,183,Dr. K. Madhavi,182,15,503,Manufacturing Processes principles,COMPLETED
+342,183,Dr. K. Madhavi,182,15,504,Manufacturing Processes analytical methods,IN_PROGRESS
+342,183,Dr. K. Madhavi,182,15,505,Manufacturing Processes practical applications,PLANNED
+343,183,Dr. K. Madhavi,33,60,38,Engineering Mechanics Fundamentals,COMPLETED
+343,183,Dr. K. Madhavi,33,60,490,Engineering Mechanics principles,IN_PROGRESS
+343,183,Dr. K. Madhavi,33,60,491,Engineering Mechanics analytical methods,PLANNED
+344,183,Dr. K. Madhavi,34,60,39,Thermodynamics Fundamentals,COMPLETED
+344,183,Dr. K. Madhavi,34,60,492,Energy and the first law,IN_PROGRESS
+344,183,Dr. K. Madhavi,34,60,493,Entropy and the second law,PLANNED
+345,183,Dr. K. Madhavi,179,60,494,Strength of Materials principles,COMPLETED
+345,183,Dr. K. Madhavi,179,60,495,Strength of Materials analytical methods,IN_PROGRESS
+345,183,Dr. K. Madhavi,179,60,496,Strength of Materials practical applications,PLANNED
+346,183,Dr. K. Madhavi,180,60,497,Fluid Mechanics principles,COMPLETED
+346,183,Dr. K. Madhavi,180,60,498,Fluid Mechanics analytical methods,IN_PROGRESS
+346,183,Dr. K. Madhavi,180,60,499,Fluid Mechanics practical applications,PLANNED
+347,183,Dr. K. Madhavi,181,60,500,Material Science principles,COMPLETED
+347,183,Dr. K. Madhavi,181,60,501,Material Science analytical methods,IN_PROGRESS
+347,183,Dr. K. Madhavi,181,60,502,Material Science practical applications,PLANNED
+348,183,Dr. K. Madhavi,182,60,503,Manufacturing Processes principles,COMPLETED
+348,183,Dr. K. Madhavi,182,60,504,Manufacturing Processes analytical methods,IN_PROGRESS
+348,183,Dr. K. Madhavi,182,60,505,Manufacturing Processes practical applications,PLANNED
+349,183,Dr. K. Madhavi,183,61,506,Kinematics of Machines principles,COMPLETED
+349,183,Dr. K. Madhavi,183,61,507,Kinematics of Machines analytical methods,IN_PROGRESS
+349,183,Dr. K. Madhavi,183,61,508,Kinematics of Machines practical applications,PLANNED
+350,183,Dr. K. Madhavi,184,61,509,Numerical Methods principles,COMPLETED
+350,183,Dr. K. Madhavi,184,61,510,Numerical Methods analytical methods,IN_PROGRESS
+350,183,Dr. K. Madhavi,184,61,511,Numerical Methods practical applications,PLANNED
+351,183,Dr. K. Madhavi,185,61,512,Dynamics of Machines principles,COMPLETED
+351,183,Dr. K. Madhavi,185,61,513,Dynamics of Machines analytical methods,IN_PROGRESS
+351,183,Dr. K. Madhavi,185,61,514,Dynamics of Machines practical applications,PLANNED
+352,183,Dr. K. Madhavi,186,61,515,Heat Transfer principles,COMPLETED
+352,183,Dr. K. Madhavi,186,61,516,Heat Transfer analytical methods,IN_PROGRESS
+352,183,Dr. K. Madhavi,186,61,517,Heat Transfer practical applications,PLANNED
+353,183,Dr. K. Madhavi,187,61,518,Machine Design I principles,COMPLETED
+353,183,Dr. K. Madhavi,187,61,519,Machine Design I analytical methods,IN_PROGRESS
+353,183,Dr. K. Madhavi,187,61,520,Machine Design I practical applications,PLANNED
+354,183,Dr. K. Madhavi,188,61,521,Metrology principles,COMPLETED
+354,183,Dr. K. Madhavi,188,61,522,Metrology analytical methods,IN_PROGRESS
+354,183,Dr. K. Madhavi,188,61,523,Metrology practical applications,PLANNED
+355,183,Dr. K. Madhavi,183,62,506,Kinematics of Machines principles,COMPLETED
+355,183,Dr. K. Madhavi,183,62,507,Kinematics of Machines analytical methods,IN_PROGRESS
+355,183,Dr. K. Madhavi,183,62,508,Kinematics of Machines practical applications,PLANNED
+356,183,Dr. K. Madhavi,184,62,509,Numerical Methods principles,COMPLETED
+356,183,Dr. K. Madhavi,184,62,510,Numerical Methods analytical methods,IN_PROGRESS
+356,183,Dr. K. Madhavi,184,62,511,Numerical Methods practical applications,PLANNED
+357,183,Dr. K. Madhavi,185,62,512,Dynamics of Machines principles,COMPLETED
+357,183,Dr. K. Madhavi,185,62,513,Dynamics of Machines analytical methods,IN_PROGRESS
+357,183,Dr. K. Madhavi,185,62,514,Dynamics of Machines practical applications,PLANNED
+358,183,Dr. K. Madhavi,186,62,515,Heat Transfer principles,COMPLETED
+358,183,Dr. K. Madhavi,186,62,516,Heat Transfer analytical methods,IN_PROGRESS
+358,183,Dr. K. Madhavi,186,62,517,Heat Transfer practical applications,PLANNED
+359,183,Dr. K. Madhavi,187,62,518,Machine Design I principles,COMPLETED
+359,183,Dr. K. Madhavi,187,62,519,Machine Design I analytical methods,IN_PROGRESS
+359,183,Dr. K. Madhavi,187,62,520,Machine Design I practical applications,PLANNED
+360,183,Dr. K. Madhavi,188,62,521,Metrology principles,COMPLETED
+360,183,Dr. K. Madhavi,188,62,522,Metrology analytical methods,IN_PROGRESS
+360,183,Dr. K. Madhavi,188,62,523,Metrology practical applications,PLANNED
+361,183,Dr. K. Madhavi,189,63,524,Energy and the first law,COMPLETED
+361,183,Dr. K. Madhavi,189,63,525,Entropy and the second law,IN_PROGRESS
+361,183,Dr. K. Madhavi,189,63,526,Thermodynamic cycles,PLANNED
+362,183,Dr. K. Madhavi,190,63,527,CAD and CAM principles,COMPLETED
+362,183,Dr. K. Madhavi,190,63,528,CAD and CAM analytical methods,IN_PROGRESS
+362,183,Dr. K. Madhavi,190,63,529,CAD and CAM practical applications,PLANNED
+363,183,Dr. K. Madhavi,191,63,530,Machine Design II principles,COMPLETED
+363,183,Dr. K. Madhavi,191,63,531,Machine Design II analytical methods,IN_PROGRESS
+363,183,Dr. K. Madhavi,191,63,532,Machine Design II practical applications,PLANNED
+364,183,Dr. K. Madhavi,192,63,533,Refrigeration and Air Conditioning principles,COMPLETED
+364,183,Dr. K. Madhavi,192,63,534,Refrigeration and Air Conditioning analytical methods,IN_PROGRESS
+364,183,Dr. K. Madhavi,192,63,535,Refrigeration and Air Conditioning practical applications,PLANNED
+365,183,Dr. K. Madhavi,193,63,536,Automobile Engineering principles,COMPLETED
+365,183,Dr. K. Madhavi,193,63,537,Automobile Engineering analytical methods,IN_PROGRESS
+365,183,Dr. K. Madhavi,193,63,538,Automobile Engineering practical applications,PLANNED
+366,183,Dr. K. Madhavi,194,63,539,Industrial Engineering principles,COMPLETED
+366,183,Dr. K. Madhavi,194,63,540,Industrial Engineering analytical methods,IN_PROGRESS
+366,183,Dr. K. Madhavi,194,63,541,Industrial Engineering practical applications,PLANNED
+367,183,Dr. K. Madhavi,189,64,524,Energy and the first law,COMPLETED
+367,183,Dr. K. Madhavi,189,64,525,Entropy and the second law,IN_PROGRESS
+367,183,Dr. K. Madhavi,189,64,526,Thermodynamic cycles,PLANNED
+368,183,Dr. K. Madhavi,190,64,527,CAD and CAM principles,COMPLETED
+368,183,Dr. K. Madhavi,190,64,528,CAD and CAM analytical methods,IN_PROGRESS
+368,183,Dr. K. Madhavi,190,64,529,CAD and CAM practical applications,PLANNED
+369,183,Dr. K. Madhavi,191,64,530,Machine Design II principles,COMPLETED
+369,183,Dr. K. Madhavi,191,64,531,Machine Design II analytical methods,IN_PROGRESS
+369,183,Dr. K. Madhavi,191,64,532,Machine Design II practical applications,PLANNED
+370,183,Dr. K. Madhavi,192,64,533,Refrigeration and Air Conditioning principles,COMPLETED
+370,183,Dr. K. Madhavi,192,64,534,Refrigeration and Air Conditioning analytical methods,IN_PROGRESS
+370,183,Dr. K. Madhavi,192,64,535,Refrigeration and Air Conditioning practical applications,PLANNED
+371,183,Dr. K. Madhavi,193,64,536,Automobile Engineering principles,COMPLETED
+371,183,Dr. K. Madhavi,193,64,537,Automobile Engineering analytical methods,IN_PROGRESS
+371,183,Dr. K. Madhavi,193,64,538,Automobile Engineering practical applications,PLANNED
+372,183,Dr. K. Madhavi,194,64,539,Industrial Engineering principles,COMPLETED
+372,183,Dr. K. Madhavi,194,64,540,Industrial Engineering analytical methods,IN_PROGRESS
+372,183,Dr. K. Madhavi,194,64,541,Industrial Engineering practical applications,PLANNED
+373,195,Dr. P. Satish,195,65,542,Calculus and linear algebra,COMPLETED
+373,195,Dr. P. Satish,195,65,543,Differential equations,IN_PROGRESS
+373,195,Dr. P. Satish,195,65,544,Engineering numerical applications,PLANNED
+374,195,Dr. P. Satish,196,65,545,Engineering Physics principles,COMPLETED
+374,195,Dr. P. Satish,196,65,546,Engineering Physics analytical methods,IN_PROGRESS
+374,195,Dr. P. Satish,196,65,547,Engineering Physics practical applications,PLANNED
+375,195,Dr. P. Satish,197,65,548,Language fundamentals and control flow,COMPLETED
+375,195,Dr. P. Satish,197,65,549,Functions and data structures,IN_PROGRESS
+375,195,Dr. P. Satish,197,65,550,Testing and problem solving,PLANNED
+376,195,Dr. P. Satish,198,65,551,Engineering Graphics principles,COMPLETED
+376,195,Dr. P. Satish,198,65,552,Engineering Graphics analytical methods,IN_PROGRESS
+376,195,Dr. P. Satish,198,65,553,Engineering Graphics practical applications,PLANNED
+377,195,Dr. P. Satish,199,65,554,Building Materials principles,COMPLETED
+377,195,Dr. P. Satish,199,65,555,Building Materials analytical methods,IN_PROGRESS
+377,195,Dr. P. Satish,199,65,556,Building Materials practical applications,PLANNED
+378,195,Dr. P. Satish,200,65,557,Technical Communication principles,COMPLETED
+378,195,Dr. P. Satish,200,65,558,Technical Communication analytical methods,IN_PROGRESS
+378,195,Dr. P. Satish,200,65,559,Technical Communication practical applications,PLANNED
+379,195,Dr. P. Satish,195,66,542,Calculus and linear algebra,COMPLETED
+379,195,Dr. P. Satish,195,66,543,Differential equations,IN_PROGRESS
+379,195,Dr. P. Satish,195,66,544,Engineering numerical applications,PLANNED
+380,195,Dr. P. Satish,196,66,545,Engineering Physics principles,COMPLETED
+380,195,Dr. P. Satish,196,66,546,Engineering Physics analytical methods,IN_PROGRESS
+380,195,Dr. P. Satish,196,66,547,Engineering Physics practical applications,PLANNED
+381,195,Dr. P. Satish,197,66,548,Language fundamentals and control flow,COMPLETED
+381,195,Dr. P. Satish,197,66,549,Functions and data structures,IN_PROGRESS
+381,195,Dr. P. Satish,197,66,550,Testing and problem solving,PLANNED
+382,195,Dr. P. Satish,198,66,551,Engineering Graphics principles,COMPLETED
+382,195,Dr. P. Satish,198,66,552,Engineering Graphics analytical methods,IN_PROGRESS
+382,195,Dr. P. Satish,198,66,553,Engineering Graphics practical applications,PLANNED
+383,195,Dr. P. Satish,199,66,554,Building Materials principles,COMPLETED
+383,195,Dr. P. Satish,199,66,555,Building Materials analytical methods,IN_PROGRESS
+383,195,Dr. P. Satish,199,66,556,Building Materials practical applications,PLANNED
+384,195,Dr. P. Satish,200,66,557,Technical Communication principles,COMPLETED
+384,195,Dr. P. Satish,200,66,558,Technical Communication analytical methods,IN_PROGRESS
+384,195,Dr. P. Satish,200,66,559,Technical Communication practical applications,PLANNED
+385,195,Dr. P. Satish,201,16,564,Strength of Materials principles,COMPLETED
+385,195,Dr. P. Satish,201,16,565,Strength of Materials analytical methods,IN_PROGRESS
+385,195,Dr. P. Satish,201,16,566,Strength of Materials practical applications,PLANNED
+386,195,Dr. P. Satish,202,16,567,Fluid Mechanics principles,COMPLETED
+386,195,Dr. P. Satish,202,16,568,Fluid Mechanics analytical methods,IN_PROGRESS
+386,195,Dr. P. Satish,202,16,569,Fluid Mechanics practical applications,PLANNED
+387,195,Dr. P. Satish,203,16,570,Engineering Geology principles,COMPLETED
+387,195,Dr. P. Satish,203,16,571,Engineering Geology analytical methods,IN_PROGRESS
+387,195,Dr. P. Satish,203,16,572,Engineering Geology practical applications,PLANNED
+388,195,Dr. P. Satish,204,16,573,Concrete Technology principles,COMPLETED
+388,195,Dr. P. Satish,204,16,574,Concrete Technology analytical methods,IN_PROGRESS
+388,195,Dr. P. Satish,204,16,575,Concrete Technology practical applications,PLANNED
+389,195,Dr. P. Satish,35,67,40,Structural Analysis Fundamentals,COMPLETED
+389,195,Dr. P. Satish,35,67,560,Structural Analysis principles,IN_PROGRESS
+389,195,Dr. P. Satish,35,67,561,Structural Analysis analytical methods,PLANNED
+390,195,Dr. P. Satish,36,67,41,Surveying Fundamentals,COMPLETED
+390,195,Dr. P. Satish,36,67,562,Levelling and angle measurement,IN_PROGRESS
+390,195,Dr. P. Satish,36,67,563,Traversing and contouring,PLANNED
+391,195,Dr. P. Satish,201,67,564,Strength of Materials principles,COMPLETED
+391,195,Dr. P. Satish,201,67,565,Strength of Materials analytical methods,IN_PROGRESS
+391,195,Dr. P. Satish,201,67,566,Strength of Materials practical applications,PLANNED
+392,195,Dr. P. Satish,202,67,567,Fluid Mechanics principles,COMPLETED
+392,195,Dr. P. Satish,202,67,568,Fluid Mechanics analytical methods,IN_PROGRESS
+392,195,Dr. P. Satish,202,67,569,Fluid Mechanics practical applications,PLANNED
+393,195,Dr. P. Satish,203,67,570,Engineering Geology principles,COMPLETED
+393,195,Dr. P. Satish,203,67,571,Engineering Geology analytical methods,IN_PROGRESS
+393,195,Dr. P. Satish,203,67,572,Engineering Geology practical applications,PLANNED
+394,195,Dr. P. Satish,204,67,573,Concrete Technology principles,COMPLETED
+394,195,Dr. P. Satish,204,67,574,Concrete Technology analytical methods,IN_PROGRESS
+394,195,Dr. P. Satish,204,67,575,Concrete Technology practical applications,PLANNED
+395,195,Dr. P. Satish,205,68,576,Construction Methods principles,COMPLETED
+395,195,Dr. P. Satish,205,68,577,Construction Methods analytical methods,IN_PROGRESS
+395,195,Dr. P. Satish,205,68,578,Construction Methods practical applications,PLANNED
+396,195,Dr. P. Satish,206,68,579,Numerical Methods principles,COMPLETED
+396,195,Dr. P. Satish,206,68,580,Numerical Methods analytical methods,IN_PROGRESS
+396,195,Dr. P. Satish,206,68,581,Numerical Methods practical applications,PLANNED
+397,195,Dr. P. Satish,207,68,582,Geotechnical Engineering principles,COMPLETED
+397,195,Dr. P. Satish,207,68,583,Geotechnical Engineering analytical methods,IN_PROGRESS
+397,195,Dr. P. Satish,207,68,584,Geotechnical Engineering practical applications,PLANNED
+398,195,Dr. P. Satish,208,68,585,Transportation Engineering principles,COMPLETED
+398,195,Dr. P. Satish,208,68,586,Transportation Engineering analytical methods,IN_PROGRESS
+398,195,Dr. P. Satish,208,68,587,Transportation Engineering practical applications,PLANNED
+399,195,Dr. P. Satish,209,68,588,Hydrology principles,COMPLETED
+399,195,Dr. P. Satish,209,68,589,Hydrology analytical methods,IN_PROGRESS
+399,195,Dr. P. Satish,209,68,590,Hydrology practical applications,PLANNED
+400,195,Dr. P. Satish,210,68,591,Reinforced Concrete Design principles,COMPLETED
+400,195,Dr. P. Satish,210,68,592,Reinforced Concrete Design analytical methods,IN_PROGRESS
+400,195,Dr. P. Satish,210,68,593,Reinforced Concrete Design practical applications,PLANNED
+401,195,Dr. P. Satish,205,69,576,Construction Methods principles,COMPLETED
+401,195,Dr. P. Satish,205,69,577,Construction Methods analytical methods,IN_PROGRESS
+401,195,Dr. P. Satish,205,69,578,Construction Methods practical applications,PLANNED
+402,195,Dr. P. Satish,206,69,579,Numerical Methods principles,COMPLETED
+402,195,Dr. P. Satish,206,69,580,Numerical Methods analytical methods,IN_PROGRESS
+402,195,Dr. P. Satish,206,69,581,Numerical Methods practical applications,PLANNED
+403,195,Dr. P. Satish,207,69,582,Geotechnical Engineering principles,COMPLETED
+403,195,Dr. P. Satish,207,69,583,Geotechnical Engineering analytical methods,IN_PROGRESS
+403,195,Dr. P. Satish,207,69,584,Geotechnical Engineering practical applications,PLANNED
+404,195,Dr. P. Satish,208,69,585,Transportation Engineering principles,COMPLETED
+404,195,Dr. P. Satish,208,69,586,Transportation Engineering analytical methods,IN_PROGRESS
+404,195,Dr. P. Satish,208,69,587,Transportation Engineering practical applications,PLANNED
+405,195,Dr. P. Satish,209,69,588,Hydrology principles,COMPLETED
+405,195,Dr. P. Satish,209,69,589,Hydrology analytical methods,IN_PROGRESS
+405,195,Dr. P. Satish,209,69,590,Hydrology practical applications,PLANNED
+406,195,Dr. P. Satish,210,69,591,Reinforced Concrete Design principles,COMPLETED
+406,195,Dr. P. Satish,210,69,592,Reinforced Concrete Design analytical methods,IN_PROGRESS
+406,195,Dr. P. Satish,210,69,593,Reinforced Concrete Design practical applications,PLANNED
+407,195,Dr. P. Satish,211,70,594,Environmental Engineering principles,COMPLETED
+407,195,Dr. P. Satish,211,70,595,Environmental Engineering analytical methods,IN_PROGRESS
+407,195,Dr. P. Satish,211,70,596,Environmental Engineering practical applications,PLANNED
+408,195,Dr. P. Satish,212,70,597,Water Resources Engineering principles,COMPLETED
+408,195,Dr. P. Satish,212,70,598,Water Resources Engineering analytical methods,IN_PROGRESS
+408,195,Dr. P. Satish,212,70,599,Water Resources Engineering practical applications,PLANNED
+409,195,Dr. P. Satish,213,70,600,Steel Structures principles,COMPLETED
+409,195,Dr. P. Satish,213,70,601,Steel Structures analytical methods,IN_PROGRESS
+409,195,Dr. P. Satish,213,70,602,Steel Structures practical applications,PLANNED
+410,195,Dr. P. Satish,214,70,603,Foundation Engineering principles,COMPLETED
+410,195,Dr. P. Satish,214,70,604,Foundation Engineering analytical methods,IN_PROGRESS
+410,195,Dr. P. Satish,214,70,605,Foundation Engineering practical applications,PLANNED
+411,195,Dr. P. Satish,215,70,606,Construction Management principles,COMPLETED
+411,195,Dr. P. Satish,215,70,607,Construction Management analytical methods,IN_PROGRESS
+411,195,Dr. P. Satish,215,70,608,Construction Management practical applications,PLANNED
+412,195,Dr. P. Satish,216,70,609,Remote Sensing principles,COMPLETED
+412,195,Dr. P. Satish,216,70,610,Remote Sensing analytical methods,IN_PROGRESS
+412,195,Dr. P. Satish,216,70,611,Remote Sensing practical applications,PLANNED
+413,195,Dr. P. Satish,211,71,594,Environmental Engineering principles,COMPLETED
+413,195,Dr. P. Satish,211,71,595,Environmental Engineering analytical methods,IN_PROGRESS
+413,195,Dr. P. Satish,211,71,596,Environmental Engineering practical applications,PLANNED
+414,195,Dr. P. Satish,212,71,597,Water Resources Engineering principles,COMPLETED
+414,195,Dr. P. Satish,212,71,598,Water Resources Engineering analytical methods,IN_PROGRESS
+414,195,Dr. P. Satish,212,71,599,Water Resources Engineering practical applications,PLANNED
+415,195,Dr. P. Satish,213,71,600,Steel Structures principles,COMPLETED
+415,195,Dr. P. Satish,213,71,601,Steel Structures analytical methods,IN_PROGRESS
+415,195,Dr. P. Satish,213,71,602,Steel Structures practical applications,PLANNED
+416,195,Dr. P. Satish,214,71,603,Foundation Engineering principles,COMPLETED
+416,195,Dr. P. Satish,214,71,604,Foundation Engineering analytical methods,IN_PROGRESS
+416,195,Dr. P. Satish,214,71,605,Foundation Engineering practical applications,PLANNED
+417,195,Dr. P. Satish,215,71,606,Construction Management principles,COMPLETED
+417,195,Dr. P. Satish,215,71,607,Construction Management analytical methods,IN_PROGRESS
+417,195,Dr. P. Satish,215,71,608,Construction Management practical applications,PLANNED
+418,195,Dr. P. Satish,216,71,609,Remote Sensing principles,COMPLETED
+418,195,Dr. P. Satish,216,71,610,Remote Sensing analytical methods,IN_PROGRESS
+418,195,Dr. P. Satish,216,71,611,Remote Sensing practical applications,PLANNED
+419,11,Dr. K. Sravani,217,72,612,Language fundamentals and control flow,COMPLETED
+419,11,Dr. K. Sravani,217,72,613,Functions and data structures,IN_PROGRESS
+419,11,Dr. K. Sravani,217,72,614,Testing and problem solving,PLANNED
+420,11,Dr. K. Sravani,218,72,615,Calculus and linear algebra,COMPLETED
+420,11,Dr. K. Sravani,218,72,616,Differential equations,IN_PROGRESS
+420,11,Dr. K. Sravani,218,72,617,Engineering numerical applications,PLANNED
+421,11,Dr. K. Sravani,219,72,618,Digital Systems principles,COMPLETED
+421,11,Dr. K. Sravani,219,72,619,Digital Systems analytical methods,IN_PROGRESS
+421,11,Dr. K. Sravani,219,72,620,Digital Systems practical applications,PLANNED
+422,11,Dr. K. Sravani,220,72,621,Communication Skills principles,COMPLETED
+422,11,Dr. K. Sravani,220,72,622,Communication Skills analytical methods,IN_PROGRESS
+422,11,Dr. K. Sravani,220,72,623,Communication Skills practical applications,PLANNED
+423,11,Dr. K. Sravani,221,72,624,Web Foundations principles,COMPLETED
+423,11,Dr. K. Sravani,221,72,625,Web Foundations analytical methods,IN_PROGRESS
+423,11,Dr. K. Sravani,221,72,626,Web Foundations practical applications,PLANNED
+424,11,Dr. K. Sravani,222,72,627,Computer Applications principles,COMPLETED
+424,11,Dr. K. Sravani,222,72,628,Computer Applications analytical methods,IN_PROGRESS
+424,11,Dr. K. Sravani,222,72,629,Computer Applications practical applications,PLANNED
+425,11,Dr. K. Sravani,217,73,612,Language fundamentals and control flow,COMPLETED
+425,11,Dr. K. Sravani,217,73,613,Functions and data structures,IN_PROGRESS
+425,11,Dr. K. Sravani,217,73,614,Testing and problem solving,PLANNED
+426,11,Dr. K. Sravani,218,73,615,Calculus and linear algebra,COMPLETED
+426,11,Dr. K. Sravani,218,73,616,Differential equations,IN_PROGRESS
+426,11,Dr. K. Sravani,218,73,617,Engineering numerical applications,PLANNED
+427,11,Dr. K. Sravani,219,73,618,Digital Systems principles,COMPLETED
+427,11,Dr. K. Sravani,219,73,619,Digital Systems analytical methods,IN_PROGRESS
+427,11,Dr. K. Sravani,219,73,620,Digital Systems practical applications,PLANNED
+428,11,Dr. K. Sravani,220,73,621,Communication Skills principles,COMPLETED
+428,11,Dr. K. Sravani,220,73,622,Communication Skills analytical methods,IN_PROGRESS
+428,11,Dr. K. Sravani,220,73,623,Communication Skills practical applications,PLANNED
+429,11,Dr. K. Sravani,221,73,624,Web Foundations principles,COMPLETED
+429,11,Dr. K. Sravani,221,73,625,Web Foundations analytical methods,IN_PROGRESS
+429,11,Dr. K. Sravani,221,73,626,Web Foundations practical applications,PLANNED
+430,11,Dr. K. Sravani,222,73,627,Computer Applications principles,COMPLETED
+430,11,Dr. K. Sravani,222,73,628,Computer Applications analytical methods,IN_PROGRESS
+430,11,Dr. K. Sravani,222,73,629,Computer Applications practical applications,PLANNED
+431,11,Dr. K. Sravani,223,74,630,"Arrays, lists and stacks",COMPLETED
+431,11,Dr. K. Sravani,223,74,631,Trees and graph traversal,IN_PROGRESS
+431,11,Dr. K. Sravani,223,74,632,Complexity and practical algorithms,PLANNED
+432,11,Dr. K. Sravani,224,74,633,Relational modelling and SQL,COMPLETED
+432,11,Dr. K. Sravani,224,74,634,Normalization and transactions,IN_PROGRESS
+432,11,Dr. K. Sravani,224,74,635,Indexing and query optimization,PLANNED
+433,11,Dr. K. Sravani,225,74,636,Language fundamentals and control flow,COMPLETED
+433,11,Dr. K. Sravani,225,74,637,Functions and data structures,IN_PROGRESS
+433,11,Dr. K. Sravani,225,74,638,Testing and problem solving,PLANNED
+434,11,Dr. K. Sravani,226,74,639,Network layers and protocols,COMPLETED
+434,11,Dr. K. Sravani,226,74,640,IP addressing and routing,IN_PROGRESS
+434,11,Dr. K. Sravani,226,74,641,Transport protocols and security,PLANNED
+435,11,Dr. K. Sravani,227,74,642,Software Engineering principles,COMPLETED
+435,11,Dr. K. Sravani,227,74,643,Software Engineering analytical methods,IN_PROGRESS
+435,11,Dr. K. Sravani,227,74,644,Software Engineering practical applications,PLANNED
+436,11,Dr. K. Sravani,228,74,645,Statistics for Computing principles,COMPLETED
+436,11,Dr. K. Sravani,228,74,646,Statistics for Computing analytical methods,IN_PROGRESS
+436,11,Dr. K. Sravani,228,74,647,Statistics for Computing practical applications,PLANNED
+437,11,Dr. K. Sravani,223,75,630,"Arrays, lists and stacks",COMPLETED
+437,11,Dr. K. Sravani,223,75,631,Trees and graph traversal,IN_PROGRESS
+437,11,Dr. K. Sravani,223,75,632,Complexity and practical algorithms,PLANNED
+438,11,Dr. K. Sravani,224,75,633,Relational modelling and SQL,COMPLETED
+438,11,Dr. K. Sravani,224,75,634,Normalization and transactions,IN_PROGRESS
+438,11,Dr. K. Sravani,224,75,635,Indexing and query optimization,PLANNED
+439,11,Dr. K. Sravani,225,75,636,Language fundamentals and control flow,COMPLETED
+439,11,Dr. K. Sravani,225,75,637,Functions and data structures,IN_PROGRESS
+439,11,Dr. K. Sravani,225,75,638,Testing and problem solving,PLANNED
+440,11,Dr. K. Sravani,226,75,639,Network layers and protocols,COMPLETED
+440,11,Dr. K. Sravani,226,75,640,IP addressing and routing,IN_PROGRESS
+440,11,Dr. K. Sravani,226,75,641,Transport protocols and security,PLANNED
+441,11,Dr. K. Sravani,227,75,642,Software Engineering principles,COMPLETED
+441,11,Dr. K. Sravani,227,75,643,Software Engineering analytical methods,IN_PROGRESS
+441,11,Dr. K. Sravani,227,75,644,Software Engineering practical applications,PLANNED
+442,11,Dr. K. Sravani,228,75,645,Statistics for Computing principles,COMPLETED
+442,11,Dr. K. Sravani,228,75,646,Statistics for Computing analytical methods,IN_PROGRESS
+442,11,Dr. K. Sravani,228,75,647,Statistics for Computing practical applications,PLANNED
+443,11,Dr. K. Sravani,229,76,648,Operating Systems principles,COMPLETED
+443,11,Dr. K. Sravani,229,76,649,Operating Systems analytical methods,IN_PROGRESS
+443,11,Dr. K. Sravani,229,76,650,Operating Systems practical applications,PLANNED
+444,11,Dr. K. Sravani,230,76,651,Web Application Development principles,COMPLETED
+444,11,Dr. K. Sravani,230,76,652,Web Application Development analytical methods,IN_PROGRESS
+444,11,Dr. K. Sravani,230,76,653,Web Application Development practical applications,PLANNED
+445,11,Dr. K. Sravani,231,76,654,Cloud Fundamentals principles,COMPLETED
+445,11,Dr. K. Sravani,231,76,655,Cloud Fundamentals analytical methods,IN_PROGRESS
+445,11,Dr. K. Sravani,231,76,656,Cloud Fundamentals practical applications,PLANNED
+446,11,Dr. K. Sravani,232,76,657,Information Security principles,COMPLETED
+446,11,Dr. K. Sravani,232,76,658,Information Security analytical methods,IN_PROGRESS
+446,11,Dr. K. Sravani,232,76,659,Information Security practical applications,PLANNED
+447,11,Dr. K. Sravani,233,76,660,Project I principles,COMPLETED
+447,11,Dr. K. Sravani,233,76,661,Project I analytical methods,IN_PROGRESS
+447,11,Dr. K. Sravani,233,76,662,Project I practical applications,PLANNED
+448,11,Dr. K. Sravani,234,76,663,Project II principles,COMPLETED
+448,11,Dr. K. Sravani,234,76,664,Project II analytical methods,IN_PROGRESS
+448,11,Dr. K. Sravani,234,76,665,Project II practical applications,PLANNED
+449,11,Dr. K. Sravani,229,77,648,Operating Systems principles,COMPLETED
+449,11,Dr. K. Sravani,229,77,649,Operating Systems analytical methods,IN_PROGRESS
+449,11,Dr. K. Sravani,229,77,650,Operating Systems practical applications,PLANNED
+450,11,Dr. K. Sravani,230,77,651,Web Application Development principles,COMPLETED
+450,11,Dr. K. Sravani,230,77,652,Web Application Development analytical methods,IN_PROGRESS
+450,11,Dr. K. Sravani,230,77,653,Web Application Development practical applications,PLANNED
+451,11,Dr. K. Sravani,231,77,654,Cloud Fundamentals principles,COMPLETED
+451,11,Dr. K. Sravani,231,77,655,Cloud Fundamentals analytical methods,IN_PROGRESS
+451,11,Dr. K. Sravani,231,77,656,Cloud Fundamentals practical applications,PLANNED
+452,11,Dr. K. Sravani,232,77,657,Information Security principles,COMPLETED
+452,11,Dr. K. Sravani,232,77,658,Information Security analytical methods,IN_PROGRESS
+452,11,Dr. K. Sravani,232,77,659,Information Security practical applications,PLANNED
+453,11,Dr. K. Sravani,233,77,660,Project I principles,COMPLETED
+453,11,Dr. K. Sravani,233,77,661,Project I analytical methods,IN_PROGRESS
+453,11,Dr. K. Sravani,233,77,662,Project I practical applications,PLANNED
+454,11,Dr. K. Sravani,234,77,663,Project II principles,COMPLETED
+454,11,Dr. K. Sravani,234,77,664,Project II analytical methods,IN_PROGRESS
+454,11,Dr. K. Sravani,234,77,665,Project II practical applications,PLANNED

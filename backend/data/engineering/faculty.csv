@@ -1,0 +1,12 @@
+﻿user_id,full_name,email,role,department_id,registration_number,is_active,teaching_mappings
+11,Dr. K. Sravani,faculty-1@demo.learnpath.dev,FACULTY,1,,1,240
+12,Prof. V. Ramana,faculty-2@demo.learnpath.dev,FACULTY,1,,1,1
+13,Dr. P. Ravi Teja,faculty-3@demo.learnpath.dev,FACULTY,1,,1,1
+16,Dr. N. Harika,faculty-04-showcase@demo.learnpath.dev,FACULTY,1,LP-FAC-004,1,1
+17,Prof. M. Srinivas,faculty-05-showcase@demo.learnpath.dev,FACULTY,1,LP-FAC-005,1,1
+18,Dr. G. Lakshmi Priya,faculty-06-showcase@demo.learnpath.dev,FACULTY,1,LP-FAC-006,1,1
+19,Prof. D. Pavan Kumar,faculty-07-showcase@demo.learnpath.dev,FACULTY,1,LP-FAC-007,1,1
+159,Dr. B. Ravi Kumar,faculty-ece@demo.learnpath.dev,FACULTY,3,LP-FAC-ECE,1,48
+171,Dr. C. Suresh,faculty-eee@demo.learnpath.dev,FACULTY,8,LP-FAC-EEE,1,48
+183,Dr. K. Madhavi,faculty-me@demo.learnpath.dev,FACULTY,9,LP-FAC-ME,1,48
+195,Dr. P. Satish,faculty-ce@demo.learnpath.dev,FACULTY,10,LP-FAC-CE,1,48

@@ -1,0 +1,86 @@
+﻿evidence_id,owner_id,category,title,details,reference_url,skill_level,status,review_note,reviewed_by,updated_at,created_at
+1,11,SKILL,Python and FastAPI,Self-reported demo skill; API design and validation practice.,,3,SUBMITTED,,,2026-11-01 09:23:57,2026-11-01 09:23:57
+2,11,SKILL,Classroom facilitation,Self-reported demo skill; guided questions and active discussion.,,3,SUBMITTED,,,2026-11-01 09:23:57,2026-11-01 09:23:57
+3,11,RESUME,Teaching resume summary,"Sample qualifications: M.Tech; classroom teaching, student mentoring and database systems. No real resume.",,,SUBMITTED,,,2026-11-01 09:23:57,2026-11-01 09:23:57
+4,11,RESEARCH,Research methods in learning systems,Sample publication example for demonstration. No real DOI or journal claim.,,,VERIFIED,Sample evidence reviewed for showcase only.,15,2026-11-01 09:23:57,2026-11-01 09:23:57
+5,11,RESEARCH,Adaptive feedback study proposal,Sample work in progress; pending department review.,,,SUBMITTED,,,2026-11-01 09:23:57,2026-11-01 09:23:57
+6,11,COLLABORATION,Peer lesson-planning workshop,Sample co-planning session with colleagues and a student support meeting.,,,SUBMITTED,,,2026-11-01 09:23:57,2026-11-01 09:23:57
+7,11,TRAINING,Assessment design workshop,Sample professional development record: MCQ quality and constructive feedback.,,,SUBMITTED,,,2026-11-01 09:23:57,2026-11-01 09:23:57
+8,11,TRAINING,Updated evidence exercise,Sample record modified before archival; visible in audit history.,,,ARCHIVED,,,2026-11-01 09:23:58,2026-11-01 09:23:57
+9,12,SKILL,Python and FastAPI,Self-reported demo skill; API design and validation practice.,,4,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+10,12,SKILL,Classroom facilitation,Self-reported demo skill; guided questions and active discussion.,,4,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+11,12,RESUME,Teaching resume summary,"Sample qualifications: M.Tech; classroom teaching, student mentoring and database systems. No real resume.",,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+12,12,RESEARCH,Research methods in learning systems,Sample publication example for demonstration. No real DOI or journal claim.,,,VERIFIED,Sample evidence reviewed for showcase only.,15,2026-11-01 09:23:58,2026-11-01 09:23:58
+13,12,RESEARCH,Adaptive feedback study proposal,Sample work in progress; pending department review.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+14,12,COLLABORATION,Peer lesson-planning workshop,Sample co-planning session with colleagues and a student support meeting.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+15,12,TRAINING,Assessment design workshop,Sample professional development record: MCQ quality and constructive feedback.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+16,12,TRAINING,Updated evidence exercise,Sample record modified before archival; visible in audit history.,,,ARCHIVED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+17,13,SKILL,Python and FastAPI,Self-reported demo skill; API design and validation practice.,,5,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+18,13,SKILL,Classroom facilitation,Self-reported demo skill; guided questions and active discussion.,,3,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+19,13,RESUME,Teaching resume summary,"Sample qualifications: M.Tech; classroom teaching, student mentoring and database systems. No real resume.",,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+20,13,RESEARCH,Research methods in learning systems,Sample publication example for demonstration. No real DOI or journal claim.,,,VERIFIED,Sample evidence reviewed for showcase only.,15,2026-11-01 09:23:58,2026-11-01 09:23:58
+21,13,RESEARCH,Adaptive feedback study proposal,Sample work in progress; pending department review.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+22,13,COLLABORATION,Peer lesson-planning workshop,Sample co-planning session with colleagues and a student support meeting.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+23,13,TRAINING,Assessment design workshop,Sample professional development record: MCQ quality and constructive feedback.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+24,13,TRAINING,Updated evidence exercise,Sample record modified before archival; visible in audit history.,,,ARCHIVED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+25,16,SKILL,Python and FastAPI,Self-reported demo skill; API design and validation practice.,,3,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+26,16,SKILL,Classroom facilitation,Self-reported demo skill; guided questions and active discussion.,,4,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+27,16,RESUME,Teaching resume summary,"Sample qualifications: M.Tech; classroom teaching, student mentoring and database systems. No real resume.",,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+28,16,RESEARCH,Research methods in learning systems,Sample publication example for demonstration. No real DOI or journal claim.,,,VERIFIED,Sample evidence reviewed for showcase only.,15,2026-11-01 09:23:58,2026-11-01 09:23:58
+29,16,RESEARCH,Adaptive feedback study proposal,Sample work in progress; pending department review.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+30,16,COLLABORATION,Peer lesson-planning workshop,Sample co-planning session with colleagues and a student support meeting.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+31,16,TRAINING,Assessment design workshop,Sample professional development record: MCQ quality and constructive feedback.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+32,16,TRAINING,Updated evidence exercise,Sample record modified before archival; visible in audit history.,,,ARCHIVED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+33,17,SKILL,Python and FastAPI,Self-reported demo skill; API design and validation practice.,,4,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+34,17,SKILL,Classroom facilitation,Self-reported demo skill; guided questions and active discussion.,,3,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+35,17,RESUME,Teaching resume summary,"Sample qualifications: M.Tech; classroom teaching, student mentoring and database systems. No real resume.",,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+36,17,RESEARCH,Research methods in learning systems,Sample publication example for demonstration. No real DOI or journal claim.,,,VERIFIED,Sample evidence reviewed for showcase only.,15,2026-11-01 09:23:58,2026-11-01 09:23:58
+37,17,RESEARCH,Adaptive feedback study proposal,Sample work in progress; pending department review.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+38,17,COLLABORATION,Peer lesson-planning workshop,Sample co-planning session with colleagues and a student support meeting.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+39,17,TRAINING,Assessment design workshop,Sample professional development record: MCQ quality and constructive feedback.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+40,17,TRAINING,Updated evidence exercise,Sample record modified before archival; visible in audit history.,,,ARCHIVED,,,2026-11-01 09:23:59,2026-11-01 09:23:58
+41,18,SKILL,Python and FastAPI,Self-reported demo skill; API design and validation practice.,,5,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+42,18,SKILL,Classroom facilitation,Self-reported demo skill; guided questions and active discussion.,,4,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+43,18,RESUME,Teaching resume summary,"Sample qualifications: M.Tech; classroom teaching, student mentoring and database systems. No real resume.",,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+44,18,RESEARCH,Research methods in learning systems,Sample publication example for demonstration. No real DOI or journal claim.,,,VERIFIED,Sample evidence reviewed for showcase only.,15,2026-11-01 09:23:58,2026-11-01 09:23:58
+45,18,RESEARCH,Adaptive feedback study proposal,Sample work in progress; pending department review.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+46,18,COLLABORATION,Peer lesson-planning workshop,Sample co-planning session with colleagues and a student support meeting.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+47,18,TRAINING,Assessment design workshop,Sample professional development record: MCQ quality and constructive feedback.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+48,18,TRAINING,Updated evidence exercise,Sample record modified before archival; visible in audit history.,,,ARCHIVED,,,2026-11-01 09:23:59,2026-11-01 09:23:58
+49,19,SKILL,Python and FastAPI,Self-reported demo skill; API design and validation practice.,,3,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+50,19,SKILL,Classroom facilitation,Self-reported demo skill; guided questions and active discussion.,,3,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+51,19,RESUME,Teaching resume summary,"Sample qualifications: M.Tech; classroom teaching, student mentoring and database systems. No real resume.",,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+52,19,RESEARCH,Research methods in learning systems,Sample publication example for demonstration. No real DOI or journal claim.,,,VERIFIED,Sample evidence reviewed for showcase only.,15,2026-11-01 09:23:58,2026-11-01 09:23:58
+53,19,RESEARCH,Adaptive feedback study proposal,Sample work in progress; pending department review.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+54,19,COLLABORATION,Peer lesson-planning workshop,Sample co-planning session with colleagues and a student support meeting.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+55,19,TRAINING,Assessment design workshop,Sample professional development record: MCQ quality and constructive feedback.,,,SUBMITTED,,,2026-11-01 09:23:58,2026-11-01 09:23:58
+56,19,TRAINING,Updated evidence exercise,Sample record modified before archival; visible in audit history.,,,ARCHIVED,,,2026-11-01 09:23:59,2026-11-01 09:23:58
+57,15,TRAINING,Department leadership workshop,Sample department leadership and mentoring evidence.,,,VERIFIED,Admin reviewed sample leadership training.,14,2026-11-01 09:23:58,2026-11-01 09:23:58
+86,11,SKILL,Engineering laboratory instruction,Self-reported skill in explaining practical engineering concepts.,,4,SUBMITTED,,,2026-11-01 13:40:08,2026-11-01 13:40:08
+87,11,RESEARCH,Engineering education study,Sample research proposal on laboratory learning and feedback; no real publication claim.,,,SUBMITTED,,,2026-11-01 13:40:08,2026-11-01 13:40:08
+88,11,COLLABORATION,Department planning meeting,Shared laboratory resources and discussed student support with colleagues.,,,SUBMITTED,,,2026-11-01 13:40:08,2026-11-01 13:40:08
+89,11,TRAINING,Assessment design workshop,Professional development record for objective questions and formative feedback.,,,SUBMITTED,,,2026-11-01 13:40:08,2026-11-01 13:40:08
+90,159,RESUME,Teaching profile,"Engineering faculty portfolio with classroom teaching, laboratory supervision and project mentoring.",,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+91,159,SKILL,Engineering laboratory instruction,Self-reported skill in explaining practical engineering concepts.,,4,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+92,159,RESEARCH,Engineering education study,Sample research proposal on laboratory learning and feedback; no real publication claim.,,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+93,159,COLLABORATION,Department planning meeting,Shared laboratory resources and discussed student support with colleagues.,,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+94,159,TRAINING,Assessment design workshop,Professional development record for objective questions and formative feedback.,,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+95,158,TRAINING,Department leadership and academic planning,"Sample leadership evidence covering faculty allocations, assessment review and student mentoring.",,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+96,171,RESUME,Teaching profile,"Engineering faculty portfolio with classroom teaching, laboratory supervision and project mentoring.",,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+97,171,SKILL,Engineering laboratory instruction,Self-reported skill in explaining practical engineering concepts.,,4,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+98,171,RESEARCH,Engineering education study,Sample research proposal on laboratory learning and feedback; no real publication claim.,,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+99,171,COLLABORATION,Department planning meeting,Shared laboratory resources and discussed student support with colleagues.,,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+100,171,TRAINING,Assessment design workshop,Professional development record for objective questions and formative feedback.,,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+101,170,TRAINING,Department leadership and academic planning,"Sample leadership evidence covering faculty allocations, assessment review and student mentoring.",,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+102,183,RESUME,Teaching profile,"Engineering faculty portfolio with classroom teaching, laboratory supervision and project mentoring.",,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+103,183,SKILL,Engineering laboratory instruction,Self-reported skill in explaining practical engineering concepts.,,4,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+104,183,RESEARCH,Engineering education study,Sample research proposal on laboratory learning and feedback; no real publication claim.,,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+105,183,COLLABORATION,Department planning meeting,Shared laboratory resources and discussed student support with colleagues.,,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+106,183,TRAINING,Assessment design workshop,Professional development record for objective questions and formative feedback.,,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+107,182,TRAINING,Department leadership and academic planning,"Sample leadership evidence covering faculty allocations, assessment review and student mentoring.",,,SUBMITTED,,,2026-11-01 13:40:09,2026-11-01 13:40:09
+108,195,RESUME,Teaching profile,"Engineering faculty portfolio with classroom teaching, laboratory supervision and project mentoring.",,,SUBMITTED,,,2026-11-01 13:40:10,2026-11-01 13:40:10
+109,195,SKILL,Engineering laboratory instruction,Self-reported skill in explaining practical engineering concepts.,,4,SUBMITTED,,,2026-11-01 13:40:10,2026-11-01 13:40:10
+110,195,RESEARCH,Engineering education study,Sample research proposal on laboratory learning and feedback; no real publication claim.,,,SUBMITTED,,,2026-11-01 13:40:10,2026-11-01 13:40:10
+111,195,COLLABORATION,Department planning meeting,Shared laboratory resources and discussed student support with colleagues.,,,SUBMITTED,,,2026-11-01 13:40:10,2026-11-01 13:40:10
+112,195,TRAINING,Assessment design workshop,Professional development record for objective questions and formative feedback.,,,SUBMITTED,,,2026-11-01 13:40:10,2026-11-01 13:40:10
+113,194,TRAINING,Department leadership and academic planning,"Sample leadership evidence covering faculty allocations, assessment review and student mentoring.",,,SUBMITTED,,,2026-11-01 13:40:10,2026-11-01 13:40:10

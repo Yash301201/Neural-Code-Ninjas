@@ -15,8 +15,10 @@ import { Sidebar, SidebarNavItem } from '../components/Sidebar';
 import { Header } from '../components/Header';
 
 const STUDENT_NAV: SidebarNavItem[] = [
+ {label:'Exam Performance',to:"/student/performance-insights",icon:<LayoutDashboard className="w-4 h-4"/>},
+ {label:'Teaching Feedback',to:"/student/teaching-feedback",icon:<LayoutDashboard className="w-4 h-4"/>},
   { label: 'AI Knowledge Assistant', to: '/student/rag-assistant', icon: <LayoutDashboard className="w-4 h-4" /> },
-  { label: 'Dataset Analytics', to: '/student/dataset-analytics', icon: <LayoutDashboard className="w-4 h-4" /> },
+  { label: 'Engineering Dataset', to: '/student/dataset-analytics', icon: <LayoutDashboard className="w-4 h-4" /> },
   { label: 'Dashboard', to: '/student', icon: <LayoutDashboard className="w-4 h-4" /> },
   { label: 'My Courses', to: '/student/courses', icon: <BookOpen className="w-4 h-4" /> },
   { label: 'Online Tests', to: '/student/online-test', icon: <FileCheck2 className="w-4 h-4" /> },

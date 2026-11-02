@@ -1,8 +1,10 @@
+> The main Engineering Dataset now uses named college MySQL records. This document describes the separate optional OULAD research explorer at `/app/<role>/research-dataset`. See [engineering-dataset.md](engineering-dataset.md).
+
 # LearnPath AI - Kaggle OULAD integration
 
 The selected Kaggle OULAD dataset has been downloaded and imported into the project's configured MySQL database. The richer React dashboard is available in **Dataset Analytics** in every role's sidebar, with a spotlight link on the regular dashboard.
 
-Open http://127.0.0.1:8001/app/admin/dataset-analytics after signing in. Faculty, HOD and Student use the same `dataset-analytics` route under their own role prefix. Existing emails, passwords, JWT settings, IDs and academic mappings are preserved.
+Open http://127.0.0.1:8001/app/admin/research-dataset after signing in. Faculty, HOD and Student use the same `dataset-analytics` route under their own role prefix. Existing emails, passwords, JWT settings, IDs and academic mappings are preserved.
 
 ## Imported and verified
 

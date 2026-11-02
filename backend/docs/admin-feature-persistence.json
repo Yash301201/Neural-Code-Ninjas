@@ -1,0 +1,387 @@
+[
+  {
+    "feature": "Years, Curriculum & Teaching",
+    "route": "/admin/curriculum",
+    "sql_section": "02",
+    "api": "PUT /api/academics/sections/{id}/year; PUT /api/academics/teaching/{id}/topics/{topic_id}",
+    "tables": [
+      "section_study_years",
+      "subject_curriculum",
+      "faculty_subject_assignments",
+      "topics",
+      "teaching_topic_progress"
+    ],
+    "behavior": "Save a cohort year or topic status, refresh, then compare the section/assignment/topic IDs."
+  },
+  {
+    "feature": "AI Question Generator",
+    "route": "/admin/question-generator",
+    "sql_section": "03",
+    "api": "POST /api/ai/questions",
+    "tables": [
+      "questions",
+      "ai_generation_history"
+    ],
+    "behavior": "A successful provider response saves GENAI drafts as PENDING_REVIEW plus generation history. An unavailable provider saves no pretend result."
+  },
+  {
+    "feature": "Answer Evaluation",
+    "route": "/admin/evaluation",
+    "sql_section": "04",
+    "api": "PATCH /api/answers/{id}/grade; POST /api/ai/answers/{id}/feedback",
+    "tables": [
+      "student_answers",
+      "test_attempts",
+      "ai_generation_history"
+    ],
+    "behavior": "Final marks and feedback are stored in student_answers; evaluated attempt totals are recomputed. AI suggestions are saved in generation history and require teacher review."
+  },
+  {
+    "feature": "Exam Performance",
+    "route": "/admin/performance-insights",
+    "sql_section": "05",
+    "api": "GET /api/development/learner-insights",
+    "tables": [
+      "tests",
+      "test_attempts",
+      "test_questions",
+      "questions",
+      "topics",
+      "student_answers"
+    ],
+    "behavior": "Read-only trend and topic heatmap. Compare the same student, subject and section."
+  },
+  {
+    "feature": "Colleague Feedback",
+    "route": "/admin/teaching-feedback",
+    "sql_section": "06",
+    "api": "PUT /api/development/feedback",
+    "tables": [
+      "staff_feedback"
+    ],
+    "behavior": "Saving the same author/recipient/context updates the same feedback row. The profile shows averages only after three responses."
+  },
+  {
+    "feature": "Staff Development",
+    "route": "/admin/staff-development",
+    "sql_section": "07",
+    "api": "POST /api/development/staff/{id}/evidence; PUT /api/development/evidence/{id}; PATCH /api/development/evidence/{id}/review; DELETE /api/development/evidence/{id}",
+    "tables": [
+      "staff_evidence",
+      "campus_audit"
+    ],
+    "behavior": "Create, edit, review and archive evidence. Editing resets review state; archive retains an ARCHIVED row."
+  },
+  {
+    "feature": "Academic Data Centre",
+    "route": "/admin/academic-data",
+    "sql_section": "08",
+    "api": "GET /api/college-data/catalog",
+    "tables": [
+      "users",
+      "courses",
+      "departments",
+      "course_programs",
+      "sections",
+      "student_enrollments",
+      "faculty_subject_assignments",
+      "subjects",
+      "tests",
+      "student_answers"
+    ],
+    "behavior": "Read-only summary of stored records. Student/faculty/HOD cards count the prefilled account collection; course-level enrollment counts also include existing accounts."
+  },
+  {
+    "feature": "Question Bank",
+    "route": "/admin/question-bank",
+    "sql_section": "09",
+    "api": "POST /api/questions; PUT /api/questions/{id}; PATCH /api/questions/{id}/review",
+    "tables": [
+      "questions",
+      "topics"
+    ],
+    "behavior": "Create/edit/review questions. Questions used by published or closed tests are frozen; use a new question instead."
+  },
+  {
+    "feature": "Assignments",
+    "route": "/admin/assignments",
+    "sql_section": "10",
+    "api": "POST /api/assignments; POST /api/assignments/{id}/submit (student); PATCH /api/submissions/{id}/grade",
+    "tables": [
+      "assignments",
+      "submissions",
+      "student_enrollments",
+      "users"
+    ],
+    "behavior": "Create an assignment, submit as an enrolled student and grade. Coverage counts use active, enabled student roster members."
+  },
+  {
+    "feature": "Student Directory",
+    "route": "/admin/student-directory",
+    "sql_section": "11",
+    "api": "GET /api/campus/management",
+    "tables": [
+      "users",
+      "student_enrollments",
+      "sections",
+      "courses",
+      "course_programs",
+      "section_study_years"
+    ],
+    "behavior": "Directory is a read view. Account/profile/enrollment changes are made through the linked management forms."
+  },
+  {
+    "feature": "Faculty & HOD Directory",
+    "route": "/admin/staff-directory",
+    "sql_section": "12",
+    "api": "GET /api/campus/management",
+    "tables": [
+      "users",
+      "departments",
+      "faculty_subject_assignments"
+    ],
+    "behavior": "Directory and profile summaries read the same user and teaching records, not separate copies of staff."
+  },
+  {
+    "feature": "Institution Operations",
+    "route": "/admin/management",
+    "sql_section": "13",
+    "api": "PATCH /api/campus/people/{id}; POST /api/campus/teaching; GET /api/campus/audit",
+    "tables": [
+      "users",
+      "faculty_subject_assignments",
+      "student_enrollments",
+      "campus_audit"
+    ],
+    "behavior": "Profile/status updates and teaching assignments persist. Use IDs and the latest audit entries as proof."
+  },
+  {
+    "feature": "Exam Studio",
+    "route": "/admin/exam-studio",
+    "sql_section": "14",
+    "api": "POST /api/campus/exam-series; POST /api/tests; PATCH /api/tests/{id}/status",
+    "tables": [
+      "tests",
+      "test_questions",
+      "exam_series",
+      "exam_schedules",
+      "test_attempts",
+      "exam_answer_drafts"
+    ],
+    "behavior": "Finite daily/weekly/final schedules start as drafts, then publish. Student attempts and saved drafts are separate records."
+  },
+  {
+    "feature": "Attendance Register",
+    "route": "/admin/attendance",
+    "sql_section": "15",
+    "api": "POST /api/campus/attendance/register",
+    "tables": [
+      "class_sessions",
+      "attendance_records",
+      "attendance_registers",
+      "campus_audit"
+    ],
+    "behavior": "Only Save class attendance/Save correction writes the register. Counts before saving can reflect unsaved marks. Corrections increment the register version and keep an audit."
+  },
+  {
+    "feature": "Learner Register",
+    "route": "/admin/learner-register",
+    "sql_section": "16",
+    "api": "GET /api/faculty-ops/class-register",
+    "tables": [
+      "student_enrollments",
+      "attendance_records",
+      "class_sessions",
+      "assignments",
+      "submissions",
+      "tests",
+      "test_attempts"
+    ],
+    "behavior": "Read-only combined view of the selected class. Missing submissions are derived by joining the roster to submission rows."
+  },
+  {
+    "feature": "Weekly Timetable",
+    "route": "/admin/timetable",
+    "sql_section": "17",
+    "api": "POST /api/faculty-ops/timetable; DELETE /api/faculty-ops/timetable/{id}",
+    "tables": [
+      "faculty_timetable",
+      "campus_audit"
+    ],
+    "behavior": "Adding saves a slot. Archive sets is_active=0; it does not erase timetable history."
+  },
+  {
+    "feature": "Faculty Leave Approvals",
+    "route": "/admin/faculty-leave",
+    "sql_section": "18",
+    "api": "PATCH /api/faculty-ops/leave/{id}/review",
+    "tables": [
+      "faculty_leave_requests",
+      "users",
+      "campus_audit"
+    ],
+    "behavior": "Approval/rejection saves status, reviewed_by, review_note and reviewed_at. Request and cancellation originate from staff accounts."
+  },
+  {
+    "feature": "UG / PG Programs",
+    "route": "/admin/programs",
+    "sql_section": "19",
+    "api": "PUT /api/faculty-ops/programs/{course_id}",
+    "tables": [
+      "courses",
+      "course_programs",
+      "campus_audit"
+    ],
+    "behavior": "The degree ID stays the same; program_level is saved in its linked course_programs row."
+  },
+  {
+    "feature": "AI Knowledge Assistant",
+    "route": "/admin/rag-assistant",
+    "sql_section": "20",
+    "api": "POST /api/rag/ask; POST /api/rag/reindex",
+    "tables": [
+      "rag_conversations",
+      "rag_messages",
+      "rag_chunks"
+    ],
+    "behavior": "Question, answer, answer mode and citations persist. Conversations are owner-scoped. Reindex updates the separate public knowledge index."
+  },
+  {
+    "feature": "Engineering Dataset",
+    "route": "/admin/dataset-analytics",
+    "sql_section": "21",
+    "api": "GET /api/college-data",
+    "tables": [
+      "users",
+      "courses",
+      "departments",
+      "sections",
+      "student_enrollments",
+      "faculty_subject_assignments",
+      "section_study_years",
+      "subject_curriculum and academic-result tables"
+    ],
+    "behavior": "Read-only linked dataset. It uses the same saved MySQL records; downloading a CSV does not insert another copy into MySQL."
+  },
+  {
+    "feature": "Dashboard",
+    "route": "/admin",
+    "sql_section": "01 / 22",
+    "api": "GET /api/portal/workspace; POST /api/study-plans when explicitly requested",
+    "tables": [
+      "student_enrollments",
+      "tests",
+      "test_attempts",
+      "test_questions",
+      "student_answers",
+      "attendance_records",
+      "class_sessions",
+      "study_plans",
+      "study_plan_items"
+    ],
+    "behavior": "Charts/cards are calculated from saved data. Changing a filter changes the view, not grades or enrollment. The SQL reproduces the API weighted-score calculation."
+  },
+  {
+    "feature": "User Management",
+    "route": "/admin/users",
+    "sql_section": "23",
+    "api": "POST /api/users; PATCH /api/users/{id}/status; PATCH /api/portal/users/{id}/password; POST /api/enrollments; POST /api/faculty-assignments",
+    "tables": [
+      "users",
+      "student_enrollments",
+      "faculty_subject_assignments"
+    ],
+    "behavior": "Accounts, statuses, enrollments and teaching mappings persist. Password reset stores an Argon2 hash, never the original password. Compare the hash fingerprint before/after."
+  },
+  {
+    "feature": "Departments",
+    "route": "/admin/departments",
+    "sql_section": "24",
+    "api": "POST /api/departments; PUT /api/departments/{id}",
+    "tables": [
+      "departments",
+      "campus_audit"
+    ],
+    "behavior": "Saved name/code appears on the same department_id. Catalog saves now record before/after fields in the audit."
+  },
+  {
+    "feature": "Courses",
+    "route": "/admin/courses",
+    "sql_section": "25",
+    "api": "POST /api/courses; PUT /api/courses/{id}",
+    "tables": [
+      "courses",
+      "course_programs",
+      "campus_audit"
+    ],
+    "behavior": "Degree name/code/duration and program classification save in one transaction. Existing curriculum/cohort years cannot be removed by shortening the duration."
+  },
+  {
+    "feature": "Subjects",
+    "route": "/admin/subjects",
+    "sql_section": "26",
+    "api": "POST /api/subjects; PUT /api/subjects/{id}",
+    "tables": [
+      "subjects",
+      "subject_curriculum",
+      "campus_audit"
+    ],
+    "behavior": "For a classified subject, a same-year semester edit updates both subject and curriculum rows. Moving a taught subject to another year/course is rejected to preserve history."
+  },
+  {
+    "feature": "Topics",
+    "route": "/admin/topics",
+    "sql_section": "27",
+    "api": "POST /api/topics; PUT /api/topics/{id}",
+    "tables": [
+      "topics",
+      "campus_audit"
+    ],
+    "behavior": "Name/description updates persist. A topic with linked questions, progress or history cannot be moved to another subject."
+  },
+  {
+    "feature": "Sections",
+    "route": "/admin/sections",
+    "sql_section": "28",
+    "api": "POST /api/sections; PUT /api/sections/{id}",
+    "tables": [
+      "sections",
+      "student_enrollments",
+      "section_study_years",
+      "campus_audit"
+    ],
+    "behavior": "Calendar year and section name persist. Year of study is classified separately through the Years page. A used section cannot be moved to another course."
+  },
+  {
+    "feature": "Academic Calendar",
+    "route": "/admin/calendar",
+    "sql_section": "29",
+    "api": "POST /api/academic_events",
+    "tables": [
+      "academic_events",
+      "campus_audit"
+    ],
+    "behavior": "Add event saves title, start/end dates and description. The API also supports catalog updates; the current calendar screen exposes Add event."
+  },
+  {
+    "feature": "System Settings",
+    "route": "/admin/settings",
+    "sql_section": "30",
+    "api": "GET /api/portal/workspace; GET /health",
+    "tables": [
+      "No editable settings table: database connectivity plus backend environment configuration"
+    ],
+    "behavior": "This screen displays status. LLM keys and JWT secret stay in backend/.env. There is no Save settings action, and a chart/filter click does not create a settings row."
+  },
+  {
+    "feature": "Profile",
+    "route": "/admin/profile",
+    "sql_section": "31",
+    "api": "GET /api/auth/me; GET /api/portal/workspace",
+    "tables": [
+      "users",
+      "departments"
+    ],
+    "behavior": "Read-only current account identity. Changes saved through Institution Operations update this same user row."
+  }
+]

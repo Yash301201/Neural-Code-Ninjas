@@ -1,0 +1,233 @@
+﻿user_id,full_name,email,role,department_id,registration_number,is_active
+20,Kondapalli Sai Teja,student-001@demo.learnpath.dev,STUDENT,1,LP-STU-001,1
+21,Kondapalli Sravani,student-002@demo.learnpath.dev,STUDENT,1,LP-STU-002,1
+22,Kondapalli Venkata Sai,student-003@demo.learnpath.dev,STUDENT,1,LP-STU-003,1
+23,Kondapalli Lakshmi Priya,student-004@demo.learnpath.dev,STUDENT,1,LP-STU-004,1
+24,Kondapalli Srinivas,student-005@demo.learnpath.dev,STUDENT,1,LP-STU-005,1
+25,Kondapalli Harika,student-006@demo.learnpath.dev,STUDENT,1,LP-STU-006,1
+26,Kondapalli Sandeep,student-007@demo.learnpath.dev,STUDENT,1,LP-STU-007,1
+27,Kondapalli Divya,student-008@demo.learnpath.dev,STUDENT,1,LP-STU-008,1
+28,Kondapalli Ravi Teja,student-009@demo.learnpath.dev,STUDENT,1,LP-STU-009,1
+29,Kondapalli Anusha,student-010@demo.learnpath.dev,STUDENT,1,LP-STU-010,1
+30,Kondapalli Pavan Kumar,student-011@demo.learnpath.dev,STUDENT,1,LP-STU-011,1
+31,Kondapalli Bhavani,student-012@demo.learnpath.dev,STUDENT,1,LP-STU-012,1
+32,Kondapalli Nikhil,student-013@demo.learnpath.dev,STUDENT,1,LP-STU-013,1
+33,Kondapalli Mounika,student-014@demo.learnpath.dev,STUDENT,1,LP-STU-014,1
+34,Kondapalli Surya Prakash,student-015@demo.learnpath.dev,STUDENT,1,LP-STU-015,1
+35,Kondapalli Keerthana,student-016@demo.learnpath.dev,STUDENT,1,LP-STU-016,1
+36,Kondapalli Karthik,student-017@demo.learnpath.dev,STUDENT,1,LP-STU-017,1
+37,Kondapalli Sowmya,student-018@demo.learnpath.dev,STUDENT,1,LP-STU-018,1
+38,Kondapalli Vamsi Krishna,student-019@demo.learnpath.dev,STUDENT,1,LP-STU-019,1
+39,Kondapalli Sahithi,student-020@demo.learnpath.dev,STUDENT,1,LP-STU-020,1
+40,Penumaka Sai Teja,student-021@demo.learnpath.dev,STUDENT,1,LP-STU-021,1
+41,Penumaka Sravani,student-022@demo.learnpath.dev,STUDENT,1,LP-STU-022,1
+42,Penumaka Venkata Sai,student-023@demo.learnpath.dev,STUDENT,1,LP-STU-023,1
+43,Penumaka Lakshmi Priya,student-024@demo.learnpath.dev,STUDENT,1,LP-STU-024,1
+44,Penumaka Srinivas,student-025@demo.learnpath.dev,STUDENT,1,LP-STU-025,1
+45,Penumaka Harika,student-026@demo.learnpath.dev,STUDENT,1,LP-STU-026,1
+46,Penumaka Sandeep,student-027@demo.learnpath.dev,STUDENT,1,LP-STU-027,1
+47,Penumaka Divya,student-028@demo.learnpath.dev,STUDENT,1,LP-STU-028,1
+48,Penumaka Ravi Teja,student-029@demo.learnpath.dev,STUDENT,1,LP-STU-029,1
+49,Penumaka Anusha,student-030@demo.learnpath.dev,STUDENT,1,LP-STU-030,1
+50,Penumaka Pavan Kumar,student-031@demo.learnpath.dev,STUDENT,1,LP-STU-031,1
+51,Penumaka Bhavani,student-032@demo.learnpath.dev,STUDENT,1,LP-STU-032,1
+52,Penumaka Nikhil,student-033@demo.learnpath.dev,STUDENT,1,LP-STU-033,1
+53,Penumaka Mounika,student-034@demo.learnpath.dev,STUDENT,1,LP-STU-034,1
+54,Penumaka Surya Prakash,student-035@demo.learnpath.dev,STUDENT,1,LP-STU-035,1
+55,Penumaka Keerthana,student-036@demo.learnpath.dev,STUDENT,1,LP-STU-036,1
+56,Penumaka Karthik,student-037@demo.learnpath.dev,STUDENT,1,LP-STU-037,1
+57,Penumaka Sowmya,student-038@demo.learnpath.dev,STUDENT,1,LP-STU-038,1
+58,Penumaka Vamsi Krishna,student-039@demo.learnpath.dev,STUDENT,1,LP-STU-039,1
+59,Penumaka Sahithi,student-040@demo.learnpath.dev,STUDENT,1,LP-STU-040,1
+60,Duvvuri Sai Teja,student-041@demo.learnpath.dev,STUDENT,1,LP-STU-041,1
+61,Duvvuri Sravani,student-042@demo.learnpath.dev,STUDENT,1,LP-STU-042,1
+62,Duvvuri Venkata Sai,student-043@demo.learnpath.dev,STUDENT,1,LP-STU-043,1
+63,Duvvuri Lakshmi Priya,student-044@demo.learnpath.dev,STUDENT,1,LP-STU-044,1
+64,Duvvuri Srinivas,student-045@demo.learnpath.dev,STUDENT,1,LP-STU-045,1
+65,Duvvuri Harika,student-046@demo.learnpath.dev,STUDENT,1,LP-STU-046,1
+66,Duvvuri Sandeep,student-047@demo.learnpath.dev,STUDENT,1,LP-STU-047,1
+67,Duvvuri Divya,student-048@demo.learnpath.dev,STUDENT,1,LP-STU-048,1
+68,Duvvuri Ravi Teja,student-049@demo.learnpath.dev,STUDENT,1,LP-STU-049,1
+69,Duvvuri Anusha,student-050@demo.learnpath.dev,STUDENT,1,LP-STU-050,1
+138,Duvvuri Sai Teja,btaiml-student-01@demo.learnpath.dev,STUDENT,1,LP-BTAIML-001,1
+139,Duvvuri Sravani,btaiml-student-02@demo.learnpath.dev,STUDENT,1,LP-BTAIML-002,1
+140,Duvvuri Venkata Sai,btaiml-student-03@demo.learnpath.dev,STUDENT,1,LP-BTAIML-003,1
+141,Duvvuri Lakshmi Priya,btaiml-student-04@demo.learnpath.dev,STUDENT,1,LP-BTAIML-004,1
+142,Duvvuri Srinivas,btaiml-student-05@demo.learnpath.dev,STUDENT,1,LP-BTAIML-005,1
+143,Duvvuri Harika,btaiml-student-06@demo.learnpath.dev,STUDENT,1,LP-BTAIML-006,1
+144,Duvvuri Sandeep,btaiml-student-07@demo.learnpath.dev,STUDENT,1,LP-BTAIML-007,1
+145,Duvvuri Divya,btaiml-student-08@demo.learnpath.dev,STUDENT,1,LP-BTAIML-008,1
+146,Duvvuri Ravi Teja,btaiml-student-09@demo.learnpath.dev,STUDENT,1,LP-BTAIML-009,1
+147,Duvvuri Anusha,btaiml-student-10@demo.learnpath.dev,STUDENT,1,LP-BTAIML-010,1
+148,Duvvuri Pavan Kumar,btds-student-01@demo.learnpath.dev,STUDENT,1,LP-BTDS-001,1
+149,Duvvuri Bhavani,btds-student-02@demo.learnpath.dev,STUDENT,1,LP-BTDS-002,1
+150,Duvvuri Nikhil,btds-student-03@demo.learnpath.dev,STUDENT,1,LP-BTDS-003,1
+151,Duvvuri Mounika,btds-student-04@demo.learnpath.dev,STUDENT,1,LP-BTDS-004,1
+152,Duvvuri Surya Prakash,btds-student-05@demo.learnpath.dev,STUDENT,1,LP-BTDS-005,1
+153,Duvvuri Keerthana,btds-student-06@demo.learnpath.dev,STUDENT,1,LP-BTDS-006,1
+154,Duvvuri Karthik,btds-student-07@demo.learnpath.dev,STUDENT,1,LP-BTDS-007,1
+155,Duvvuri Sowmya,btds-student-08@demo.learnpath.dev,STUDENT,1,LP-BTDS-008,1
+156,Duvvuri Vamsi Krishna,btds-student-09@demo.learnpath.dev,STUDENT,1,LP-BTDS-009,1
+157,Duvvuri Sahithi,btds-student-10@demo.learnpath.dev,STUDENT,1,LP-BTDS-010,1
+160,Nalluri Sai Teja,btece-student-01@demo.learnpath.dev,STUDENT,3,LP-BTECE-001,1
+161,Nalluri Sravani,btece-student-02@demo.learnpath.dev,STUDENT,3,LP-BTECE-002,1
+162,Nalluri Venkata Sai,btece-student-03@demo.learnpath.dev,STUDENT,3,LP-BTECE-003,1
+163,Nalluri Lakshmi Priya,btece-student-04@demo.learnpath.dev,STUDENT,3,LP-BTECE-004,1
+164,Nalluri Srinivas,btece-student-05@demo.learnpath.dev,STUDENT,3,LP-BTECE-005,1
+165,Nalluri Harika,btece-student-06@demo.learnpath.dev,STUDENT,3,LP-BTECE-006,1
+166,Nalluri Sandeep,btece-student-07@demo.learnpath.dev,STUDENT,3,LP-BTECE-007,1
+167,Nalluri Divya,btece-student-08@demo.learnpath.dev,STUDENT,3,LP-BTECE-008,1
+168,Nalluri Ravi Teja,btece-student-09@demo.learnpath.dev,STUDENT,3,LP-BTECE-009,1
+169,Nalluri Anusha,btece-student-10@demo.learnpath.dev,STUDENT,3,LP-BTECE-010,1
+172,Nalluri Pavan Kumar,bteee-student-01@demo.learnpath.dev,STUDENT,8,LP-BTEEE-001,1
+173,Nalluri Bhavani,bteee-student-02@demo.learnpath.dev,STUDENT,8,LP-BTEEE-002,1
+174,Nalluri Nikhil,bteee-student-03@demo.learnpath.dev,STUDENT,8,LP-BTEEE-003,1
+175,Nalluri Mounika,bteee-student-04@demo.learnpath.dev,STUDENT,8,LP-BTEEE-004,1
+176,Nalluri Surya Prakash,bteee-student-05@demo.learnpath.dev,STUDENT,8,LP-BTEEE-005,1
+177,Nalluri Keerthana,bteee-student-06@demo.learnpath.dev,STUDENT,8,LP-BTEEE-006,1
+178,Nalluri Karthik,bteee-student-07@demo.learnpath.dev,STUDENT,8,LP-BTEEE-007,1
+179,Nalluri Sowmya,bteee-student-08@demo.learnpath.dev,STUDENT,8,LP-BTEEE-008,1
+180,Nalluri Vamsi Krishna,bteee-student-09@demo.learnpath.dev,STUDENT,8,LP-BTEEE-009,1
+181,Nalluri Sahithi,bteee-student-10@demo.learnpath.dev,STUDENT,8,LP-BTEEE-010,1
+184,Chilukuri Sai Teja,btme-student-01@demo.learnpath.dev,STUDENT,9,LP-BTME-001,1
+185,Chilukuri Sravani,btme-student-02@demo.learnpath.dev,STUDENT,9,LP-BTME-002,1
+186,Chilukuri Venkata Sai,btme-student-03@demo.learnpath.dev,STUDENT,9,LP-BTME-003,1
+187,Chilukuri Lakshmi Priya,btme-student-04@demo.learnpath.dev,STUDENT,9,LP-BTME-004,1
+188,Chilukuri Srinivas,btme-student-05@demo.learnpath.dev,STUDENT,9,LP-BTME-005,1
+189,Chilukuri Harika,btme-student-06@demo.learnpath.dev,STUDENT,9,LP-BTME-006,1
+190,Chilukuri Sandeep,btme-student-07@demo.learnpath.dev,STUDENT,9,LP-BTME-007,1
+191,Chilukuri Divya,btme-student-08@demo.learnpath.dev,STUDENT,9,LP-BTME-008,1
+192,Chilukuri Ravi Teja,btme-student-09@demo.learnpath.dev,STUDENT,9,LP-BTME-009,1
+193,Chilukuri Anusha,btme-student-10@demo.learnpath.dev,STUDENT,9,LP-BTME-010,1
+196,Chilukuri Pavan Kumar,btce-student-01@demo.learnpath.dev,STUDENT,10,LP-BTCE-001,1
+197,Chilukuri Bhavani,btce-student-02@demo.learnpath.dev,STUDENT,10,LP-BTCE-002,1
+198,Chilukuri Nikhil,btce-student-03@demo.learnpath.dev,STUDENT,10,LP-BTCE-003,1
+199,Chilukuri Mounika,btce-student-04@demo.learnpath.dev,STUDENT,10,LP-BTCE-004,1
+200,Chilukuri Surya Prakash,btce-student-05@demo.learnpath.dev,STUDENT,10,LP-BTCE-005,1
+201,Chilukuri Keerthana,btce-student-06@demo.learnpath.dev,STUDENT,10,LP-BTCE-006,1
+202,Chilukuri Karthik,btce-student-07@demo.learnpath.dev,STUDENT,10,LP-BTCE-007,1
+203,Chilukuri Sowmya,btce-student-08@demo.learnpath.dev,STUDENT,10,LP-BTCE-008,1
+204,Chilukuri Vamsi Krishna,btce-student-09@demo.learnpath.dev,STUDENT,10,LP-BTCE-009,1
+205,Chilukuri Sahithi,btce-student-10@demo.learnpath.dev,STUDENT,10,LP-BTCE-010,1
+206,Gollapudi Sai Teja,year-1-1-a-1@demo.learnpath.dev,STUDENT,1,LP-Y11A01,1
+207,Gollapudi Sravani,year-1-1-a-2@demo.learnpath.dev,STUDENT,1,LP-Y11A02,1
+208,Gollapudi Venkata Sai,year-1-1-b-1@demo.learnpath.dev,STUDENT,1,LP-Y11B01,1
+209,Gollapudi Lakshmi Priya,year-1-1-b-2@demo.learnpath.dev,STUDENT,1,LP-Y11B02,1
+210,Gollapudi Srinivas,year-1-2-b-1@demo.learnpath.dev,STUDENT,1,LP-Y12B01,1
+211,Gollapudi Harika,year-1-2-b-2@demo.learnpath.dev,STUDENT,1,LP-Y12B02,1
+212,Gollapudi Sandeep,year-1-3-a-1@demo.learnpath.dev,STUDENT,1,LP-Y13A01,1
+213,Gollapudi Divya,year-1-3-a-2@demo.learnpath.dev,STUDENT,1,LP-Y13A02,1
+214,Gollapudi Ravi Teja,year-1-3-b-1@demo.learnpath.dev,STUDENT,1,LP-Y13B01,1
+215,Gollapudi Anusha,year-1-3-b-2@demo.learnpath.dev,STUDENT,1,LP-Y13B02,1
+216,Gollapudi Pavan Kumar,year-1-4-a-1@demo.learnpath.dev,STUDENT,1,LP-Y14A01,1
+217,Gollapudi Bhavani,year-1-4-a-2@demo.learnpath.dev,STUDENT,1,LP-Y14A02,1
+218,Gollapudi Nikhil,year-1-4-b-1@demo.learnpath.dev,STUDENT,1,LP-Y14B01,1
+219,Gollapudi Mounika,year-1-4-b-2@demo.learnpath.dev,STUDENT,1,LP-Y14B02,1
+220,Gollapudi Surya Prakash,year-2-1-b-1@demo.learnpath.dev,STUDENT,1,LP-Y21B01,1
+221,Gollapudi Keerthana,year-2-1-b-2@demo.learnpath.dev,STUDENT,1,LP-Y21B02,1
+222,Gollapudi Karthik,year-2-2-a-1@demo.learnpath.dev,STUDENT,1,LP-Y22A01,1
+223,Gollapudi Sowmya,year-2-2-a-2@demo.learnpath.dev,STUDENT,1,LP-Y22A02,1
+224,Gollapudi Vamsi Krishna,year-2-2-b-1@demo.learnpath.dev,STUDENT,1,LP-Y22B01,1
+225,Gollapudi Sahithi,year-2-2-b-2@demo.learnpath.dev,STUDENT,1,LP-Y22B02,1
+226,Vemuri Sai Teja,year-3-1-b-1@demo.learnpath.dev,STUDENT,1,LP-Y31B01,1
+227,Vemuri Sravani,year-3-1-b-2@demo.learnpath.dev,STUDENT,1,LP-Y31B02,1
+228,Vemuri Venkata Sai,year-3-2-a-1@demo.learnpath.dev,STUDENT,1,LP-Y32A01,1
+229,Vemuri Lakshmi Priya,year-3-2-a-2@demo.learnpath.dev,STUDENT,1,LP-Y32A02,1
+230,Vemuri Srinivas,year-3-2-b-1@demo.learnpath.dev,STUDENT,1,LP-Y32B01,1
+231,Vemuri Harika,year-3-2-b-2@demo.learnpath.dev,STUDENT,1,LP-Y32B02,1
+232,Vemuri Sandeep,year-10-1-a-1@demo.learnpath.dev,STUDENT,1,LP-Y101A01,1
+233,Vemuri Divya,year-10-1-a-2@demo.learnpath.dev,STUDENT,1,LP-Y101A02,1
+234,Vemuri Ravi Teja,year-10-1-b-1@demo.learnpath.dev,STUDENT,1,LP-Y101B01,1
+235,Vemuri Anusha,year-10-1-b-2@demo.learnpath.dev,STUDENT,1,LP-Y101B02,1
+236,Vemuri Pavan Kumar,year-10-2-b-1@demo.learnpath.dev,STUDENT,1,LP-Y102B01,1
+237,Vemuri Bhavani,year-10-2-b-2@demo.learnpath.dev,STUDENT,1,LP-Y102B02,1
+238,Vemuri Nikhil,year-10-3-a-1@demo.learnpath.dev,STUDENT,1,LP-Y103A01,1
+239,Vemuri Mounika,year-10-3-a-2@demo.learnpath.dev,STUDENT,1,LP-Y103A02,1
+240,Vemuri Surya Prakash,year-10-3-b-1@demo.learnpath.dev,STUDENT,1,LP-Y103B01,1
+241,Vemuri Keerthana,year-10-3-b-2@demo.learnpath.dev,STUDENT,1,LP-Y103B02,1
+242,Vemuri Karthik,year-10-4-a-1@demo.learnpath.dev,STUDENT,1,LP-Y104A01,1
+243,Vemuri Sowmya,year-10-4-a-2@demo.learnpath.dev,STUDENT,1,LP-Y104A02,1
+244,Vemuri Vamsi Krishna,year-10-4-b-1@demo.learnpath.dev,STUDENT,1,LP-Y104B01,1
+245,Vemuri Sahithi,year-10-4-b-2@demo.learnpath.dev,STUDENT,1,LP-Y104B02,1
+246,Kakarla Sai Teja,year-11-1-a-1@demo.learnpath.dev,STUDENT,1,LP-Y111A01,1
+247,Kakarla Sravani,year-11-1-a-2@demo.learnpath.dev,STUDENT,1,LP-Y111A02,1
+248,Kakarla Venkata Sai,year-11-1-b-1@demo.learnpath.dev,STUDENT,1,LP-Y111B01,1
+249,Kakarla Lakshmi Priya,year-11-1-b-2@demo.learnpath.dev,STUDENT,1,LP-Y111B02,1
+250,Kakarla Srinivas,year-11-2-b-1@demo.learnpath.dev,STUDENT,1,LP-Y112B01,1
+251,Kakarla Harika,year-11-2-b-2@demo.learnpath.dev,STUDENT,1,LP-Y112B02,1
+252,Kakarla Sandeep,year-11-3-a-1@demo.learnpath.dev,STUDENT,1,LP-Y113A01,1
+253,Kakarla Divya,year-11-3-a-2@demo.learnpath.dev,STUDENT,1,LP-Y113A02,1
+254,Kakarla Ravi Teja,year-11-3-b-1@demo.learnpath.dev,STUDENT,1,LP-Y113B01,1
+255,Kakarla Anusha,year-11-3-b-2@demo.learnpath.dev,STUDENT,1,LP-Y113B02,1
+256,Kakarla Pavan Kumar,year-11-4-a-1@demo.learnpath.dev,STUDENT,1,LP-Y114A01,1
+257,Kakarla Bhavani,year-11-4-a-2@demo.learnpath.dev,STUDENT,1,LP-Y114A02,1
+258,Kakarla Nikhil,year-11-4-b-1@demo.learnpath.dev,STUDENT,1,LP-Y114B01,1
+259,Kakarla Mounika,year-11-4-b-2@demo.learnpath.dev,STUDENT,1,LP-Y114B02,1
+260,Kakarla Surya Prakash,year-12-1-a-1@demo.learnpath.dev,STUDENT,3,LP-Y121A01,1
+261,Kakarla Keerthana,year-12-1-a-2@demo.learnpath.dev,STUDENT,3,LP-Y121A02,1
+262,Kakarla Karthik,year-12-1-b-1@demo.learnpath.dev,STUDENT,3,LP-Y121B01,1
+263,Kakarla Sowmya,year-12-1-b-2@demo.learnpath.dev,STUDENT,3,LP-Y121B02,1
+264,Kakarla Vamsi Krishna,year-12-2-b-1@demo.learnpath.dev,STUDENT,3,LP-Y122B01,1
+265,Kakarla Sahithi,year-12-2-b-2@demo.learnpath.dev,STUDENT,3,LP-Y122B02,1
+266,Maddala Sai Teja,year-12-3-a-1@demo.learnpath.dev,STUDENT,3,LP-Y123A01,1
+267,Maddala Sravani,year-12-3-a-2@demo.learnpath.dev,STUDENT,3,LP-Y123A02,1
+268,Maddala Venkata Sai,year-12-3-b-1@demo.learnpath.dev,STUDENT,3,LP-Y123B01,1
+269,Maddala Lakshmi Priya,year-12-3-b-2@demo.learnpath.dev,STUDENT,3,LP-Y123B02,1
+270,Maddala Srinivas,year-12-4-a-1@demo.learnpath.dev,STUDENT,3,LP-Y124A01,1
+271,Maddala Harika,year-12-4-a-2@demo.learnpath.dev,STUDENT,3,LP-Y124A02,1
+272,Maddala Sandeep,year-12-4-b-1@demo.learnpath.dev,STUDENT,3,LP-Y124B01,1
+273,Maddala Divya,year-12-4-b-2@demo.learnpath.dev,STUDENT,3,LP-Y124B02,1
+274,Maddala Ravi Teja,year-13-1-a-1@demo.learnpath.dev,STUDENT,8,LP-Y131A01,1
+275,Maddala Anusha,year-13-1-a-2@demo.learnpath.dev,STUDENT,8,LP-Y131A02,1
+276,Maddala Pavan Kumar,year-13-1-b-1@demo.learnpath.dev,STUDENT,8,LP-Y131B01,1
+277,Maddala Bhavani,year-13-1-b-2@demo.learnpath.dev,STUDENT,8,LP-Y131B02,1
+278,Maddala Nikhil,year-13-2-b-1@demo.learnpath.dev,STUDENT,8,LP-Y132B01,1
+279,Maddala Mounika,year-13-2-b-2@demo.learnpath.dev,STUDENT,8,LP-Y132B02,1
+280,Maddala Surya Prakash,year-13-3-a-1@demo.learnpath.dev,STUDENT,8,LP-Y133A01,1
+281,Maddala Keerthana,year-13-3-a-2@demo.learnpath.dev,STUDENT,8,LP-Y133A02,1
+282,Maddala Karthik,year-13-3-b-1@demo.learnpath.dev,STUDENT,8,LP-Y133B01,1
+283,Maddala Sowmya,year-13-3-b-2@demo.learnpath.dev,STUDENT,8,LP-Y133B02,1
+284,Maddala Vamsi Krishna,year-13-4-a-1@demo.learnpath.dev,STUDENT,8,LP-Y134A01,1
+285,Maddala Sahithi,year-13-4-a-2@demo.learnpath.dev,STUDENT,8,LP-Y134A02,1
+286,Gorantla Sai Teja,year-13-4-b-1@demo.learnpath.dev,STUDENT,8,LP-Y134B01,1
+287,Gorantla Sravani,year-13-4-b-2@demo.learnpath.dev,STUDENT,8,LP-Y134B02,1
+288,Gorantla Venkata Sai,year-14-1-a-1@demo.learnpath.dev,STUDENT,9,LP-Y141A01,1
+289,Gorantla Lakshmi Priya,year-14-1-a-2@demo.learnpath.dev,STUDENT,9,LP-Y141A02,1
+290,Gorantla Srinivas,year-14-1-b-1@demo.learnpath.dev,STUDENT,9,LP-Y141B01,1
+291,Gorantla Harika,year-14-1-b-2@demo.learnpath.dev,STUDENT,9,LP-Y141B02,1
+292,Gorantla Sandeep,year-14-2-b-1@demo.learnpath.dev,STUDENT,9,LP-Y142B01,1
+293,Gorantla Divya,year-14-2-b-2@demo.learnpath.dev,STUDENT,9,LP-Y142B02,1
+294,Gorantla Ravi Teja,year-14-3-a-1@demo.learnpath.dev,STUDENT,9,LP-Y143A01,1
+295,Gorantla Anusha,year-14-3-a-2@demo.learnpath.dev,STUDENT,9,LP-Y143A02,1
+296,Gorantla Pavan Kumar,year-14-3-b-1@demo.learnpath.dev,STUDENT,9,LP-Y143B01,1
+297,Gorantla Bhavani,year-14-3-b-2@demo.learnpath.dev,STUDENT,9,LP-Y143B02,1
+298,Gorantla Nikhil,year-14-4-a-1@demo.learnpath.dev,STUDENT,9,LP-Y144A01,1
+299,Gorantla Mounika,year-14-4-a-2@demo.learnpath.dev,STUDENT,9,LP-Y144A02,1
+300,Gorantla Surya Prakash,year-14-4-b-1@demo.learnpath.dev,STUDENT,9,LP-Y144B01,1
+301,Gorantla Keerthana,year-14-4-b-2@demo.learnpath.dev,STUDENT,9,LP-Y144B02,1
+302,Gorantla Karthik,year-15-1-a-1@demo.learnpath.dev,STUDENT,10,LP-Y151A01,1
+303,Gorantla Sowmya,year-15-1-a-2@demo.learnpath.dev,STUDENT,10,LP-Y151A02,1
+304,Gorantla Vamsi Krishna,year-15-1-b-1@demo.learnpath.dev,STUDENT,10,LP-Y151B01,1
+305,Gorantla Sahithi,year-15-1-b-2@demo.learnpath.dev,STUDENT,10,LP-Y151B02,1
+306,Kondapalli Sai Teja,year-15-2-b-1@demo.learnpath.dev,STUDENT,10,LP-Y152B01,1
+307,Kondapalli Sravani,year-15-2-b-2@demo.learnpath.dev,STUDENT,10,LP-Y152B02,1
+308,Kondapalli Venkata Sai,year-15-3-a-1@demo.learnpath.dev,STUDENT,10,LP-Y153A01,1
+309,Kondapalli Lakshmi Priya,year-15-3-a-2@demo.learnpath.dev,STUDENT,10,LP-Y153A02,1
+310,Kondapalli Srinivas,year-15-3-b-1@demo.learnpath.dev,STUDENT,10,LP-Y153B01,1
+311,Kondapalli Harika,year-15-3-b-2@demo.learnpath.dev,STUDENT,10,LP-Y153B02,1
+312,Kondapalli Sandeep,year-15-4-a-1@demo.learnpath.dev,STUDENT,10,LP-Y154A01,1
+313,Kondapalli Divya,year-15-4-a-2@demo.learnpath.dev,STUDENT,10,LP-Y154A02,1
+314,Kondapalli Ravi Teja,year-15-4-b-1@demo.learnpath.dev,STUDENT,10,LP-Y154B01,1
+315,Kondapalli Anusha,year-15-4-b-2@demo.learnpath.dev,STUDENT,10,LP-Y154B02,1
+316,Kondapalli Pavan Kumar,year-16-1-a-1@demo.learnpath.dev,STUDENT,1,LP-Y161A01,1
+317,Kondapalli Bhavani,year-16-1-a-2@demo.learnpath.dev,STUDENT,1,LP-Y161A02,1
+318,Kondapalli Nikhil,year-16-1-b-1@demo.learnpath.dev,STUDENT,1,LP-Y161B01,1
+319,Kondapalli Mounika,year-16-1-b-2@demo.learnpath.dev,STUDENT,1,LP-Y161B02,1
+320,Kondapalli Surya Prakash,year-16-2-a-1@demo.learnpath.dev,STUDENT,1,LP-Y162A01,1
+321,Kondapalli Keerthana,year-16-2-a-2@demo.learnpath.dev,STUDENT,1,LP-Y162A02,1
+322,Kondapalli Karthik,year-16-2-b-1@demo.learnpath.dev,STUDENT,1,LP-Y162B01,1
+323,Kondapalli Sowmya,year-16-2-b-2@demo.learnpath.dev,STUDENT,1,LP-Y162B02,1
+324,Kondapalli Vamsi Krishna,year-16-3-a-1@demo.learnpath.dev,STUDENT,1,LP-Y163A01,1
+325,Kondapalli Sahithi,year-16-3-a-2@demo.learnpath.dev,STUDENT,1,LP-Y163A02,1
+326,Penumaka Sai Teja,year-16-3-b-1@demo.learnpath.dev,STUDENT,1,LP-Y163B01,1
+327,Penumaka Sravani,year-16-3-b-2@demo.learnpath.dev,STUDENT,1,LP-Y163B02,1

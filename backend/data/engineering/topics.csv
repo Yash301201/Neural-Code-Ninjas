@@ -1,0 +1,649 @@
+﻿topic_id,subject_id,topic_name,description,created_at
+6,7,Relational Model and SQL,Synthetic engineering curriculum example.,2026-11-01 09:23:42
+7,7,Transactions and Indexing,Synthetic engineering curriculum example.,2026-11-01 09:23:42
+8,8,Network Protocols,Synthetic engineering curriculum example.,2026-11-01 09:23:44
+9,8,Addressing and Routing,Synthetic engineering curriculum example.,2026-11-01 09:23:44
+10,9,Relational Model and SQL,Synthetic engineering curriculum example.,2026-11-01 09:23:47
+11,9,Transactions and Indexing,Synthetic engineering curriculum example.,2026-11-01 09:23:47
+12,10,Network Protocols,Synthetic engineering curriculum example.,2026-11-01 09:23:50
+13,10,Addressing and Routing,Synthetic engineering curriculum example.,2026-11-01 09:23:50
+14,11,Relational Model and SQL,Synthetic engineering curriculum example.,2026-11-01 09:23:53
+15,11,Transactions and Indexing,Synthetic engineering curriculum example.,2026-11-01 09:23:53
+16,12,Network Protocols,Synthetic engineering curriculum example.,2026-11-01 09:23:55
+17,12,Addressing and Routing,Synthetic engineering curriculum example.,2026-11-01 09:23:55
+30,25,Python Programming Fundamentals,Academic practice and application,2026-11-01 13:40:08
+31,26,Machine Learning Fundamentals,Academic practice and application,2026-11-01 13:40:08
+32,27,Data Structures Fundamentals,Academic practice and application,2026-11-01 13:40:08
+33,28,Data Analytics Fundamentals,Academic practice and application,2026-11-01 13:40:09
+34,29,Digital Electronics Fundamentals,Academic practice and application,2026-11-01 13:40:09
+35,30,Communication Systems Fundamentals,Academic practice and application,2026-11-01 13:40:09
+36,31,Electrical Circuits Fundamentals,Academic practice and application,2026-11-01 13:40:09
+37,32,Control Systems Fundamentals,Academic practice and application,2026-11-01 13:40:09
+38,33,Engineering Mechanics Fundamentals,Academic practice and application,2026-11-01 13:40:09
+39,34,Thermodynamics Fundamentals,Academic practice and application,2026-11-01 13:40:09
+40,35,Structural Analysis Fundamentals,Academic practice and application,2026-11-01 13:40:09
+41,36,Surveying Fundamentals,Academic practice and application,2026-11-01 13:40:10
+42,37,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+43,37,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+44,37,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+45,38,Engineering Physics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+46,38,Engineering Physics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+47,38,Engineering Physics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+48,39,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+49,39,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+50,39,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+51,40,Engineering Graphics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+52,40,Engineering Graphics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+53,40,Engineering Graphics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+54,41,Basic Electrical Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+55,41,Basic Electrical Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+56,41,Basic Electrical Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+57,42,Technical Communication principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+58,42,Technical Communication analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+59,42,Technical Communication practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+60,7,Relational modelling and SQL,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+61,8,Network layers and protocols,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+62,43,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+63,43,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+64,43,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+65,44,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+66,44,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+67,44,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+68,45,Digital Logic principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+69,45,Digital Logic analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+70,45,Digital Logic practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+71,46,Computer Organization principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+72,46,Computer Organization analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+73,46,Computer Organization practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+74,47,Numerical Methods principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+75,47,Numerical Methods analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+76,47,Numerical Methods practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+77,48,Operating Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+78,48,Operating Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+79,48,Operating Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+80,49,Software Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+81,49,Software Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+82,49,Software Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+83,50,Design and Analysis of Algorithms principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+84,50,Design and Analysis of Algorithms analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+85,50,Design and Analysis of Algorithms practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+86,51,Theory of Computation principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+87,51,Theory of Computation analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+88,51,Theory of Computation practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+89,52,Microprocessors principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+90,52,Microprocessors analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+91,52,Microprocessors practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+92,53,Web Technologies principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+93,53,Web Technologies analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+94,53,Web Technologies practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+95,54,"Training, validation and evaluation",Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+96,54,Regression and classification,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+97,54,Model limitations and applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+98,55,Cloud Computing principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+99,55,Cloud Computing analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+100,55,Cloud Computing practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+101,56,Cyber Security principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+102,56,Cyber Security analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+103,56,Cyber Security practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+104,57,Distributed Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+105,57,Distributed Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+106,57,Distributed Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+107,58,Major Project I principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+108,58,Major Project I analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+109,58,Major Project I practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+110,9,Relational modelling and SQL,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+111,10,Network layers and protocols,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+112,59,Advanced Algorithms principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+113,59,Advanced Algorithms analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+114,59,Advanced Algorithms practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+115,60,Relational modelling and SQL,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+116,60,Normalization and transactions,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+117,60,Indexing and query optimization,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+118,61,Research Methodology principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+119,61,Research Methodology analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+120,61,Research Methodology practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+121,62,Network layers and protocols,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+122,62,IP addressing and routing,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+123,62,Transport protocols and security,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+124,63,"Training, validation and evaluation",Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+125,63,Regression and classification,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+126,63,Model limitations and applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+127,64,Distributed Computing principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+128,64,Distributed Computing analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+129,64,Distributed Computing practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+130,65,Cloud Architecture principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+131,65,Cloud Architecture analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+132,65,Cloud Architecture practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+133,66,Data Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+134,66,Data Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+135,66,Data Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+136,67,Information Security principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+137,67,Information Security analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+138,67,Information Security practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+139,68,Software Architecture principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+140,68,Software Architecture analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+141,68,Software Architecture practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+142,69,Optimization Methods principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+143,69,Optimization Methods analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+144,69,Optimization Methods practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+145,70,Advanced Computing Laboratory principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+146,70,Advanced Computing Laboratory analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+147,70,Advanced Computing Laboratory practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+148,71,Research Seminar principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+149,71,Research Seminar analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+150,71,Research Seminar practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:40
+151,11,Relational modelling and SQL,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+152,12,Network layers and protocols,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+153,72,Advanced Algorithms principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+154,72,Advanced Algorithms analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+155,72,Advanced Algorithms practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+156,73,Relational modelling and SQL,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+157,73,Normalization and transactions,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+158,73,Indexing and query optimization,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+159,74,Research Methodology principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+160,74,Research Methodology analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+161,74,Research Methodology practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+162,75,Network layers and protocols,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+163,75,IP addressing and routing,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+164,75,Transport protocols and security,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+165,76,"Training, validation and evaluation",Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+166,76,Regression and classification,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+167,76,Model limitations and applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+168,77,Distributed Computing principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+169,77,Distributed Computing analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+170,77,Distributed Computing practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+171,78,Cloud Architecture principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+172,78,Cloud Architecture analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+173,78,Cloud Architecture practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+174,79,Data Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+175,79,Data Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+176,79,Data Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+177,80,Information Security principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+178,80,Information Security analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+179,80,Information Security practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+180,81,Software Architecture principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+181,81,Software Architecture analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+182,81,Software Architecture practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+183,82,Optimization Methods principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+184,82,Optimization Methods analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+185,82,Optimization Methods practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+186,83,Advanced Computing Laboratory principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+187,83,Advanced Computing Laboratory analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+188,83,Advanced Computing Laboratory practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+189,84,Research Seminar principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+190,84,Research Seminar analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+191,84,Research Seminar practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+192,85,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+193,85,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+194,85,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+195,86,Engineering Physics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+196,86,Engineering Physics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+197,86,Engineering Physics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+198,87,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+199,87,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+200,87,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+201,88,Engineering Graphics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+202,88,Engineering Graphics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+203,88,Engineering Graphics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+204,89,Basic Electrical Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+205,89,Basic Electrical Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+206,89,Basic Electrical Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+207,90,Technical Communication principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+208,90,Technical Communication analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+209,90,Technical Communication practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+210,25,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+211,25,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+212,26,"Training, validation and evaluation",Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+213,26,Regression and classification,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+214,91,"Arrays, lists and stacks",Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+215,91,Trees and graph traversal,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+216,91,Complexity and practical algorithms,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+217,92,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+218,92,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+219,92,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+220,93,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+221,93,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+222,93,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+223,94,Digital Logic principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+224,94,Digital Logic analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+225,94,Digital Logic practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+226,95,Computer Organization principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+227,95,Computer Organization analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+228,95,Computer Organization practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+229,96,Numerical Methods principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+230,96,Numerical Methods analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+231,96,Numerical Methods practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+232,97,Operating Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+233,97,Operating Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+234,97,Operating Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+235,98,Software Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+236,98,Software Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+237,98,Software Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+238,99,Design and Analysis of Algorithms principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+239,99,Design and Analysis of Algorithms analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+240,99,Design and Analysis of Algorithms practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+241,100,Theory of Computation principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+242,100,Theory of Computation analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+243,100,Theory of Computation practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+244,101,Microprocessors principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+245,101,Microprocessors analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+246,101,Microprocessors practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+247,102,Web Technologies principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+248,102,Web Technologies analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+249,102,Web Technologies practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+250,103,Cloud Computing principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+251,103,Cloud Computing analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+252,103,Cloud Computing practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+253,104,Cyber Security principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+254,104,Cyber Security analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+255,104,Cyber Security practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+256,105,Distributed Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+257,105,Distributed Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+258,105,Distributed Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+259,106,Major Project I principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+260,106,Major Project I analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+261,106,Major Project I practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+262,107,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+263,107,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+264,107,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+265,108,Engineering Physics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+266,108,Engineering Physics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+267,108,Engineering Physics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+268,109,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+269,109,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+270,109,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+271,110,Engineering Graphics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+272,110,Engineering Graphics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+273,110,Engineering Graphics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+274,111,Basic Electrical Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+275,111,Basic Electrical Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+276,111,Basic Electrical Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+277,112,Technical Communication principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+278,112,Technical Communication analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+279,112,Technical Communication practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+280,27,"Arrays, lists and stacks",Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+281,27,Trees and graph traversal,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+282,28,Data Analytics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+283,28,Data Analytics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+284,113,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+285,113,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+286,113,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+287,114,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+288,114,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+289,114,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+290,115,Digital Logic principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+291,115,Digital Logic analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+292,115,Digital Logic practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+293,116,Computer Organization principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+294,116,Computer Organization analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+295,116,Computer Organization practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+296,117,Numerical Methods principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+297,117,Numerical Methods analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+298,117,Numerical Methods practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+299,118,Operating Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+300,118,Operating Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+301,118,Operating Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+302,119,Software Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+303,119,Software Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+304,119,Software Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+305,120,Design and Analysis of Algorithms principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+306,120,Design and Analysis of Algorithms analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+307,120,Design and Analysis of Algorithms practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+308,121,Theory of Computation principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+309,121,Theory of Computation analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+310,121,Theory of Computation practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+311,122,Microprocessors principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+312,122,Microprocessors analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+313,122,Microprocessors practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+314,123,Web Technologies principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+315,123,Web Technologies analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+316,123,Web Technologies practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+317,124,"Training, validation and evaluation",Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+318,124,Regression and classification,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+319,124,Model limitations and applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+320,125,Cloud Computing principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+321,125,Cloud Computing analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+322,125,Cloud Computing practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+323,126,Cyber Security principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+324,126,Cyber Security analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+325,126,Cyber Security practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+326,127,Distributed Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+327,127,Distributed Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+328,127,Distributed Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+329,128,Major Project I principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+330,128,Major Project I analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+331,128,Major Project I practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+332,129,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+333,129,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+334,129,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+335,130,Engineering Physics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+336,130,Engineering Physics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+337,130,Engineering Physics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+338,131,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+339,131,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+340,131,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+341,132,Engineering Graphics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+342,132,Engineering Graphics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+343,132,Engineering Graphics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+344,133,Basic Electrical Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+345,133,Basic Electrical Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+346,133,Basic Electrical Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+347,134,Technical Communication principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+348,134,Technical Communication analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+349,134,Technical Communication practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+350,29,Digital Electronics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+351,29,Digital Electronics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+352,30,Communication Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+353,30,Communication Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+354,135,Electronic Devices principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+355,135,Electronic Devices analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+356,135,Electronic Devices practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+357,136,Circuit Theory principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+358,136,Circuit Theory analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+359,136,Circuit Theory practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+360,137,Signals and Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+361,137,Signals and Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+362,137,Signals and Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+363,138,Analog Electronics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+364,138,Analog Electronics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+365,138,Analog Electronics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+366,139,Electromagnetic Fields principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+367,139,Electromagnetic Fields analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+368,139,Electromagnetic Fields practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+369,140,Network layers and protocols,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+370,140,IP addressing and routing,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+371,140,Transport protocols and security,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+372,141,Digital Signal Processing principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+373,141,Digital Signal Processing analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+374,141,Digital Signal Processing practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+375,142,Microprocessors principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+376,142,Microprocessors analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+377,142,Microprocessors practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+378,143,VLSI Design principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+379,143,VLSI Design analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+380,143,VLSI Design practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+381,144,Control Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+382,144,Control Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+383,144,Control Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+384,145,Antenna Theory principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+385,145,Antenna Theory analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+386,145,Antenna Theory practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+387,146,Embedded Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+388,146,Embedded Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+389,146,Embedded Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+390,147,Wireless Communication principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+391,147,Wireless Communication analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+392,147,Wireless Communication practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+393,148,Optical Communication principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+394,148,Optical Communication analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+395,148,Optical Communication practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+396,149,Microwave Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+397,149,Microwave Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+398,149,Microwave Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+399,150,IoT Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+400,150,IoT Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+401,150,IoT Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:41
+402,151,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+403,151,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+404,151,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+405,152,Engineering Physics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+406,152,Engineering Physics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+407,152,Engineering Physics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+408,153,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+409,153,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+410,153,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+411,154,Engineering Graphics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+412,154,Engineering Graphics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+413,154,Engineering Graphics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+414,155,Basic Electronics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+415,155,Basic Electronics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+416,155,Basic Electronics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+417,156,Technical Communication principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+418,156,Technical Communication analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+419,156,Technical Communication practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+420,31,Circuit laws and network theorems,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+421,31,AC and transient analysis,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+422,32,Control Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+423,32,Control Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+424,157,Electrical Machines I principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+425,157,Electrical Machines I analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+426,157,Electrical Machines I practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+427,158,Circuit Analysis principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+428,158,Circuit Analysis analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+429,158,Circuit Analysis practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+430,159,Electromagnetic Fields principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+431,159,Electromagnetic Fields analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+432,159,Electromagnetic Fields practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+433,160,Measurements and Instrumentation principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+434,160,Measurements and Instrumentation analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+435,160,Measurements and Instrumentation practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+436,161,Power Electronics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+437,161,Power Electronics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+438,161,Power Electronics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+439,162,Network layers and protocols,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+440,162,IP addressing and routing,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+441,162,Transport protocols and security,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+442,163,Electrical Machines II principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+443,163,Electrical Machines II analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+444,163,Electrical Machines II practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+445,164,Power Systems I principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+446,164,Power Systems I analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+447,164,Power Systems I practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+448,165,Signals and Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+449,165,Signals and Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+450,165,Signals and Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+451,166,Microcontrollers principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+452,166,Microcontrollers analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+453,166,Microcontrollers practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+454,167,Control Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+455,167,Control Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+456,167,Control Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+457,168,Electrical Drives principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+458,168,Electrical Drives analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+459,168,Electrical Drives practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+460,169,Power Systems II principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+461,169,Power Systems II analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+462,169,Power Systems II practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+463,170,Renewable Energy Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+464,170,Renewable Energy Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+465,170,Renewable Energy Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+466,171,High Voltage Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+467,171,High Voltage Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+468,171,High Voltage Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+469,172,Smart Grids principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+470,172,Smart Grids analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+471,172,Smart Grids practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+472,173,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+473,173,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+474,173,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+475,174,Engineering Physics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+476,174,Engineering Physics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+477,174,Engineering Physics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+478,175,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+479,175,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+480,175,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+481,176,Engineering Graphics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+482,176,Engineering Graphics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+483,176,Engineering Graphics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+484,177,Workshop Practice principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+485,177,Workshop Practice analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+486,177,Workshop Practice practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+487,178,Technical Communication principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+488,178,Technical Communication analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+489,178,Technical Communication practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+490,33,Engineering Mechanics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+491,33,Engineering Mechanics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+492,34,Energy and the first law,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+493,34,Entropy and the second law,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+494,179,Strength of Materials principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+495,179,Strength of Materials analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+496,179,Strength of Materials practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+497,180,Fluid Mechanics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+498,180,Fluid Mechanics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+499,180,Fluid Mechanics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+500,181,Material Science principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+501,181,Material Science analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+502,181,Material Science practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+503,182,Manufacturing Processes principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+504,182,Manufacturing Processes analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+505,182,Manufacturing Processes practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+506,183,Kinematics of Machines principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+507,183,Kinematics of Machines analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+508,183,Kinematics of Machines practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+509,184,Numerical Methods principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+510,184,Numerical Methods analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+511,184,Numerical Methods practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+512,185,Dynamics of Machines principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+513,185,Dynamics of Machines analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+514,185,Dynamics of Machines practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+515,186,Heat Transfer principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+516,186,Heat Transfer analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+517,186,Heat Transfer practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+518,187,Machine Design I principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+519,187,Machine Design I analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+520,187,Machine Design I practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+521,188,Metrology principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+522,188,Metrology analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+523,188,Metrology practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+524,189,Energy and the first law,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+525,189,Entropy and the second law,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+526,189,Thermodynamic cycles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+527,190,CAD and CAM principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+528,190,CAD and CAM analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+529,190,CAD and CAM practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+530,191,Machine Design II principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+531,191,Machine Design II analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+532,191,Machine Design II practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+533,192,Refrigeration and Air Conditioning principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+534,192,Refrigeration and Air Conditioning analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+535,192,Refrigeration and Air Conditioning practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+536,193,Automobile Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+537,193,Automobile Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+538,193,Automobile Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+539,194,Industrial Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+540,194,Industrial Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+541,194,Industrial Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+542,195,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+543,195,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+544,195,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+545,196,Engineering Physics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+546,196,Engineering Physics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+547,196,Engineering Physics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+548,197,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+549,197,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+550,197,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+551,198,Engineering Graphics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+552,198,Engineering Graphics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+553,198,Engineering Graphics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+554,199,Building Materials principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+555,199,Building Materials analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+556,199,Building Materials practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+557,200,Technical Communication principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+558,200,Technical Communication analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+559,200,Technical Communication practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+560,35,Structural Analysis principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+561,35,Structural Analysis analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+562,36,Levelling and angle measurement,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+563,36,Traversing and contouring,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+564,201,Strength of Materials principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+565,201,Strength of Materials analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+566,201,Strength of Materials practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+567,202,Fluid Mechanics principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+568,202,Fluid Mechanics analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+569,202,Fluid Mechanics practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+570,203,Engineering Geology principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+571,203,Engineering Geology analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+572,203,Engineering Geology practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+573,204,Concrete Technology principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+574,204,Concrete Technology analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+575,204,Concrete Technology practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+576,205,Construction Methods principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+577,205,Construction Methods analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+578,205,Construction Methods practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+579,206,Numerical Methods principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+580,206,Numerical Methods analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+581,206,Numerical Methods practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+582,207,Geotechnical Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+583,207,Geotechnical Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+584,207,Geotechnical Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+585,208,Transportation Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+586,208,Transportation Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+587,208,Transportation Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+588,209,Hydrology principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+589,209,Hydrology analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+590,209,Hydrology practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+591,210,Reinforced Concrete Design principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+592,210,Reinforced Concrete Design analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+593,210,Reinforced Concrete Design practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+594,211,Environmental Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+595,211,Environmental Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+596,211,Environmental Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+597,212,Water Resources Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+598,212,Water Resources Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+599,212,Water Resources Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+600,213,Steel Structures principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+601,213,Steel Structures analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+602,213,Steel Structures practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+603,214,Foundation Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+604,214,Foundation Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+605,214,Foundation Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+606,215,Construction Management principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+607,215,Construction Management analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+608,215,Construction Management practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+609,216,Remote Sensing principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+610,216,Remote Sensing analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+611,216,Remote Sensing practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+612,217,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+613,217,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+614,217,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+615,218,Calculus and linear algebra,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+616,218,Differential equations,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+617,218,Engineering numerical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+618,219,Digital Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+619,219,Digital Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+620,219,Digital Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+621,220,Communication Skills principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+622,220,Communication Skills analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+623,220,Communication Skills practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+624,221,Web Foundations principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+625,221,Web Foundations analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+626,221,Web Foundations practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+627,222,Computer Applications principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+628,222,Computer Applications analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+629,222,Computer Applications practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+630,223,"Arrays, lists and stacks",Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+631,223,Trees and graph traversal,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+632,223,Complexity and practical algorithms,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+633,224,Relational modelling and SQL,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+634,224,Normalization and transactions,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+635,224,Indexing and query optimization,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+636,225,Language fundamentals and control flow,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+637,225,Functions and data structures,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+638,225,Testing and problem solving,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+639,226,Network layers and protocols,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+640,226,IP addressing and routing,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+641,226,Transport protocols and security,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+642,227,Software Engineering principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+643,227,Software Engineering analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+644,227,Software Engineering practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+645,228,Statistics for Computing principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+646,228,Statistics for Computing analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+647,228,Statistics for Computing practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+648,229,Operating Systems principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+649,229,Operating Systems analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+650,229,Operating Systems practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+651,230,Web Application Development principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+652,230,Web Application Development analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+653,230,Web Application Development practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+654,231,Cloud Fundamentals principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+655,231,Cloud Fundamentals analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+656,231,Cloud Fundamentals practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+657,232,Information Security principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+658,232,Information Security analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+659,232,Information Security practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+660,233,Project I principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+661,233,Project I analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+662,233,Project I practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+663,234,Project II principles,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+664,234,Project II analytical methods,Planned syllabus coverage for this subject.,2026-11-01 14:19:42
+665,234,Project II practical applications,Planned syllabus coverage for this subject.,2026-11-01 14:19:42

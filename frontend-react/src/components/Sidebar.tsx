@@ -30,7 +30,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     requestConfirm({
       title: 'Sign out of LearnPath AI?',
       message:
-        'Your current study progress, question bank edits, and analytics filters are stored in MySQL. Unsaved form inputs will be lost.',
+        'Saved study progress and academic records remain in MySQL. Unsaved form inputs and view filters will be lost.',
       confirmLabel: 'Sign Out',
       variant: 'danger',
       onConfirm: () => {

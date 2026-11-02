@@ -1,0 +1,233 @@
+﻿student_id,section_id,section_name,academic_year,study_year,course_id,course_name,program_level,department_id,department_name
+20,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+21,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+22,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+23,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+24,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+25,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+26,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+27,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+28,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+29,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+30,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+31,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+32,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+33,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+34,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+35,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+36,2,Year 2 A,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+37,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+38,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+39,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+40,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+41,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+42,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+43,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+44,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+45,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+46,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+47,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+48,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+49,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+50,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+51,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+52,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+53,3,Year 1 A,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+54,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+55,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+56,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+57,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+58,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+59,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+60,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+61,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+62,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+63,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+64,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+65,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+66,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+67,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+68,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+69,4,Year 1 A,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+138,11,Year 2 A,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+139,11,Year 2 A,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+140,11,Year 2 A,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+141,11,Year 2 A,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+142,11,Year 2 A,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+143,11,Year 2 A,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+144,11,Year 2 A,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+145,11,Year 2 A,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+146,11,Year 2 A,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+147,11,Year 2 A,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+148,12,Year 2 A,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+149,12,Year 2 A,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+150,12,Year 2 A,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+151,12,Year 2 A,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+152,12,Year 2 A,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+153,12,Year 2 A,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+154,12,Year 2 A,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+155,12,Year 2 A,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+156,12,Year 2 A,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+157,12,Year 2 A,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+160,13,Year 2 A,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+161,13,Year 2 A,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+162,13,Year 2 A,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+163,13,Year 2 A,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+164,13,Year 2 A,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+165,13,Year 2 A,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+166,13,Year 2 A,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+167,13,Year 2 A,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+168,13,Year 2 A,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+169,13,Year 2 A,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+172,14,Year 2 A,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+173,14,Year 2 A,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+174,14,Year 2 A,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+175,14,Year 2 A,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+176,14,Year 2 A,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+177,14,Year 2 A,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+178,14,Year 2 A,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+179,14,Year 2 A,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+180,14,Year 2 A,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+181,14,Year 2 A,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+184,15,Year 2 A,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+185,15,Year 2 A,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+186,15,Year 2 A,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+187,15,Year 2 A,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+188,15,Year 2 A,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+189,15,Year 2 A,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+190,15,Year 2 A,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+191,15,Year 2 A,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+192,15,Year 2 A,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+193,15,Year 2 A,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+196,16,Year 2 A,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+197,16,Year 2 A,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+198,16,Year 2 A,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+199,16,Year 2 A,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+200,16,Year 2 A,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+201,16,Year 2 A,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+202,16,Year 2 A,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+203,16,Year 2 A,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+204,16,Year 2 A,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+205,16,Year 2 A,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+206,17,Year 1 A,2026-2027,1,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+207,17,Year 1 A,2026-2027,1,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+208,18,Year 1 B,2026-2027,1,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+209,18,Year 1 B,2026-2027,1,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+210,19,Year 2 B,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+211,19,Year 2 B,2026-2027,2,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+212,20,Year 3 A,2026-2027,3,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+213,20,Year 3 A,2026-2027,3,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+214,21,Year 3 B,2026-2027,3,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+215,21,Year 3 B,2026-2027,3,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+216,22,Year 4 A,2026-2027,4,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+217,22,Year 4 A,2026-2027,4,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+218,23,Year 4 B,2026-2027,4,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+219,23,Year 4 B,2026-2027,4,1,B.Tech Computer Science and Engineering,UG,1,Computer Science and Engineering
+220,24,Year 1 B,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+221,24,Year 1 B,2026-2027,1,2,Master of Computer application,PG,1,Computer Science and Engineering
+222,25,Year 2 A,2026-2027,2,2,Master of Computer application,PG,1,Computer Science and Engineering
+223,25,Year 2 A,2026-2027,2,2,Master of Computer application,PG,1,Computer Science and Engineering
+224,26,Year 2 B,2026-2027,2,2,Master of Computer application,PG,1,Computer Science and Engineering
+225,26,Year 2 B,2026-2027,2,2,Master of Computer application,PG,1,Computer Science and Engineering
+226,27,Year 1 B,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+227,27,Year 1 B,2026-2027,1,3,Master of technology,PG,1,Computer Science and Engineering
+228,28,Year 2 A,2026-2027,2,3,Master of technology,PG,1,Computer Science and Engineering
+229,28,Year 2 A,2026-2027,2,3,Master of technology,PG,1,Computer Science and Engineering
+230,29,Year 2 B,2026-2027,2,3,Master of technology,PG,1,Computer Science and Engineering
+231,29,Year 2 B,2026-2027,2,3,Master of technology,PG,1,Computer Science and Engineering
+232,30,Year 1 A,2026-2027,1,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+233,30,Year 1 A,2026-2027,1,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+234,31,Year 1 B,2026-2027,1,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+235,31,Year 1 B,2026-2027,1,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+236,32,Year 2 B,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+237,32,Year 2 B,2026-2027,2,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+238,33,Year 3 A,2026-2027,3,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+239,33,Year 3 A,2026-2027,3,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+240,34,Year 3 B,2026-2027,3,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+241,34,Year 3 B,2026-2027,3,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+242,35,Year 4 A,2026-2027,4,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+243,35,Year 4 A,2026-2027,4,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+244,36,Year 4 B,2026-2027,4,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+245,36,Year 4 B,2026-2027,4,10,B.Tech Artificial Intelligence and Machine Learning,UG,1,Computer Science and Engineering
+246,37,Year 1 A,2026-2027,1,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+247,37,Year 1 A,2026-2027,1,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+248,38,Year 1 B,2026-2027,1,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+249,38,Year 1 B,2026-2027,1,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+250,39,Year 2 B,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+251,39,Year 2 B,2026-2027,2,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+252,40,Year 3 A,2026-2027,3,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+253,40,Year 3 A,2026-2027,3,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+254,41,Year 3 B,2026-2027,3,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+255,41,Year 3 B,2026-2027,3,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+256,42,Year 4 A,2026-2027,4,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+257,42,Year 4 A,2026-2027,4,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+258,43,Year 4 B,2026-2027,4,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+259,43,Year 4 B,2026-2027,4,11,B.Tech Data Science,UG,1,Computer Science and Engineering
+260,44,Year 1 A,2026-2027,1,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+261,44,Year 1 A,2026-2027,1,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+262,45,Year 1 B,2026-2027,1,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+263,45,Year 1 B,2026-2027,1,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+264,46,Year 2 B,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+265,46,Year 2 B,2026-2027,2,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+266,47,Year 3 A,2026-2027,3,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+267,47,Year 3 A,2026-2027,3,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+268,48,Year 3 B,2026-2027,3,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+269,48,Year 3 B,2026-2027,3,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+270,49,Year 4 A,2026-2027,4,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+271,49,Year 4 A,2026-2027,4,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+272,50,Year 4 B,2026-2027,4,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+273,50,Year 4 B,2026-2027,4,12,B.Tech Electronics and Communication Engineering,UG,3,Electronics and Communication Engineering
+274,51,Year 1 A,2026-2027,1,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+275,51,Year 1 A,2026-2027,1,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+276,52,Year 1 B,2026-2027,1,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+277,52,Year 1 B,2026-2027,1,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+278,53,Year 2 B,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+279,53,Year 2 B,2026-2027,2,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+280,54,Year 3 A,2026-2027,3,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+281,54,Year 3 A,2026-2027,3,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+282,55,Year 3 B,2026-2027,3,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+283,55,Year 3 B,2026-2027,3,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+284,56,Year 4 A,2026-2027,4,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+285,56,Year 4 A,2026-2027,4,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+286,57,Year 4 B,2026-2027,4,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+287,57,Year 4 B,2026-2027,4,13,B.Tech Electrical and Electronics Engineering,UG,8,Electrical and Electronics Engineering
+288,58,Year 1 A,2026-2027,1,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+289,58,Year 1 A,2026-2027,1,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+290,59,Year 1 B,2026-2027,1,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+291,59,Year 1 B,2026-2027,1,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+292,60,Year 2 B,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+293,60,Year 2 B,2026-2027,2,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+294,61,Year 3 A,2026-2027,3,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+295,61,Year 3 A,2026-2027,3,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+296,62,Year 3 B,2026-2027,3,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+297,62,Year 3 B,2026-2027,3,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+298,63,Year 4 A,2026-2027,4,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+299,63,Year 4 A,2026-2027,4,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+300,64,Year 4 B,2026-2027,4,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+301,64,Year 4 B,2026-2027,4,14,B.Tech Mechanical Engineering,UG,9,Mechanical Engineering
+302,65,Year 1 A,2026-2027,1,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+303,65,Year 1 A,2026-2027,1,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+304,66,Year 1 B,2026-2027,1,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+305,66,Year 1 B,2026-2027,1,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+306,67,Year 2 B,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+307,67,Year 2 B,2026-2027,2,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+308,68,Year 3 A,2026-2027,3,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+309,68,Year 3 A,2026-2027,3,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+310,69,Year 3 B,2026-2027,3,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+311,69,Year 3 B,2026-2027,3,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+312,70,Year 4 A,2026-2027,4,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+313,70,Year 4 A,2026-2027,4,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+314,71,Year 4 B,2026-2027,4,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+315,71,Year 4 B,2026-2027,4,15,B.Tech Civil Engineering,UG,10,Civil Engineering
+316,72,Year 1 A,2026-2027,1,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+317,72,Year 1 A,2026-2027,1,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+318,73,Year 1 B,2026-2027,1,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+319,73,Year 1 B,2026-2027,1,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+320,74,Year 2 A,2026-2027,2,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+321,74,Year 2 A,2026-2027,2,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+322,75,Year 2 B,2026-2027,2,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+323,75,Year 2 B,2026-2027,2,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+324,76,Year 3 A,2026-2027,3,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+325,76,Year 3 A,2026-2027,3,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+326,77,Year 3 B,2026-2027,3,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering
+327,77,Year 3 B,2026-2027,3,16,Bachelor of Computer Applications,UG,1,Computer Science and Engineering

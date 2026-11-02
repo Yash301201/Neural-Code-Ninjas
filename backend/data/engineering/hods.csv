@@ -1,0 +1,6 @@
+﻿user_id,full_name,email,role,department_id,registration_number,is_active,managed_students,managed_faculty
+15,Dr. N. Madhavi,hod-1@demo.learnpath.dev,HOD,1,,1,136,7
+158,Dr. P. Padma,hod-3@demo.learnpath.dev,HOD,3,LP-HOD-3,1,24,1
+170,Dr. M. Srinivas,hod-8@demo.learnpath.dev,HOD,8,LP-HOD-8,1,24,1
+182,Dr. V. Anuradha,hod-9@demo.learnpath.dev,HOD,9,LP-HOD-9,1,24,1
+194,Dr. G. Prasad,hod-10@demo.learnpath.dev,HOD,10,LP-HOD-10,1,24,1

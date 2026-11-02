@@ -1,0 +1,217 @@
+﻿subject_id,course_id,subject_name,subject_code,semester,created_at,study_year,course_name
+7,1,Applied Database Management Systems,LP-1-1,3,2026-11-01 09:23:42,2,B.Tech Computer Science and Engineering
+8,1,Computer Networks,LP-1-2,3,2026-11-01 09:23:44,2,B.Tech Computer Science and Engineering
+9,2,Database Management Systems,LP-2-1,1,2026-11-01 09:23:47,1,Master of Computer application
+10,2,Computer Networks,LP-2-2,1,2026-11-01 09:23:50,1,Master of Computer application
+11,3,Database Management Systems,LP-3-1,1,2026-11-01 09:23:53,1,Master of technology
+12,3,Computer Networks,LP-3-2,1,2026-11-01 09:23:55,1,Master of technology
+25,10,Python Programming,LP-BTAIML-1,3,2026-11-01 13:40:08,2,B.Tech Artificial Intelligence and Machine Learning
+26,10,Machine Learning,LP-BTAIML-2,3,2026-11-01 13:40:08,2,B.Tech Artificial Intelligence and Machine Learning
+27,11,Data Structures,LP-BTDS-1,3,2026-11-01 13:40:08,2,B.Tech Data Science
+28,11,Data Analytics,LP-BTDS-2,3,2026-11-01 13:40:09,2,B.Tech Data Science
+29,12,Digital Electronics,LP-BTECE-1,3,2026-11-01 13:40:09,2,B.Tech Electronics and Communication Engineering
+30,12,Communication Systems,LP-BTECE-2,3,2026-11-01 13:40:09,2,B.Tech Electronics and Communication Engineering
+31,13,Electrical Circuits,LP-BTEEE-1,3,2026-11-01 13:40:09,2,B.Tech Electrical and Electronics Engineering
+32,13,Control Systems,LP-BTEEE-2,3,2026-11-01 13:40:09,2,B.Tech Electrical and Electronics Engineering
+33,14,Engineering Mechanics,LP-BTME-1,3,2026-11-01 13:40:09,2,B.Tech Mechanical Engineering
+34,14,Thermodynamics,LP-BTME-2,3,2026-11-01 13:40:09,2,B.Tech Mechanical Engineering
+35,15,Structural Analysis,LP-BTCE-1,3,2026-11-01 13:40:09,2,B.Tech Civil Engineering
+36,15,Surveying,LP-BTCE-2,3,2026-11-01 13:40:10,2,B.Tech Civil Engineering
+37,1,Engineering Mathematics I,LP-Y1-1-1,1,2026-11-01 14:19:40,1,B.Tech Computer Science and Engineering
+38,1,Engineering Physics,LP-Y1-1-2,1,2026-11-01 14:19:40,1,B.Tech Computer Science and Engineering
+39,1,Programming in C,LP-Y1-1-3,1,2026-11-01 14:19:40,1,B.Tech Computer Science and Engineering
+40,1,Engineering Graphics,LP-Y1-1-4,2,2026-11-01 14:19:40,1,B.Tech Computer Science and Engineering
+41,1,Basic Electrical Engineering,LP-Y1-1-5,2,2026-11-01 14:19:40,1,B.Tech Computer Science and Engineering
+42,1,Technical Communication,LP-Y1-1-6,2,2026-11-01 14:19:40,1,B.Tech Computer Science and Engineering
+43,1,Object Oriented Programming,LP-Y1-2-3,3,2026-11-01 14:19:40,2,B.Tech Computer Science and Engineering
+44,1,Discrete Mathematics,LP-Y1-2-4,4,2026-11-01 14:19:40,2,B.Tech Computer Science and Engineering
+45,1,Digital Logic,LP-Y1-2-5,4,2026-11-01 14:19:40,2,B.Tech Computer Science and Engineering
+46,1,Computer Organization,LP-Y1-2-6,4,2026-11-01 14:19:40,2,B.Tech Computer Science and Engineering
+47,1,Numerical Methods,LP-Y1-3-1,5,2026-11-01 14:19:40,3,B.Tech Computer Science and Engineering
+48,1,Operating Systems,LP-Y1-3-2,5,2026-11-01 14:19:40,3,B.Tech Computer Science and Engineering
+49,1,Software Engineering,LP-Y1-3-3,5,2026-11-01 14:19:40,3,B.Tech Computer Science and Engineering
+50,1,Design and Analysis of Algorithms,LP-Y1-3-4,6,2026-11-01 14:19:40,3,B.Tech Computer Science and Engineering
+51,1,Theory of Computation,LP-Y1-3-5,6,2026-11-01 14:19:40,3,B.Tech Computer Science and Engineering
+52,1,Microprocessors,LP-Y1-3-6,6,2026-11-01 14:19:40,3,B.Tech Computer Science and Engineering
+53,1,Web Technologies,LP-Y1-4-1,7,2026-11-01 14:19:40,4,B.Tech Computer Science and Engineering
+54,1,Machine Learning,LP-Y1-4-2,7,2026-11-01 14:19:40,4,B.Tech Computer Science and Engineering
+55,1,Cloud Computing,LP-Y1-4-3,7,2026-11-01 14:19:40,4,B.Tech Computer Science and Engineering
+56,1,Cyber Security,LP-Y1-4-4,8,2026-11-01 14:19:40,4,B.Tech Computer Science and Engineering
+57,1,Distributed Systems,LP-Y1-4-5,8,2026-11-01 14:19:40,4,B.Tech Computer Science and Engineering
+58,1,Major Project I,LP-Y1-4-6,8,2026-11-01 14:19:40,4,B.Tech Computer Science and Engineering
+59,2,Advanced Algorithms,LP-Y2-1-3,1,2026-11-01 14:19:40,1,Master of Computer application
+60,2,Advanced Database Systems,LP-Y2-1-4,1,2026-11-01 14:19:40,1,Master of Computer application
+61,2,Research Methodology,LP-Y2-1-5,2,2026-11-01 14:19:40,1,Master of Computer application
+62,2,Advanced Computer Networks,LP-Y2-1-6,2,2026-11-01 14:19:40,1,Master of Computer application
+63,2,Machine Learning Applications,LP-Y2-1-7,2,2026-11-01 14:19:40,1,Master of Computer application
+64,2,Distributed Computing,LP-Y2-1-8,2,2026-11-01 14:19:40,1,Master of Computer application
+65,2,Cloud Architecture,LP-Y2-2-1,3,2026-11-01 14:19:40,2,Master of Computer application
+66,2,Data Engineering,LP-Y2-2-2,3,2026-11-01 14:19:40,2,Master of Computer application
+67,2,Information Security,LP-Y2-2-3,3,2026-11-01 14:19:40,2,Master of Computer application
+68,2,Software Architecture,LP-Y2-2-4,3,2026-11-01 14:19:40,2,Master of Computer application
+69,2,Optimization Methods,LP-Y2-2-5,4,2026-11-01 14:19:40,2,Master of Computer application
+70,2,Advanced Computing Laboratory,LP-Y2-2-6,4,2026-11-01 14:19:40,2,Master of Computer application
+71,2,Research Seminar,LP-Y2-2-7,4,2026-11-01 14:19:40,2,Master of Computer application
+72,3,Advanced Algorithms,LP-Y3-1-3,1,2026-11-01 14:19:41,1,Master of technology
+73,3,Advanced Database Systems,LP-Y3-1-4,1,2026-11-01 14:19:41,1,Master of technology
+74,3,Research Methodology,LP-Y3-1-5,2,2026-11-01 14:19:41,1,Master of technology
+75,3,Advanced Computer Networks,LP-Y3-1-6,2,2026-11-01 14:19:41,1,Master of technology
+76,3,Machine Learning Applications,LP-Y3-1-7,2,2026-11-01 14:19:41,1,Master of technology
+77,3,Distributed Computing,LP-Y3-1-8,2,2026-11-01 14:19:41,1,Master of technology
+78,3,Cloud Architecture,LP-Y3-2-1,3,2026-11-01 14:19:41,2,Master of technology
+79,3,Data Engineering,LP-Y3-2-2,3,2026-11-01 14:19:41,2,Master of technology
+80,3,Information Security,LP-Y3-2-3,3,2026-11-01 14:19:41,2,Master of technology
+81,3,Software Architecture,LP-Y3-2-4,3,2026-11-01 14:19:41,2,Master of technology
+82,3,Optimization Methods,LP-Y3-2-5,4,2026-11-01 14:19:41,2,Master of technology
+83,3,Advanced Computing Laboratory,LP-Y3-2-6,4,2026-11-01 14:19:41,2,Master of technology
+84,3,Research Seminar,LP-Y3-2-7,4,2026-11-01 14:19:41,2,Master of technology
+85,10,Engineering Mathematics I,LP-Y10-1-1,1,2026-11-01 14:19:41,1,B.Tech Artificial Intelligence and Machine Learning
+86,10,Engineering Physics,LP-Y10-1-2,1,2026-11-01 14:19:41,1,B.Tech Artificial Intelligence and Machine Learning
+87,10,Programming in C,LP-Y10-1-3,1,2026-11-01 14:19:41,1,B.Tech Artificial Intelligence and Machine Learning
+88,10,Engineering Graphics,LP-Y10-1-4,2,2026-11-01 14:19:41,1,B.Tech Artificial Intelligence and Machine Learning
+89,10,Basic Electrical Engineering,LP-Y10-1-5,2,2026-11-01 14:19:41,1,B.Tech Artificial Intelligence and Machine Learning
+90,10,Technical Communication,LP-Y10-1-6,2,2026-11-01 14:19:41,1,B.Tech Artificial Intelligence and Machine Learning
+91,10,Data Structures,LP-Y10-2-3,3,2026-11-01 14:19:41,2,B.Tech Artificial Intelligence and Machine Learning
+92,10,Object Oriented Programming,LP-Y10-2-4,4,2026-11-01 14:19:41,2,B.Tech Artificial Intelligence and Machine Learning
+93,10,Discrete Mathematics,LP-Y10-2-5,4,2026-11-01 14:19:41,2,B.Tech Artificial Intelligence and Machine Learning
+94,10,Digital Logic,LP-Y10-2-6,4,2026-11-01 14:19:41,2,B.Tech Artificial Intelligence and Machine Learning
+95,10,Computer Organization,LP-Y10-3-1,5,2026-11-01 14:19:41,3,B.Tech Artificial Intelligence and Machine Learning
+96,10,Numerical Methods,LP-Y10-3-2,5,2026-11-01 14:19:41,3,B.Tech Artificial Intelligence and Machine Learning
+97,10,Operating Systems,LP-Y10-3-3,5,2026-11-01 14:19:41,3,B.Tech Artificial Intelligence and Machine Learning
+98,10,Software Engineering,LP-Y10-3-4,6,2026-11-01 14:19:41,3,B.Tech Artificial Intelligence and Machine Learning
+99,10,Design and Analysis of Algorithms,LP-Y10-3-5,6,2026-11-01 14:19:41,3,B.Tech Artificial Intelligence and Machine Learning
+100,10,Theory of Computation,LP-Y10-3-6,6,2026-11-01 14:19:41,3,B.Tech Artificial Intelligence and Machine Learning
+101,10,Microprocessors,LP-Y10-4-1,7,2026-11-01 14:19:41,4,B.Tech Artificial Intelligence and Machine Learning
+102,10,Web Technologies,LP-Y10-4-2,7,2026-11-01 14:19:41,4,B.Tech Artificial Intelligence and Machine Learning
+103,10,Cloud Computing,LP-Y10-4-3,7,2026-11-01 14:19:41,4,B.Tech Artificial Intelligence and Machine Learning
+104,10,Cyber Security,LP-Y10-4-4,8,2026-11-01 14:19:41,4,B.Tech Artificial Intelligence and Machine Learning
+105,10,Distributed Systems,LP-Y10-4-5,8,2026-11-01 14:19:41,4,B.Tech Artificial Intelligence and Machine Learning
+106,10,Major Project I,LP-Y10-4-6,8,2026-11-01 14:19:41,4,B.Tech Artificial Intelligence and Machine Learning
+107,11,Engineering Mathematics I,LP-Y11-1-1,1,2026-11-01 14:19:41,1,B.Tech Data Science
+108,11,Engineering Physics,LP-Y11-1-2,1,2026-11-01 14:19:41,1,B.Tech Data Science
+109,11,Programming in C,LP-Y11-1-3,1,2026-11-01 14:19:41,1,B.Tech Data Science
+110,11,Engineering Graphics,LP-Y11-1-4,2,2026-11-01 14:19:41,1,B.Tech Data Science
+111,11,Basic Electrical Engineering,LP-Y11-1-5,2,2026-11-01 14:19:41,1,B.Tech Data Science
+112,11,Technical Communication,LP-Y11-1-6,2,2026-11-01 14:19:41,1,B.Tech Data Science
+113,11,Object Oriented Programming,LP-Y11-2-3,3,2026-11-01 14:19:41,2,B.Tech Data Science
+114,11,Discrete Mathematics,LP-Y11-2-4,4,2026-11-01 14:19:41,2,B.Tech Data Science
+115,11,Digital Logic,LP-Y11-2-5,4,2026-11-01 14:19:41,2,B.Tech Data Science
+116,11,Computer Organization,LP-Y11-2-6,4,2026-11-01 14:19:41,2,B.Tech Data Science
+117,11,Numerical Methods,LP-Y11-3-1,5,2026-11-01 14:19:41,3,B.Tech Data Science
+118,11,Operating Systems,LP-Y11-3-2,5,2026-11-01 14:19:41,3,B.Tech Data Science
+119,11,Software Engineering,LP-Y11-3-3,5,2026-11-01 14:19:41,3,B.Tech Data Science
+120,11,Design and Analysis of Algorithms,LP-Y11-3-4,6,2026-11-01 14:19:41,3,B.Tech Data Science
+121,11,Theory of Computation,LP-Y11-3-5,6,2026-11-01 14:19:41,3,B.Tech Data Science
+122,11,Microprocessors,LP-Y11-3-6,6,2026-11-01 14:19:41,3,B.Tech Data Science
+123,11,Web Technologies,LP-Y11-4-1,7,2026-11-01 14:19:41,4,B.Tech Data Science
+124,11,Machine Learning,LP-Y11-4-2,7,2026-11-01 14:19:41,4,B.Tech Data Science
+125,11,Cloud Computing,LP-Y11-4-3,7,2026-11-01 14:19:41,4,B.Tech Data Science
+126,11,Cyber Security,LP-Y11-4-4,8,2026-11-01 14:19:41,4,B.Tech Data Science
+127,11,Distributed Systems,LP-Y11-4-5,8,2026-11-01 14:19:41,4,B.Tech Data Science
+128,11,Major Project I,LP-Y11-4-6,8,2026-11-01 14:19:41,4,B.Tech Data Science
+129,12,Engineering Mathematics I,LP-Y12-1-1,1,2026-11-01 14:19:41,1,B.Tech Electronics and Communication Engineering
+130,12,Engineering Physics,LP-Y12-1-2,1,2026-11-01 14:19:41,1,B.Tech Electronics and Communication Engineering
+131,12,Programming in C,LP-Y12-1-3,1,2026-11-01 14:19:41,1,B.Tech Electronics and Communication Engineering
+132,12,Engineering Graphics,LP-Y12-1-4,2,2026-11-01 14:19:41,1,B.Tech Electronics and Communication Engineering
+133,12,Basic Electrical Engineering,LP-Y12-1-5,2,2026-11-01 14:19:41,1,B.Tech Electronics and Communication Engineering
+134,12,Technical Communication,LP-Y12-1-6,2,2026-11-01 14:19:41,1,B.Tech Electronics and Communication Engineering
+135,12,Electronic Devices,LP-Y12-2-3,3,2026-11-01 14:19:41,2,B.Tech Electronics and Communication Engineering
+136,12,Circuit Theory,LP-Y12-2-4,4,2026-11-01 14:19:41,2,B.Tech Electronics and Communication Engineering
+137,12,Signals and Systems,LP-Y12-2-5,4,2026-11-01 14:19:41,2,B.Tech Electronics and Communication Engineering
+138,12,Analog Electronics,LP-Y12-2-6,4,2026-11-01 14:19:41,2,B.Tech Electronics and Communication Engineering
+139,12,Electromagnetic Fields,LP-Y12-3-1,5,2026-11-01 14:19:41,3,B.Tech Electronics and Communication Engineering
+140,12,Network Analysis,LP-Y12-3-2,5,2026-11-01 14:19:41,3,B.Tech Electronics and Communication Engineering
+141,12,Digital Signal Processing,LP-Y12-3-3,5,2026-11-01 14:19:41,3,B.Tech Electronics and Communication Engineering
+142,12,Microprocessors,LP-Y12-3-4,6,2026-11-01 14:19:41,3,B.Tech Electronics and Communication Engineering
+143,12,VLSI Design,LP-Y12-3-5,6,2026-11-01 14:19:41,3,B.Tech Electronics and Communication Engineering
+144,12,Control Engineering,LP-Y12-3-6,6,2026-11-01 14:19:41,3,B.Tech Electronics and Communication Engineering
+145,12,Antenna Theory,LP-Y12-4-1,7,2026-11-01 14:19:41,4,B.Tech Electronics and Communication Engineering
+146,12,Embedded Systems,LP-Y12-4-2,7,2026-11-01 14:19:41,4,B.Tech Electronics and Communication Engineering
+147,12,Wireless Communication,LP-Y12-4-3,7,2026-11-01 14:19:41,4,B.Tech Electronics and Communication Engineering
+148,12,Optical Communication,LP-Y12-4-4,8,2026-11-01 14:19:41,4,B.Tech Electronics and Communication Engineering
+149,12,Microwave Engineering,LP-Y12-4-5,8,2026-11-01 14:19:41,4,B.Tech Electronics and Communication Engineering
+150,12,IoT Systems,LP-Y12-4-6,8,2026-11-01 14:19:41,4,B.Tech Electronics and Communication Engineering
+151,13,Engineering Mathematics I,LP-Y13-1-1,1,2026-11-01 14:19:42,1,B.Tech Electrical and Electronics Engineering
+152,13,Engineering Physics,LP-Y13-1-2,1,2026-11-01 14:19:42,1,B.Tech Electrical and Electronics Engineering
+153,13,Programming in C,LP-Y13-1-3,1,2026-11-01 14:19:42,1,B.Tech Electrical and Electronics Engineering
+154,13,Engineering Graphics,LP-Y13-1-4,2,2026-11-01 14:19:42,1,B.Tech Electrical and Electronics Engineering
+155,13,Basic Electronics,LP-Y13-1-5,2,2026-11-01 14:19:42,1,B.Tech Electrical and Electronics Engineering
+156,13,Technical Communication,LP-Y13-1-6,2,2026-11-01 14:19:42,1,B.Tech Electrical and Electronics Engineering
+157,13,Electrical Machines I,LP-Y13-2-3,3,2026-11-01 14:19:42,2,B.Tech Electrical and Electronics Engineering
+158,13,Circuit Analysis,LP-Y13-2-4,4,2026-11-01 14:19:42,2,B.Tech Electrical and Electronics Engineering
+159,13,Electromagnetic Fields,LP-Y13-2-5,4,2026-11-01 14:19:42,2,B.Tech Electrical and Electronics Engineering
+160,13,Measurements and Instrumentation,LP-Y13-2-6,4,2026-11-01 14:19:42,2,B.Tech Electrical and Electronics Engineering
+161,13,Power Electronics,LP-Y13-3-1,5,2026-11-01 14:19:42,3,B.Tech Electrical and Electronics Engineering
+162,13,Network Analysis,LP-Y13-3-2,5,2026-11-01 14:19:42,3,B.Tech Electrical and Electronics Engineering
+163,13,Electrical Machines II,LP-Y13-3-3,5,2026-11-01 14:19:42,3,B.Tech Electrical and Electronics Engineering
+164,13,Power Systems I,LP-Y13-3-4,6,2026-11-01 14:19:42,3,B.Tech Electrical and Electronics Engineering
+165,13,Signals and Systems,LP-Y13-3-5,6,2026-11-01 14:19:42,3,B.Tech Electrical and Electronics Engineering
+166,13,Microcontrollers,LP-Y13-3-6,6,2026-11-01 14:19:42,3,B.Tech Electrical and Electronics Engineering
+167,13,Control Engineering,LP-Y13-4-1,7,2026-11-01 14:19:42,4,B.Tech Electrical and Electronics Engineering
+168,13,Electrical Drives,LP-Y13-4-2,7,2026-11-01 14:19:42,4,B.Tech Electrical and Electronics Engineering
+169,13,Power Systems II,LP-Y13-4-3,7,2026-11-01 14:19:42,4,B.Tech Electrical and Electronics Engineering
+170,13,Renewable Energy Systems,LP-Y13-4-4,8,2026-11-01 14:19:42,4,B.Tech Electrical and Electronics Engineering
+171,13,High Voltage Engineering,LP-Y13-4-5,8,2026-11-01 14:19:42,4,B.Tech Electrical and Electronics Engineering
+172,13,Smart Grids,LP-Y13-4-6,8,2026-11-01 14:19:42,4,B.Tech Electrical and Electronics Engineering
+173,14,Engineering Mathematics I,LP-Y14-1-1,1,2026-11-01 14:19:42,1,B.Tech Mechanical Engineering
+174,14,Engineering Physics,LP-Y14-1-2,1,2026-11-01 14:19:42,1,B.Tech Mechanical Engineering
+175,14,Programming in C,LP-Y14-1-3,1,2026-11-01 14:19:42,1,B.Tech Mechanical Engineering
+176,14,Engineering Graphics,LP-Y14-1-4,2,2026-11-01 14:19:42,1,B.Tech Mechanical Engineering
+177,14,Workshop Practice,LP-Y14-1-5,2,2026-11-01 14:19:42,1,B.Tech Mechanical Engineering
+178,14,Technical Communication,LP-Y14-1-6,2,2026-11-01 14:19:42,1,B.Tech Mechanical Engineering
+179,14,Strength of Materials,LP-Y14-2-3,3,2026-11-01 14:19:42,2,B.Tech Mechanical Engineering
+180,14,Fluid Mechanics,LP-Y14-2-4,4,2026-11-01 14:19:42,2,B.Tech Mechanical Engineering
+181,14,Material Science,LP-Y14-2-5,4,2026-11-01 14:19:42,2,B.Tech Mechanical Engineering
+182,14,Manufacturing Processes,LP-Y14-2-6,4,2026-11-01 14:19:42,2,B.Tech Mechanical Engineering
+183,14,Kinematics of Machines,LP-Y14-3-1,5,2026-11-01 14:19:42,3,B.Tech Mechanical Engineering
+184,14,Numerical Methods,LP-Y14-3-2,5,2026-11-01 14:19:42,3,B.Tech Mechanical Engineering
+185,14,Dynamics of Machines,LP-Y14-3-3,5,2026-11-01 14:19:42,3,B.Tech Mechanical Engineering
+186,14,Heat Transfer,LP-Y14-3-4,6,2026-11-01 14:19:42,3,B.Tech Mechanical Engineering
+187,14,Machine Design I,LP-Y14-3-5,6,2026-11-01 14:19:42,3,B.Tech Mechanical Engineering
+188,14,Metrology,LP-Y14-3-6,6,2026-11-01 14:19:42,3,B.Tech Mechanical Engineering
+189,14,Applied Thermodynamics,LP-Y14-4-1,7,2026-11-01 14:19:42,4,B.Tech Mechanical Engineering
+190,14,CAD and CAM,LP-Y14-4-2,7,2026-11-01 14:19:42,4,B.Tech Mechanical Engineering
+191,14,Machine Design II,LP-Y14-4-3,7,2026-11-01 14:19:42,4,B.Tech Mechanical Engineering
+192,14,Refrigeration and Air Conditioning,LP-Y14-4-4,8,2026-11-01 14:19:42,4,B.Tech Mechanical Engineering
+193,14,Automobile Engineering,LP-Y14-4-5,8,2026-11-01 14:19:42,4,B.Tech Mechanical Engineering
+194,14,Industrial Engineering,LP-Y14-4-6,8,2026-11-01 14:19:42,4,B.Tech Mechanical Engineering
+195,15,Engineering Mathematics I,LP-Y15-1-1,1,2026-11-01 14:19:42,1,B.Tech Civil Engineering
+196,15,Engineering Physics,LP-Y15-1-2,1,2026-11-01 14:19:42,1,B.Tech Civil Engineering
+197,15,Programming in C,LP-Y15-1-3,1,2026-11-01 14:19:42,1,B.Tech Civil Engineering
+198,15,Engineering Graphics,LP-Y15-1-4,2,2026-11-01 14:19:42,1,B.Tech Civil Engineering
+199,15,Building Materials,LP-Y15-1-5,2,2026-11-01 14:19:42,1,B.Tech Civil Engineering
+200,15,Technical Communication,LP-Y15-1-6,2,2026-11-01 14:19:42,1,B.Tech Civil Engineering
+201,15,Strength of Materials,LP-Y15-2-3,3,2026-11-01 14:19:42,2,B.Tech Civil Engineering
+202,15,Fluid Mechanics,LP-Y15-2-4,4,2026-11-01 14:19:42,2,B.Tech Civil Engineering
+203,15,Engineering Geology,LP-Y15-2-5,4,2026-11-01 14:19:42,2,B.Tech Civil Engineering
+204,15,Concrete Technology,LP-Y15-2-6,4,2026-11-01 14:19:42,2,B.Tech Civil Engineering
+205,15,Construction Methods,LP-Y15-3-1,5,2026-11-01 14:19:42,3,B.Tech Civil Engineering
+206,15,Numerical Methods,LP-Y15-3-2,5,2026-11-01 14:19:42,3,B.Tech Civil Engineering
+207,15,Geotechnical Engineering,LP-Y15-3-3,5,2026-11-01 14:19:42,3,B.Tech Civil Engineering
+208,15,Transportation Engineering,LP-Y15-3-4,6,2026-11-01 14:19:42,3,B.Tech Civil Engineering
+209,15,Hydrology,LP-Y15-3-5,6,2026-11-01 14:19:42,3,B.Tech Civil Engineering
+210,15,Reinforced Concrete Design,LP-Y15-3-6,6,2026-11-01 14:19:42,3,B.Tech Civil Engineering
+211,15,Environmental Engineering,LP-Y15-4-1,7,2026-11-01 14:19:42,4,B.Tech Civil Engineering
+212,15,Water Resources Engineering,LP-Y15-4-2,7,2026-11-01 14:19:42,4,B.Tech Civil Engineering
+213,15,Steel Structures,LP-Y15-4-3,7,2026-11-01 14:19:42,4,B.Tech Civil Engineering
+214,15,Foundation Engineering,LP-Y15-4-4,8,2026-11-01 14:19:42,4,B.Tech Civil Engineering
+215,15,Construction Management,LP-Y15-4-5,8,2026-11-01 14:19:42,4,B.Tech Civil Engineering
+216,15,Remote Sensing,LP-Y15-4-6,8,2026-11-01 14:19:42,4,B.Tech Civil Engineering
+217,16,Programming Fundamentals,LP-Y16-1-1,1,2026-11-01 14:19:42,1,Bachelor of Computer Applications
+218,16,Mathematics for Computing,LP-Y16-1-2,1,2026-11-01 14:19:42,1,Bachelor of Computer Applications
+219,16,Digital Systems,LP-Y16-1-3,1,2026-11-01 14:19:42,1,Bachelor of Computer Applications
+220,16,Communication Skills,LP-Y16-1-4,2,2026-11-01 14:19:42,1,Bachelor of Computer Applications
+221,16,Web Foundations,LP-Y16-1-5,2,2026-11-01 14:19:42,1,Bachelor of Computer Applications
+222,16,Computer Applications,LP-Y16-1-6,2,2026-11-01 14:19:42,1,Bachelor of Computer Applications
+223,16,Data Structures,LP-Y16-2-1,3,2026-11-01 14:19:42,2,Bachelor of Computer Applications
+224,16,Database Management Systems,LP-Y16-2-2,3,2026-11-01 14:19:42,2,Bachelor of Computer Applications
+225,16,Object Oriented Programming,LP-Y16-2-3,3,2026-11-01 14:19:42,2,Bachelor of Computer Applications
+226,16,Computer Networks,LP-Y16-2-4,4,2026-11-01 14:19:42,2,Bachelor of Computer Applications
+227,16,Software Engineering,LP-Y16-2-5,4,2026-11-01 14:19:42,2,Bachelor of Computer Applications
+228,16,Statistics for Computing,LP-Y16-2-6,4,2026-11-01 14:19:42,2,Bachelor of Computer Applications
+229,16,Operating Systems,LP-Y16-3-1,5,2026-11-01 14:19:42,3,Bachelor of Computer Applications
+230,16,Web Application Development,LP-Y16-3-2,5,2026-11-01 14:19:42,3,Bachelor of Computer Applications
+231,16,Cloud Fundamentals,LP-Y16-3-3,5,2026-11-01 14:19:42,3,Bachelor of Computer Applications
+232,16,Information Security,LP-Y16-3-4,6,2026-11-01 14:19:42,3,Bachelor of Computer Applications
+233,16,Project I,LP-Y16-3-5,6,2026-11-01 14:19:42,3,Bachelor of Computer Applications
+234,16,Project II,LP-Y16-3-6,6,2026-11-01 14:19:42,3,Bachelor of Computer Applications

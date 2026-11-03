@@ -135,7 +135,6 @@ If `learnpath_ai` already exists and the account has no server-level creation pe
 |---|---|
 | Application | [http://127.0.0.1:8001/app/](http://127.0.0.1:8001/app/) |
 | Interactive API docs | [http://127.0.0.1:8001/docs](http://127.0.0.1:8001/docs) |
-| Health check | [http://127.0.0.1:8001/health](http://127.0.0.1:8001/health) |
 | Legacy UI | [http://127.0.0.1:8001/legacy](http://127.0.0.1:8001/legacy) |
 
 ### Existing Windows showcase installation

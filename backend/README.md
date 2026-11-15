@@ -68,7 +68,7 @@ Set `TEST_DATABASE_URL` to a disposable MySQL database ending in `_test`, then r
 .\.venv\Scripts\python.exe -m pytest tests -q
 ```
 
-Tests recreate their target schema. Never use the application database. The recorded run passed 16 tests with an existing Starlette/httpx deprecation warning; live Groq generation and Docker runtime remain unverified.
+Tests recreate their target schema. Never use the application database. The recorded run passed 16 tests with an existing Starlette/httpx deprecation warning; a later local smoke check verified a cited Groq answer and a live admin cohort report. Docker runtime remains unverified.
 
 ## Container configuration
 

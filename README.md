@@ -23,7 +23,7 @@ LearnPath AI brings assessment, classroom attendance, study planning, and learni
 - **Interactive analytics** — heatmaps, line/area graphs, bar charts, outcome distributions, cohort filters, learner drill-downs, and CSV exports.
 - **Persistent records** — academic data, research aggregates, and assistant history live in MySQL; schema and reporting SQL are included in the repository.
 
-Risk indicators and study-plan priorities are transparent heuristics. They are not validated predictive models. GenAI generation is planned and is not a completed feature.
+Risk indicators and study-plan priorities are transparent heuristics. They are not validated predictive models. The AI Knowledge Assistant supports Groq-generated answers with citations, Data Structures mock exams, and interactive revision roadmaps.
 
 ## Architecture
 
@@ -51,7 +51,7 @@ The application is a **modular monolith**: one FastAPI process serves APIs and t
 | AI | Structured GenAI tasks and evidence-grounded assistant | [`ai.py`](backend/app/ai.py), [`rag.py`](backend/app/rag.py) |
 | Persistence | MySQL schema, transactions, imports, reporting queries | [`backend/app/db.py`](backend/app/db.py), [`backend/db/`](backend/db/) |
 
-[Read the architecture and data-flow guide →](backend/docs/architecture.md)
+[Read the architecture and AI request-flow guide →](backend/docs/architecture.md#ai-request-flow)
 
 ## Repository
 
@@ -166,9 +166,12 @@ The importer streams the archive, avoids duplicate CSV copies, aggregates weekly
 
 OULAD is historical UK data from 2013–2014, attributed to **Kuzilek, Hlosta, and Zdrahal**, under **CC BY 4.0**. See the [official dataset documentation](https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+dataset). Andhra/Telugu display names are fictional aliases. VLE clicks measure online activity, not classroom attendance.
 
-### GenAI integration status
+### AI Knowledge Assistant
 
-GenAI integration is pending. Provider integration code and assistant screens are included as scaffolding, but live model generation has not been completed or verified. It is not presented as a completed showcase feature. Academic management, attendance, assignments, exams and analytics use FastAPI and MySQL independently.
+- **Grounded answers.** FastAPI retrieves public OULAD aggregates and project guidance from MySQL using BM25. Groq generates an answer with source labels. The backend validates the labels and can return evidence excerpts when generation is unavailable.
+- **Student preparation.** Students with Data Structures access can open [66 original mock papers](backend/data/mock_papers/question_papers.md), view [330 worked solutions](backend/data/mock_papers/worked_solutions.md), or take a quiz that grades numeric answers against an answer key. Supported generated study roadmaps display one day at a time with locally tracked progress.
+- **Admin cohort review.** Select a historical research cohort and choose **Prepare cohort review**. Supported enrollment and outcome summaries use the indexed counts directly and cite the source.
+- **Setup.** Configure the server-side Groq variables described in the [RAG setup guide](backend/docs/rag-integration.md). MySQL stores owner-scoped conversation history and source snapshots.
 
 ## Database & security
 
@@ -201,7 +204,7 @@ npm run build
 
 The test suite recreates its target schema and refuses databases whose names do not end in `_test`. Never point tests at application data.
 
-Recorded local verification: **31 backend tests passed** and the TypeScript/Vite production build passed. Coverage includes academic permissions, assessment workflows, dataset totals, RAG fallback, citation-label validation, and conversation ownership. Live Groq generation requires a configured key and has not been verified; Docker runtime and college-scale load testing have not been verified.
+Recorded local verification: **31 backend tests passed** and the TypeScript/Vite production build passed. Coverage includes academic permissions, assessment workflows, dataset totals, RAG fallback, citation-label validation, and conversation ownership. Local smoke checks also verified live Groq generation with a cited reply, mock quiz grading and conversation isolation, roadmap rendering and progress restoration, and a live admin BBB / 2014J cohort report. Docker runtime and college-scale load testing have not been verified.
 
 Docker build and Compose definitions are supplied in [`backend/`](backend/). See the backend setup guide for required environment variables. Container initialization scripts run only for a fresh MySQL volume.
 

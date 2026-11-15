@@ -35,6 +35,34 @@ flowchart TB
 
 These boxes describe code responsibilities, not separate network services. `main.py` currently contains much of the academic CRUD and assessment orchestration. There is no message broker, background worker tier, separate vector store, or trained prediction service in the implementation.
 
+### AI request flow
+
+```mermaid
+flowchart LR
+    UI["Role-aware React assistant"] --> AUTH["FastAPI /api/rag/ask<br/>JWT and conversation ownership"]
+    AUTH --> ROUTE{"Request type"}
+    ROUTE -->|"Research / study guidance"| BM["Cohort filter + BM25<br/>MySQL public index"]
+    BM -->|"Generation requested"| G["Groq Chat Completions"]
+    BM -->|"Evidence only"| E["Retrieved sources"]
+    G --> C["Citation-label validation"]
+    C -->|"Valid"| ANSWER["Generated answer"]
+    C -->|"Failure"| E
+    ROUTE -->|"Admin cohort outcome summary"| REPORT["Indexed OULAD counts<br/>Cited report"]
+    ROUTE -->|"Student mock exam"| MOCK["Data Structures course access<br/>Mock papers and answer keys"]
+    MOCK --> QUIZ["Question, worked feedback,<br/>and revision plan"]
+    E --> SAVE[("MySQL owner-scoped history")]
+    ANSWER --> SAVE
+    REPORT --> SAVE
+    QUIZ --> SAVE
+    SAVE --> DISPLAY["React reply, source links<br/>and interactive roadmap"]
+    DISPLAY -.-> LOCAL["Browser-local roadmap progress"]
+```
+
+- **Research and study guidance.** The backend sends the question and selected public evidence to Groq. It validates citation labels and shows retrieved evidence if generation fails.
+- **Student mock exams.** `mock_papers.py` provides 66 original Data Structures practice papers and 330 worked solutions. Quiz state is stored with the owner's conversation. Numeric grading uses the paper's answer key.
+- **Admin cohort reports.** Single-cohort enrollment and outcome summaries use the indexed OULAD counts directly. The route checks the admin role before composing the report.
+- **Roadmap display.** `AssistantAnswer.tsx` renders supported day-by-day tables as an interactive plan. Day completion is saved in browser storage per account and message.
+
 ## Folder and module ownership
 
 | Folder/module | Owns | Change here when… |
@@ -51,7 +79,9 @@ These boxes describe code responsibilities, not separate network services. `main
 | `backend/app/analytics.py` | Private academic reporting and heuristic support | College metrics or study prioritization changes |
 | `backend/app/dataset_analytics.py` | Public OULAD cohort queries and fictional aliases | Research calculations change |
 | `backend/app/ai.py` | Structured model tasks with validation | Tutor, question generation or feedback changes |
-| `backend/app/rag.py` | Public index, BM25 retrieval, provider calls and history | Retrieval or grounding changes |
+| `backend/app/rag.py` | Public index, BM25, Groq, outcome reports and history | Assistant routing or grounding changes |
+| `backend/app/mock_papers.py` | Original mock papers, answer keys and quiz grading | Practice content or feedback changes |
+| `frontend-react/src/pages/AssistantAnswer.tsx` | Formatted replies, day-by-day study roadmaps and browser-local progress | Roadmap presentation or tracking changes |
 | `backend/app/db.py` | Engine, sessions and shared persistence helpers | Database connection or transaction handling changes |
 | `backend/db/` | Schema definitions and reporting SQL | Persistent structures or report queries change |
 | `backend/scripts/` | Explicit setup, account and import commands | Operational setup or ingestion changes |
@@ -94,7 +124,7 @@ Academic changes are persisted by their normal endpoints. An OULAD import create
 
 Generation sends the user's question and retrieved sources to the configured chat-completions provider. The system instruction limits answers to that evidence. Source labels are checked against retrieved IDs. A missing key, provider error, or invalid citation labels yields explicitly labeled excerpts; unmatched queries return an insufficient-evidence message. Valid labels alone do not establish factual entailment.
 
-Conversations and message pairs are stored in MySQL. History is accessible only to its owner. Each submitted question is retrieved independently; earlier messages are not passed as model memory. The model has no SQL tool or permission to change assessments or account records.
+Conversations and message pairs are stored in MySQL. History is accessible only to its owner. Research questions retrieve evidence independently. Earlier messages are not sent as model memory. The mock quiz reads its state from the owner’s latest turn. The model has no SQL tool or permission to change assessments or account records.
 
 ## Schema and operational lifecycle
 
@@ -113,4 +143,4 @@ Conversations and message pairs are stored in MySQL. History is accessible only 
 
 The recorded implementation check passed 16 MySQL-backed tests and the TypeScript/Vite production build. Tests cover authorization, academic workflows, research totals, retrieval fallback, citation labels and conversation ownership. A test database name must end in `_test`; tests recreate its schema.
 
-Live Groq inference requires a valid API key and remains unverified in the recorded run. Docker execution and institution-scale performance are unverified. There is no configured email delivery, public self-registration, or validated outcome-prediction model. Classroom attendance and historical VLE engagement must be interpreted separately.
+A local live Groq smoke check returned a valid cited answer. Additional local checks covered mock quiz grading, privacy, and the live admin cohort report. Docker execution and institution-scale performance are unverified. There is no configured email delivery, public self-registration, or validated outcome-prediction model. Classroom attendance and historical VLE engagement must be interpreted separately.

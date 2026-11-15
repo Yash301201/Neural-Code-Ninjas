@@ -33,6 +33,10 @@ flowchart LR
     WEB -->|"HTTPS in deployment / HTTP on localhost<br/>Bearer JWT · JSON"| API["FastAPI<br/>Authentication and academic scope"]
     API --> ACAD["Academic workflows<br/>Tests · Assignments · Attendance"]
     API --> ANA["Analytics<br/>College metrics · OULAD research"]
+    API --> AI["AI Knowledge Assistant<br/>BM25 retrieval · Citation checks"]
+    AI -->|"Public evidence and chat history"| SQL
+    AI <-->|"Grounded generation"| GROQ["Groq Chat Completions"]
+    AI --> FEATURES["Student mock exams · Revision roadmaps<br/>Admin cohort reviews"]
     ACAD --> SQL["SQLAlchemy + PyMySQL"]
     ANA --> SQL
     SQL --> DB[("MySQL<br/>learnpath_ai")]
@@ -40,7 +44,7 @@ flowchart LR
     IMPORT --> DB
 ```
 
-The application is a **modular monolith**: one FastAPI process serves APIs and the compiled React application. Academic workflows, analytics, and AI are separate modules within that process; they are not independently deployed microservices.
+One FastAPI process serves the React portal and APIs for academic workflows, analytics, and the AI Knowledge Assistant. Groq generates grounded answers. Mock quiz grading uses built-in answer keys, and admin cohort reviews use indexed OULAD counts.
 
 | Layer | Responsibility | Source |
 |---|---|---|

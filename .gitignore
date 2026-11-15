@@ -22,3 +22,6 @@ mysql-data/
 backend/data/oulad/raw/
 *.zip
 .DS_Store
+/APIKEY.txt
+/backend/.venv313/
+/backend/start-local.ps1.before-python-fix.bak

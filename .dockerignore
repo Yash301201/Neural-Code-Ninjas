@@ -9,3 +9,6 @@
 **/dist
 
 backend/data/oulad/raw
+/APIKEY.txt
+backend/.venv313
+backend/start-local.ps1.before-python-fix.bak

@@ -82,9 +82,9 @@ Neural-Code-Ninjas/
 │   ├── docs/                      Architecture and implementation guides
 │   ├── data/oulad/                Dataset provenance and import manifest
 │   ├── .env.example               Configuration template; no real secrets
-│   ├── Dockerfile                 React build + Python runtime image
 │   └── compose.yaml               MySQL and API service definitions
 ├── frontend/                      Preserved legacy frontend at /legacy
+├── Dockerfile                     React build + Python runtime image
 ├── start-project.ps1              Existing local showcase launcher
 ├── .gitignore                     Excludes secrets, runtime data, dependencies
 └── README.md
@@ -210,7 +210,7 @@ The test suite recreates its target schema and refuses databases whose names do 
 
 Recorded local verification: **31 backend tests passed** and the TypeScript/Vite production build passed. Coverage includes academic permissions, assessment workflows, dataset totals, RAG fallback, citation-label validation, and conversation ownership. Local smoke checks also verified live Groq generation with a cited reply, mock quiz grading and conversation isolation, roadmap rendering and progress restoration, and a live admin BBB / 2014J cohort report. Docker runtime and college-scale load testing have not been verified.
 
-Docker build and Compose definitions are supplied in [`backend/`](backend/). See the backend setup guide for required environment variables. Container initialization scripts run only for a fresh MySQL volume.
+The [root Dockerfile](Dockerfile) builds the React portal and FastAPI server. [Backend Compose](backend/compose.yaml) uses the same Dockerfile and adds MySQL for local use. See the backend setup guide for required environment variables. Container initialization scripts run only for a fresh MySQL volume.
 
 ## Documentation
 

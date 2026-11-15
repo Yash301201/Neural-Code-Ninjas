@@ -72,7 +72,7 @@ Tests recreate their target schema. Never use the application database. The reco
 
 ## Container configuration
 
-`Dockerfile` builds React and packages the Python server. `compose.yaml` supplies MySQL 8.4 and the API, bound to localhost port 8000. Configure `MYSQL_PASSWORD`, `MYSQL_ROOT_PASSWORD`, and `JWT_SECRET` in `.env` before running `docker compose up --build -d` from this directory. MySQL initialization scripts run only on a fresh volume; existing volumes need explicit schema updates. Do not remove volumes containing data you need.
+The [root Dockerfile](../Dockerfile) builds React and packages the Python server. `compose.yaml` supplies MySQL 8.4 and the API, bound to localhost port 8000. Configure `MYSQL_PASSWORD`, `MYSQL_ROOT_PASSWORD`, and `JWT_SECRET` in `.env` before running `docker compose up --build -d` from this directory. MySQL initialization scripts run only on a fresh volume; existing volumes need explicit schema updates. Do not remove volumes containing data you need.
 
 ## Documentation
 

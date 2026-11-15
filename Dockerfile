@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY backend/ /app/backend/
 COPY frontend/ /app/frontend/
 COPY --from=frontend-build /frontend-react/dist /app/frontend-react/dist
-RUN useradd --create-home appuser
+RUN useradd --create-home appuser && install -d -o appuser -g appuser /app/backend/data/oulad/raw
 USER appuser
 EXPOSE 8000
 CMD ["uvicorn","app.main:app","--host","0.0.0.0","--port","8000"]
